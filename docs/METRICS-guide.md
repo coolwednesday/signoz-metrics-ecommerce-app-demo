@@ -1239,6 +1239,36 @@ You now have a complete setup for monitoring your application with SigNoz Cloud:
 <a id="appendix"></a>
 ## 16. Appendix: Source Code & Resources
 
-- **GitHub Repository**: [coolwednesday/signoz-metrics-ecommerce-app-demo](https://github.com/coolwednesday/signoz-metrics-ecommerce-app-demo)
+**[View Complete Code on GitHub](https://github.com/coolwednesday/signoz-metrics-ecommerce-app-demo)**
+
+### Repository Structure
+
+```text
+.
+├── main.go                    # Entry point
+├── go.mod                     # Dependencies
+├── schema.sql                 # Database schema
+├── internal/                  # Internal application code
+│   ├── api/                   # HTTP handlers
+│   ├── db/                    # Database connection
+│   ├── metrics/               # OpenTelemetry metrics setup
+│   ├── middleware/            # HTTP middleware (metrics, logging)
+│   ├── models/                # Data models
+│   └── services/              # Business logic
+├── pkg/
+│   └── config/                # Configuration loading
+├── docker/                    # Docker configuration
+│   ├── docker-compose.yaml    # Local setup
+│   ├── otel-collector-config.yaml # Collector config
+│   └── Dockerfile             # App Dockerfile
+├── docs/                      # Documentation
+│   ├── METRICS-guide.md       # This guide
+│   └── dashboard.json         # SigNoz dashboard
+└── scripts/                   # Helper scripts
+    └── run-full-session.sh    # Full lifecycle test script
+```
+
+### Key Resources
+
 - **Main Application Code**: [main.go](https://github.com/coolwednesday/signoz-metrics-ecommerce-app-demo/blob/main/main.go)
 - **Dashboard JSON**: [dashboard.json](https://github.com/coolwednesday/signoz-metrics-ecommerce-app-demo/blob/main/docs/dashboard.json)
