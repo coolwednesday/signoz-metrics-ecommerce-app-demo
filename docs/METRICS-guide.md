@@ -304,6 +304,7 @@ func LoadConfig() *Config {
 **Example from demo application** (adapt to your app's structure):
 
 In your `main.go`:
+[View source on GitHub](https://github.com/coolwednesday/signoz-metrics-ecommerce-app-demo/blob/main/main.go#L27-L37)
 
 ```go
 func InitMetrics(ctx context.Context, cfg *config.Config) (*AppMetrics, *sdkmetric.MeterProvider, error) {
@@ -712,7 +713,7 @@ Legend: "Total Orders"
 ---
 
 <a id="clickhouse-sql-learning-path"></a>
-## 10. ClickHouse SQL for Observability (Learning Path)
+## 10. ClickHouse SQL for Observability
 
 ### Level 1: Basic Queries (No SQL Knowledge Required)
 **Recommendation:** Use the **Query Builder interface**. It covers 80% of use cases without writing code.
