@@ -65,11 +65,6 @@ Throughout this guide, we reference an **e-commerce application** with the follo
 - Background workers
 - Any Go application that needs observability
 
-### Source Code & Resources
-
-- **GitHub Repository**: [coolwednesday/signoz-metrics-ecommerce-app-demo](https://github.com/coolwednesday/signoz-metrics-ecommerce-app-demo)
-- **Main Application Code**: [main.go](https://github.com/coolwednesday/signoz-metrics-ecommerce-app-demo/blob/main/main.go)
-- **Dashboard JSON**: [dashboard.json](https://github.com/coolwednesday/signoz-metrics-ecommerce-app-demo/blob/main/docs/dashboard.json)
 
 
 ---
@@ -536,6 +531,7 @@ Metrics are exported in batches:
 ## 7. Exporting Metrics from Your Application
 
 ### Complete Metrics Initialization Code
+[View source on GitHub](https://github.com/coolwednesday/signoz-metrics-ecommerce-app-demo/blob/main/internal/metrics/metrics.go#L48-L185)
 
 ```go
 // internal/metrics/metrics.go
@@ -568,6 +564,7 @@ type AppMetrics struct {
 ```
 
 ### Recording Metrics in HTTP Middleware
+[View source on GitHub](https://github.com/coolwednesday/signoz-metrics-ecommerce-app-demo/blob/main/internal/middleware/middleware.go#L17-L81)
 
 ```go
 // internal/middleware/middleware.go
@@ -1234,3 +1231,10 @@ You now have a complete setup for monitoring your application with SigNoz Cloud:
 - Explore traces and logs alongside your metrics.
 
 *For more details, visit the [SigNoz Documentation](https://signoz.io/docs/).*
+
+<a id="appendix"></a>
+## 16. Appendix: Source Code & Resources
+
+- **GitHub Repository**: [coolwednesday/signoz-metrics-ecommerce-app-demo](https://github.com/coolwednesday/signoz-metrics-ecommerce-app-demo)
+- **Main Application Code**: [main.go](https://github.com/coolwednesday/signoz-metrics-ecommerce-app-demo/blob/main/main.go)
+- **Dashboard JSON**: [dashboard.json](https://github.com/coolwednesday/signoz-metrics-ecommerce-app-demo/blob/main/docs/dashboard.json)
