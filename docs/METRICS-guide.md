@@ -210,6 +210,7 @@ go mod tidy
 ### Step 3: Configure OTEL Collector
 
 Create `otel-collector-config.yaml`:
+[View source on GitHub](https://github.com/coolwednesday/signoz-metrics-ecommerce-app-demo/blob/main/docker/otel-collector-config.yaml)
 
 ```yaml
 receivers:
@@ -273,6 +274,8 @@ docker-compose up -d otel-collector
 docker logs otel-collector
 # Should see: "Everything is ready. Begin running and processing data."
 ```
+
+[View source on GitHub](https://github.com/coolwednesday/signoz-metrics-ecommerce-app-demo/blob/main/pkg/config/config.go#L12-L65)
 
 ```go
 type Config struct {
@@ -607,6 +610,7 @@ func MetricsMiddleware(metrics *metrics.AppMetrics) mux.MiddlewareFunc {
 Resource attributes identify your application and are automatically attached to all metrics.
 
 ### Standard Resource Attributes
+[View source on GitHub](https://github.com/coolwednesday/signoz-metrics-ecommerce-app-demo/blob/main/internal/metrics/metrics.go#L60-L66)
 
 ```go
 resource.New(ctx,
