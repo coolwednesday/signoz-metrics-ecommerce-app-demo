@@ -1,0 +1,79 @@
+extensions:
+  health_check:
+  pprof:
+    endpoint: 0.0.0.0:1777
+  zpages:
+    endpoint: 0.0.0.0:55679
+
+receivers:
+  otlp:
+    protocols:
+      http:
+        endpoint: 0.0.0.0:4318
+  mysql:
+    endpoint: mysql:3306
+    username: root
+    password: password
+    collection_interval: 10s
+    initial_delay: 10s
+    statement_events:
+      digest_text_limit: 120
+      time_limit: 24h
+      limit: 250
+    metrics:
+      mysql.client.network.io:
+        enabled: true
+      mysql.commands:
+        enabled: true
+      mysql.connection.count:
+        enabled: true
+      mysql.connection.errors:
+        enabled: true
+      mysql.joins:
+        enabled: true
+      mysql.query.count:
+        enabled: true
+      mysql.query.slow.count:
+        enabled: true
+      mysql.replica.sql_delay:
+        enabled: true
+      mysql.replica.time_behind_source:
+        enabled: true
+      mysql.threads:
+        enabled: true
+
+processors:
+  batch:
+    send_batch_size: 50
+    timeout: 5s
+  resource:
+    attributes:
+      - key: service.name
+        value: ecommerce-go-app
+        action: upsert
+      - key: deployment.environment
+        value: development
+        action: upsert
+
+exporters:
+  debug:
+    verbosity: detailed
+  otlphttp:
+    endpoint: https://ingest.in.signoz.cloud:443
+    headers:
+      signoz-ingestion-key: 1onwWEom1f-UYORf2wWpoB5gCNKHQj4IeKur
+    compression: gzip
+
+service:
+  extensions: [health_check, pprof, zpages]
+  telemetry:
+    logs:
+      encoding: json
+      level: info
+    metrics:
+      level: detailed
+  pipelines:
+    metrics:
+      receivers: [otlp, mysql]
+      processors: [batch, resource]
+      exporters: [otlphttp, debug]

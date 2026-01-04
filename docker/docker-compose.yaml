@@ -1,0 +1,149 @@
+
+
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: ecommerce-mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_DATABASE: ecommerce
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql-data:/var/lib/mysql
+      - ../schema.sql:/docker-entrypoint-initdb.d/schema.sql
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "root", "-ppassword"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    command:
+      - --slow_query_log=1              # Turn on the log
+      - --long_query_time=0.1           # Log queries taking longer than 0.1s (100ms)
+      - --log_queries_not_using_indexes=1 # Log queries that miss indexes (optional)
+    networks:
+      - signoz-net
+    restart: unless-stopped
+
+  ecommerce-app:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    container_name: ecommerce-app
+    ports:
+      - "8081:8080"
+    env_file:
+      - ../.env
+
+    environment:
+      # ---------- DATABASE ----------
+      DB_HOST: mysql
+      DB_PORT: "3306"
+      DB_USER: root
+      DB_PASSWORD: password
+      DB_NAME: ecommerce
+
+      # ---------- SERVICE IDENTITY ----------
+      OTEL_SERVICE_NAME: ecommerce-go-app
+      OTEL_RESOURCE_ATTRIBUTES: >
+        service.namespace=ecommerce,
+        deployment.environment=dev,
+        service.version=1.0.0
+
+      # ---------- EXPORT OTEL DATA TO COLLECTOR ----------
+      OTEL_EXPORTER_OTLP_ENDPOINT: otel-collector:4318
+      OTEL_EXPORTER_OTLP_INSECURE: "true"
+
+    depends_on:
+      mysql:
+        condition: service_healthy
+    networks:
+      - signoz-net
+    restart: unless-stopped
+
+  otel-collector:
+    image: signoz/signoz-otel-collector:v0.129.12
+    container_name: ecommerce-otel-collector
+    command: ["--config=/etc/otel-collector-config.yaml"]
+    volumes:
+      - ./otel-collector-config.yaml:/etc/otel-collector-config.yaml
+
+    ports:
+      - "4319:4318"  # HTTP OTLP receiver
+      - "4320:4317"  # GRPC OTLP receiver
+      - "8889:8888"  # Collector internal metrics
+
+    environment:
+      SIGNOZ_INGESTION_KEY: "<YOUR_SIGNOZ_INGESTION_KEY>"
+
+    networks:
+      - signoz-net
+    restart: unless-stopped
+
+  # --------- TRAFFIC GENERATORS ----------
+  traffic-user-1001:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile.traffic
+    container_name: traffic-user-1001
+    environment:
+      USER_ID: 1001
+      BASE_URL: http://ecommerce-app:8080
+      DURATION: 0
+    networks:
+      - signoz-net
+    depends_on:
+      - ecommerce-app
+    restart: unless-stopped
+
+  traffic-user-1002:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile.traffic
+    container_name: traffic-user-1002
+    environment:
+      USER_ID: 1002
+      BASE_URL: http://ecommerce-app:8080
+      DURATION: 0
+    networks:
+      - signoz-net
+    depends_on:
+      - ecommerce-app
+    restart: unless-stopped
+
+  traffic-user-1003:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile.traffic
+    container_name: traffic-user-1003
+    environment:
+      USER_ID: 1003
+      BASE_URL: http://ecommerce-app:8080
+      DURATION: 0
+    networks:
+      - signoz-net
+    depends_on:
+      - ecommerce-app
+    restart: unless-stopped
+
+  traffic-user-1004:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile.traffic
+    container_name: traffic-user-1004
+    environment:
+      USER_ID: 1004
+      BASE_URL: http://ecommerce-app:8080
+      DURATION: 0
+    networks:
+      - signoz-net
+    depends_on:
+      - ecommerce-app
+    restart: unless-stopped
+
+networks:
+  signoz-net:
+    external: true
+
+volumes:
+  mysql-data:

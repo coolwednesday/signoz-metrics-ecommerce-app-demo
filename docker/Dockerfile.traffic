@@ -1,0 +1,17 @@
+FROM alpine:latest
+
+# Install required tools (awk is included in busybox, but we need gawk for full functionality)
+RUN apk add --no-cache bash curl gawk
+
+# Set working directory
+WORKDIR /app
+
+# Copy traffic generation script
+COPY scripts/generate-traffic-single-user.sh .
+
+# Make script executable
+RUN chmod +x generate-traffic-single-user.sh
+
+# Set entrypoint
+ENTRYPOINT ["./generate-traffic-single-user.sh"]
+

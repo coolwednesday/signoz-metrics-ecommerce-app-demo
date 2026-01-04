@@ -1,0 +1,3716 @@
+{
+  "description": "E-Commerce Application Metrics Dashboard - SigNoz Format",
+  "dotMigrated": true,
+  "layout": [
+    {
+      "h": 1,
+      "i": "overview-row",
+      "moved": false,
+      "static": false,
+      "w": 12,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "h": 5,
+      "i": "total-requests",
+      "moved": false,
+      "static": false,
+      "w": 2,
+      "x": 0,
+      "y": 1
+    },
+    {
+      "h": 5,
+      "i": "error-rate",
+      "moved": false,
+      "static": false,
+      "w": 2,
+      "x": 2,
+      "y": 1
+    },
+    {
+      "h": 5,
+      "i": "active-users",
+      "moved": false,
+      "static": false,
+      "w": 2,
+      "x": 4,
+      "y": 1
+    },
+    {
+      "h": 5,
+      "i": "avg-latency",
+      "moved": false,
+      "static": false,
+      "w": 2,
+      "x": 6,
+      "y": 1
+    },
+    {
+      "h": 5,
+      "i": "p99-latency",
+      "moved": false,
+      "static": false,
+      "w": 2,
+      "x": 8,
+      "y": 1
+    },
+    {
+      "h": 5,
+      "i": "p95-latency",
+      "moved": false,
+      "static": false,
+      "w": 2,
+      "x": 10,
+      "y": 1
+    },
+    {
+      "h": 1,
+      "i": "app-metrics-row",
+      "moved": false,
+      "static": false,
+      "w": 12,
+      "x": 0,
+      "y": 6
+    },
+    {
+      "h": 5,
+      "i": "errors-by-status",
+      "moved": false,
+      "static": false,
+      "w": 6,
+      "x": 0,
+      "y": 7
+    },
+    {
+      "h": 5,
+      "i": "requests-over-time",
+      "moved": false,
+      "static": false,
+      "w": 6,
+      "x": 6,
+      "y": 7
+    },
+    {
+      "h": 5,
+      "i": "error-rate-trend",
+      "moved": false,
+      "static": false,
+      "w": 6,
+      "x": 0,
+      "y": 12
+    },
+    {
+      "h": 5,
+      "i": "errors-by-endpoint",
+      "moved": false,
+      "static": false,
+      "w": 6,
+      "x": 6,
+      "y": 12
+    },
+    {
+      "h": 1,
+      "i": "performance-row",
+      "moved": false,
+      "static": false,
+      "w": 12,
+      "x": 0,
+      "y": 17
+    },
+    {
+      "h": 5,
+      "i": "latency-by-endpoint",
+      "moved": false,
+      "static": false,
+      "w": 12,
+      "x": 0,
+      "y": 18
+    },
+    {
+      "h": 5,
+      "i": "throughput",
+      "moved": false,
+      "static": false,
+      "w": 9,
+      "x": 0,
+      "y": 23
+    },
+    {
+      "h": 5,
+      "i": "cache-hit-rate",
+      "moved": false,
+      "static": false,
+      "w": 3,
+      "x": 9,
+      "y": 23
+    },
+    {
+      "h": 1,
+      "i": "database-row",
+      "moved": false,
+      "static": false,
+      "w": 12,
+      "x": 0,
+      "y": 28
+    },
+    {
+      "h": 5,
+      "i": "db-query-count",
+      "moved": false,
+      "static": false,
+      "w": 3,
+      "x": 0,
+      "y": 29
+    },
+    {
+      "h": 5,
+      "i": "db-query-latency",
+      "moved": false,
+      "static": false,
+      "w": 3,
+      "x": 3,
+      "y": 29
+    },
+    {
+      "h": 5,
+      "i": "active-connections",
+      "moved": false,
+      "static": false,
+      "w": 3,
+      "x": 6,
+      "y": 29
+    },
+    {
+      "h": 5,
+      "i": "idle-connections",
+      "moved": false,
+      "static": false,
+      "w": 3,
+      "x": 9,
+      "y": 29
+    },
+    {
+      "h": 5,
+      "i": "db-connections-trend",
+      "moved": false,
+      "static": false,
+      "w": 6,
+      "x": 0,
+      "y": 34
+    },
+    {
+      "h": 5,
+      "i": "query-types-dist",
+      "moved": false,
+      "static": false,
+      "w": 6,
+      "x": 6,
+      "y": 34
+    },
+    {
+      "h": 5,
+      "i": "slow-queries",
+      "moved": false,
+      "static": false,
+      "w": 12,
+      "x": 0,
+      "y": 39
+    },
+    {
+      "h": 1,
+      "i": "business-row",
+      "moved": false,
+      "static": false,
+      "w": 12,
+      "x": 0,
+      "y": 44
+    },
+    {
+      "h": 5,
+      "i": "product-views",
+      "moved": false,
+      "static": false,
+      "w": 4,
+      "x": 0,
+      "y": 45
+    },
+    {
+      "h": 5,
+      "i": "total-orders",
+      "moved": false,
+      "static": false,
+      "w": 3,
+      "x": 4,
+      "y": 45
+    },
+    {
+      "h": 5,
+      "i": "total-revenue",
+      "moved": false,
+      "static": false,
+      "w": 3,
+      "x": 7,
+      "y": 45
+    },
+    {
+      "h": 5,
+      "i": "inventory-level",
+      "moved": false,
+      "static": false,
+      "w": 2,
+      "x": 10,
+      "y": 45
+    },
+    {
+      "h": 5,
+      "i": "orders-trend",
+      "moved": false,
+      "static": false,
+      "w": 6,
+      "x": 0,
+      "y": 50
+    },
+    {
+      "h": 5,
+      "i": "revenue-trend",
+      "moved": false,
+      "static": false,
+      "w": 6,
+      "x": 6,
+      "y": 50
+    },
+    {
+      "h": 5,
+      "i": "products-by-category",
+      "moved": false,
+      "static": false,
+      "w": 6,
+      "x": 0,
+      "y": 55
+    },
+    {
+      "h": 5,
+      "i": "revenue-by-payment",
+      "moved": false,
+      "static": false,
+      "w": 6,
+      "x": 6,
+      "y": 55
+    },
+    {
+      "h": 5,
+      "i": "orders-by-status",
+      "moved": false,
+      "static": false,
+      "w": 6,
+      "x": 0,
+      "y": 60
+    },
+    {
+      "h": 5,
+      "i": "active-carts",
+      "moved": false,
+      "static": false,
+      "w": 6,
+      "x": 6,
+      "y": 60
+    }
+  ],
+  "panelMap": {
+    "app-metrics-row": {
+      "collapsed": false,
+      "widgets": [
+        {
+          "h": 5,
+          "i": "errors-by-status",
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 0,
+          "y": 129
+        },
+        {
+          "h": 5,
+          "i": "requests-over-time",
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 6,
+          "y": 129
+        },
+        {
+          "h": 5,
+          "i": "error-rate-trend",
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 0,
+          "y": 134
+        },
+        {
+          "h": 5,
+          "i": "errors-by-endpoint",
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 6,
+          "y": 134
+        },
+        {
+          "h": 1,
+          "i": "performance-row",
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 139
+        },
+        {
+          "h": 5,
+          "i": "latency-by-endpoint",
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 140
+        },
+        {
+          "h": 5,
+          "i": "throughput",
+          "moved": false,
+          "static": false,
+          "w": 9,
+          "x": 0,
+          "y": 145
+        },
+        {
+          "h": 5,
+          "i": "cache-hit-rate",
+          "moved": false,
+          "static": false,
+          "w": 3,
+          "x": 9,
+          "y": 145
+        },
+        {
+          "h": 1,
+          "i": "database-row",
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 150
+        },
+        {
+          "h": 5,
+          "i": "db-query-count",
+          "moved": false,
+          "static": false,
+          "w": 3,
+          "x": 0,
+          "y": 151
+        },
+        {
+          "h": 5,
+          "i": "db-query-latency",
+          "moved": false,
+          "static": false,
+          "w": 3,
+          "x": 3,
+          "y": 151
+        },
+        {
+          "h": 5,
+          "i": "active-connections",
+          "moved": false,
+          "static": false,
+          "w": 3,
+          "x": 6,
+          "y": 151
+        },
+        {
+          "h": 5,
+          "i": "idle-connections",
+          "moved": false,
+          "static": false,
+          "w": 3,
+          "x": 9,
+          "y": 151
+        },
+        {
+          "h": 5,
+          "i": "db-connections-trend",
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 0,
+          "y": 156
+        },
+        {
+          "h": 5,
+          "i": "query-types-dist",
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 6,
+          "y": 156
+        },
+        {
+          "h": 5,
+          "i": "slow-queries",
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 161
+        },
+        {
+          "h": 1,
+          "i": "business-row",
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 166
+        },
+        {
+          "h": 5,
+          "i": "product-views",
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 0,
+          "y": 167
+        },
+        {
+          "h": 5,
+          "i": "total-orders",
+          "moved": false,
+          "static": false,
+          "w": 3,
+          "x": 4,
+          "y": 167
+        },
+        {
+          "h": 5,
+          "i": "total-revenue",
+          "moved": false,
+          "static": false,
+          "w": 3,
+          "x": 7,
+          "y": 167
+        },
+        {
+          "h": 5,
+          "i": "inventory-level",
+          "moved": false,
+          "static": false,
+          "w": 2,
+          "x": 10,
+          "y": 167
+        },
+        {
+          "h": 5,
+          "i": "orders-trend",
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 0,
+          "y": 172
+        },
+        {
+          "h": 5,
+          "i": "revenue-trend",
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 6,
+          "y": 172
+        },
+        {
+          "h": 5,
+          "i": "products-by-category",
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 0,
+          "y": 177
+        },
+        {
+          "h": 5,
+          "i": "revenue-by-payment",
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 6,
+          "y": 177
+        },
+        {
+          "h": 5,
+          "i": "orders-by-status",
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 0,
+          "y": 182
+        },
+        {
+          "h": 5,
+          "i": "active-carts",
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 6,
+          "y": 182
+        }
+      ]
+    },
+    "overview-row": {
+      "collapsed": false,
+      "widgets": [
+        {
+          "h": 5,
+          "i": "total-requests",
+          "moved": false,
+          "static": false,
+          "w": 2,
+          "x": 0,
+          "y": 65
+        },
+        {
+          "h": 5,
+          "i": "error-rate",
+          "moved": false,
+          "static": false,
+          "w": 2,
+          "x": 2,
+          "y": 65
+        },
+        {
+          "h": 5,
+          "i": "avg-latency",
+          "moved": false,
+          "static": false,
+          "w": 2,
+          "x": 4,
+          "y": 65
+        },
+        {
+          "h": 5,
+          "i": "p95-latency",
+          "moved": false,
+          "static": false,
+          "w": 2,
+          "x": 6,
+          "y": 65
+        },
+        {
+          "h": 5,
+          "i": "p99-latency",
+          "moved": false,
+          "static": false,
+          "w": 2,
+          "x": 8,
+          "y": 65
+        },
+        {
+          "h": 5,
+          "i": "active-users",
+          "moved": false,
+          "static": false,
+          "w": 2,
+          "x": 10,
+          "y": 65
+        },
+        {
+          "h": 1,
+          "i": "app-metrics-row",
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 70
+        },
+        {
+          "h": 5,
+          "i": "errors-by-status",
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 0,
+          "y": 71
+        },
+        {
+          "h": 5,
+          "i": "requests-over-time",
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 6,
+          "y": 71
+        },
+        {
+          "h": 5,
+          "i": "error-rate-trend",
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 0,
+          "y": 76
+        },
+        {
+          "h": 5,
+          "i": "errors-by-endpoint",
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 6,
+          "y": 76
+        },
+        {
+          "h": 1,
+          "i": "performance-row",
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 81
+        },
+        {
+          "h": 5,
+          "i": "latency-by-endpoint",
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 82
+        },
+        {
+          "h": 5,
+          "i": "throughput",
+          "moved": false,
+          "static": false,
+          "w": 9,
+          "x": 0,
+          "y": 87
+        },
+        {
+          "h": 5,
+          "i": "cache-hit-rate",
+          "moved": false,
+          "static": false,
+          "w": 3,
+          "x": 9,
+          "y": 87
+        },
+        {
+          "h": 1,
+          "i": "database-row",
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 92
+        },
+        {
+          "h": 5,
+          "i": "db-query-count",
+          "moved": false,
+          "static": false,
+          "w": 3,
+          "x": 0,
+          "y": 93
+        },
+        {
+          "h": 5,
+          "i": "db-query-latency",
+          "moved": false,
+          "static": false,
+          "w": 3,
+          "x": 3,
+          "y": 93
+        },
+        {
+          "h": 5,
+          "i": "active-connections",
+          "moved": false,
+          "static": false,
+          "w": 3,
+          "x": 6,
+          "y": 93
+        },
+        {
+          "h": 5,
+          "i": "idle-connections",
+          "moved": false,
+          "static": false,
+          "w": 3,
+          "x": 9,
+          "y": 93
+        },
+        {
+          "h": 5,
+          "i": "db-connections-trend",
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 0,
+          "y": 98
+        },
+        {
+          "h": 5,
+          "i": "query-types-dist",
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 6,
+          "y": 98
+        },
+        {
+          "h": 5,
+          "i": "slow-queries",
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 103
+        },
+        {
+          "h": 1,
+          "i": "business-row",
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 108
+        },
+        {
+          "h": 5,
+          "i": "product-views",
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 0,
+          "y": 109
+        },
+        {
+          "h": 5,
+          "i": "total-orders",
+          "moved": false,
+          "static": false,
+          "w": 3,
+          "x": 4,
+          "y": 109
+        },
+        {
+          "h": 5,
+          "i": "total-revenue",
+          "moved": false,
+          "static": false,
+          "w": 3,
+          "x": 7,
+          "y": 109
+        },
+        {
+          "h": 5,
+          "i": "inventory-level",
+          "moved": false,
+          "static": false,
+          "w": 2,
+          "x": 10,
+          "y": 109
+        },
+        {
+          "h": 5,
+          "i": "orders-trend",
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 0,
+          "y": 114
+        },
+        {
+          "h": 5,
+          "i": "revenue-trend",
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 6,
+          "y": 114
+        },
+        {
+          "h": 5,
+          "i": "products-by-category",
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 0,
+          "y": 119
+        },
+        {
+          "h": 5,
+          "i": "revenue-by-payment",
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 6,
+          "y": 119
+        },
+        {
+          "h": 5,
+          "i": "orders-by-status",
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 0,
+          "y": 124
+        },
+        {
+          "h": 5,
+          "i": "active-carts",
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 6,
+          "y": 124
+        }
+      ]
+    }
+  },
+  "tags": [
+    "ecommerce",
+    "metrics",
+    "apm",
+    "clickhouse"
+  ],
+  "title": "E-Commerce Metrics Dashboard",
+  "uploadedGrafana": false,
+  "uuid": "019b84a4-a66f-7249-b996-0ab5fe9b8339",
+  "variables": {},
+  "version": "v5",
+  "widgets": [
+    {
+      "id": "overview-row",
+      "panelTypes": "row",
+      "title": "Overview"
+    },
+    {
+      "bucketCount": 30,
+      "bucketWidth": 0,
+      "columnUnits": {
+        "A": ""
+      },
+      "columnWidths": {
+        "total_requests": 145
+      },
+      "contextLinks": {
+        "linksData": []
+      },
+      "customLegendColors": {},
+      "decimalPrecision": 2,
+      "description": "Total number of HTTP requests received by the e-commerce application. This metric provides an overview of application traffic volume. Monitor for sudden spikes or drops which may indicate issues or traffic patterns. High values indicate high user activity, while sudden drops may signal service degradation.",
+      "fillSpans": false,
+      "id": "total-requests",
+      "isLogScale": false,
+      "legendPosition": "bottom",
+      "mergeAllActiveQueries": false,
+      "nullZeroValues": "zero",
+      "opacity": "1",
+      "panelTypes": "value",
+      "query": {
+        "builder": {
+          "queryData": [
+            {
+              "aggregateAttribute": {
+                "dataType": "",
+                "id": "----",
+                "key": "",
+                "type": ""
+              },
+              "aggregateOperator": "count",
+              "aggregations": [
+                {
+                  "metricName": "",
+                  "reduceTo": "avg",
+                  "spaceAggregation": "sum",
+                  "temporality": "",
+                  "timeAggregation": "count"
+                }
+              ],
+              "dataSource": "metrics",
+              "disabled": false,
+              "expression": "total_requests",
+              "filter": {
+                "expression": ""
+              },
+              "filters": {
+                "items": [],
+                "op": "AND"
+              },
+              "functions": [],
+              "groupBy": [],
+              "having": {
+                "expression": ""
+              },
+              "legend": "",
+              "limit": null,
+              "orderBy": [],
+              "queryName": "total_requests",
+              "reduceTo": "avg",
+              "source": "",
+              "spaceAggregation": "sum",
+              "stepInterval": null,
+              "timeAggregation": "rate"
+            }
+          ],
+          "queryFormulas": [],
+          "queryTraceOperator": []
+        },
+        "clickhouse_sql": [
+          {
+            "disabled": false,
+            "legend": "",
+            "name": "total_requests",
+            "query": "SELECT\n    sum(delta) AS total_requests\nFROM\n(\n    SELECT\n        s.fingerprint,\n        max(s.value) - min(s.value) AS delta\n    FROM signoz_metrics.distributed_samples_v4 AS s\n    INNER JOIN signoz_metrics.distributed_time_series_v4 AS ts USING (fingerprint)\n    WHERE s.metric_name = 'http.server.request.count'\n      AND s.unix_milli BETWEEN {{.start_timestamp_ms}} AND {{.end_timestamp_ms}}\n      AND JSONExtractString(ts.labels, 'service.name') = 'ecommerce-go-app'\n    GROUP BY s.fingerprint\n)\n"
+          }
+        ],
+        "id": "61f53328-924c-4f54-a959-b129156ce97b",
+        "promql": [
+          {
+            "disabled": false,
+            "legend": "",
+            "name": "total_requests",
+            "query": ""
+          }
+        ],
+        "queryType": "clickhouse_sql"
+      },
+      "selectedLogFields": [],
+      "selectedTracesFields": [],
+      "softMax": 0,
+      "softMin": 0,
+      "stackedBarChart": false,
+      "thresholds": [],
+      "timePreferance": "GLOBAL_TIME",
+      "title": "Total Requests",
+      "yAxisUnit": "short"
+    },
+    {
+      "bucketCount": 30,
+      "bucketWidth": 0,
+      "columnUnits": {
+        "A": ""
+      },
+      "columnWidths": {
+        "error_rate_percent": 145
+      },
+      "contextLinks": {
+        "linksData": []
+      },
+      "customLegendColors": {},
+      "decimalPrecision": 2,
+      "description": "Percentage of HTTP requests that resulted in errors (4xx or 5xx status codes). Critical metric for application health. Values above 1% indicate potential issues requiring investigation. Monitor trends to identify error patterns and correlate with deployment times or traffic spikes.",
+      "fillSpans": false,
+      "id": "error-rate",
+      "isLogScale": false,
+      "legendPosition": "bottom",
+      "mergeAllActiveQueries": false,
+      "nullZeroValues": "zero",
+      "opacity": "1",
+      "panelTypes": "value",
+      "query": {
+        "builder": {
+          "queryData": [
+            {
+              "aggregateAttribute": {
+                "dataType": "",
+                "id": "----",
+                "key": "",
+                "type": ""
+              },
+              "aggregateOperator": "count",
+              "aggregations": [
+                {
+                  "metricName": "",
+                  "reduceTo": "avg",
+                  "spaceAggregation": "sum",
+                  "temporality": "",
+                  "timeAggregation": "count"
+                }
+              ],
+              "dataSource": "metrics",
+              "disabled": false,
+              "expression": "error_rate",
+              "filter": {
+                "expression": ""
+              },
+              "filters": {
+                "items": [],
+                "op": "AND"
+              },
+              "functions": [],
+              "groupBy": [],
+              "having": {
+                "expression": ""
+              },
+              "legend": "",
+              "limit": null,
+              "orderBy": [],
+              "queryName": "error_rate",
+              "reduceTo": "avg",
+              "source": "",
+              "spaceAggregation": "sum",
+              "stepInterval": null,
+              "timeAggregation": "rate"
+            }
+          ],
+          "queryFormulas": [],
+          "queryTraceOperator": []
+        },
+        "clickhouse_sql": [
+          {
+            "disabled": false,
+            "legend": "",
+            "name": "error_rate",
+            "query": "SELECT\n    if(sum(total_delta) > 0, (coalesce(sum(err_delta), 0) / sum(total_delta)) * 100, 0) AS error_rate_percent\nFROM\n(\n    SELECT\n        fingerprint,\n        greatest(0, max(value) - min(value)) AS total_delta\n    FROM signoz_metrics.distributed_samples_v4\n    INNER JOIN signoz_metrics.distributed_time_series_v4 AS ts ON signoz_metrics.distributed_samples_v4.fingerprint = ts.fingerprint\n    WHERE metric_name = 'http.server.request.count'\n      AND unix_milli >= {{.start_timestamp_ms}}\n      AND unix_milli < {{.end_timestamp_ms}}\n      AND JSONExtractString(ts.labels, 'service.name') = 'ecommerce-go-app'\n    GROUP BY fingerprint\n) AS total\nLEFT JOIN\n(\n    SELECT\n        fingerprint,\n        greatest(0, max(value) - min(value)) AS err_delta\n    FROM signoz_metrics.distributed_samples_v4\n    INNER JOIN signoz_metrics.distributed_time_series_v4 AS ts ON signoz_metrics.distributed_samples_v4.fingerprint = ts.fingerprint\n    WHERE metric_name = 'http.server.request.error.count'\n      AND unix_milli >= {{.start_timestamp_ms}}\n      AND unix_milli < {{.end_timestamp_ms}}\n      AND JSONExtractString(ts.labels, 'service.name') = 'ecommerce-go-app'\n    GROUP BY fingerprint\n) AS err\nON total.fingerprint = err.fingerprint\n"
+          }
+        ],
+        "id": "3728c178-bc2b-4817-afb3-62dfef0c32ed",
+        "promql": [
+          {
+            "disabled": false,
+            "legend": "",
+            "name": "error_rate",
+            "query": ""
+          }
+        ],
+        "queryType": "clickhouse_sql"
+      },
+      "selectedLogFields": [],
+      "selectedTracesFields": [],
+      "softMax": 0,
+      "softMin": 0,
+      "stackedBarChart": false,
+      "thresholds": [],
+      "timePreferance": "GLOBAL_TIME",
+      "title": "Error Rate (%)",
+      "yAxisUnit": "percent"
+    },
+    {
+      "bucketCount": 30,
+      "bucketWidth": 0,
+      "columnUnits": {},
+      "contextLinks": {
+        "linksData": []
+      },
+      "customLegendColors": {},
+      "decimalPrecision": 2,
+      "description": "Average response time for all HTTP requests in milliseconds. Measures overall application performance. Values below 100ms are excellent, 100-300ms is good, above 500ms may indicate performance issues. Use this to track performance degradation over time.",
+      "fillSpans": false,
+      "id": "avg-latency",
+      "isLogScale": false,
+      "legendPosition": "bottom",
+      "mergeAllActiveQueries": false,
+      "nullZeroValues": "zero",
+      "opacity": "1",
+      "panelTypes": "value",
+      "query": {
+        "builder": {
+          "queryData": [
+            {
+              "aggregateAttribute": {
+                "dataType": "",
+                "id": "----",
+                "key": "",
+                "type": ""
+              },
+              "aggregateOperator": "count",
+              "aggregations": [
+                {
+                  "metricName": "",
+                  "reduceTo": "avg",
+                  "spaceAggregation": "sum",
+                  "temporality": "",
+                  "timeAggregation": "count"
+                }
+              ],
+              "dataSource": "metrics",
+              "disabled": false,
+              "expression": "avg_latency",
+              "filter": {
+                "expression": ""
+              },
+              "filters": {
+                "items": [],
+                "op": "AND"
+              },
+              "functions": [],
+              "groupBy": [],
+              "having": {
+                "expression": ""
+              },
+              "legend": "",
+              "limit": null,
+              "orderBy": [],
+              "queryName": "avg_latency",
+              "reduceTo": "avg",
+              "source": "",
+              "spaceAggregation": "sum",
+              "stepInterval": null,
+              "timeAggregation": "rate"
+            }
+          ],
+          "queryFormulas": [],
+          "queryTraceOperator": []
+        },
+        "clickhouse_sql": [
+          {
+            "disabled": false,
+            "legend": "",
+            "name": "avg_latency",
+            "query": "SELECT\n    sum(delta_sum) / sum(delta_count) AS avg_latency_ms\nFROM\n(\n    SELECT\n        fingerprint,\n        maxIf(value, metric_name = 'http.server.request.duration.sum')\n        -\n        minIf(value, metric_name = 'http.server.request.duration.sum')\n            AS delta_sum,\n        maxIf(value, metric_name = 'http.server.request.duration.count')\n        -\n        minIf(value, metric_name = 'http.server.request.duration.count')\n            AS delta_count\n    FROM signoz_metrics.distributed_samples_v4\n    WHERE metric_name IN (\n        'http.server.request.duration.sum',\n        'http.server.request.duration.count'\n    )\n      AND unix_milli BETWEEN {{.start_timestamp_ms}} AND {{.end_timestamp_ms}}\n      AND fingerprint IN (\n          SELECT fingerprint\n          FROM signoz_metrics.distributed_time_series_v4\n          WHERE JSONExtractString(labels,'service.name') = 'ecommerce-go-app'\n      )\n    GROUP BY fingerprint\n)\n"
+          }
+        ],
+        "id": "5edab3d0-fd6d-4fef-aec3-7957f3e8bd93",
+        "promql": [
+          {
+            "disabled": false,
+            "legend": "",
+            "name": "avg_latency",
+            "query": ""
+          }
+        ],
+        "queryType": "clickhouse_sql"
+      },
+      "selectedLogFields": [],
+      "selectedTracesFields": [],
+      "softMax": 0,
+      "softMin": 0,
+      "stackedBarChart": false,
+      "thresholds": [],
+      "timePreferance": "GLOBAL_TIME",
+      "title": "Avg Latency (ms)",
+      "yAxisUnit": "ms"
+    },
+    {
+      "bucketCount": 30,
+      "bucketWidth": 0,
+      "columnUnits": {},
+      "contextLinks": {
+        "linksData": []
+      },
+      "customLegendColors": {},
+      "decimalPrecision": 2,
+      "description": "95th percentile latency - 95% of requests complete within this time. Important for understanding user experience as it represents the typical worst-case scenario. Values should be monitored relative to average latency. Spikes here indicate performance bottlenecks affecting most users.",
+      "fillSpans": false,
+      "id": "p95-latency",
+      "isLogScale": false,
+      "legendPosition": "bottom",
+      "mergeAllActiveQueries": false,
+      "nullZeroValues": "zero",
+      "opacity": "1",
+      "panelTypes": "value",
+      "query": {
+        "builder": {
+          "queryData": [
+            {
+              "aggregateAttribute": {
+                "dataType": "",
+                "id": "----",
+                "key": "",
+                "type": ""
+              },
+              "aggregateOperator": "count",
+              "aggregations": [
+                {
+                  "metricName": "",
+                  "reduceTo": "avg",
+                  "spaceAggregation": "sum",
+                  "temporality": "",
+                  "timeAggregation": "count"
+                }
+              ],
+              "dataSource": "metrics",
+              "disabled": false,
+              "expression": "p95_latency",
+              "filter": {
+                "expression": ""
+              },
+              "filters": {
+                "items": [],
+                "op": "AND"
+              },
+              "functions": [],
+              "groupBy": [],
+              "having": {
+                "expression": ""
+              },
+              "legend": "",
+              "limit": null,
+              "orderBy": [],
+              "queryName": "p95_latency",
+              "reduceTo": "avg",
+              "source": "",
+              "spaceAggregation": "sum",
+              "stepInterval": null,
+              "timeAggregation": "rate"
+            }
+          ],
+          "queryFormulas": [],
+          "queryTraceOperator": []
+        },
+        "clickhouse_sql": [
+          {
+            "disabled": false,
+            "legend": "",
+            "name": "p95_latency",
+            "query": "SELECT\n    ts,\n    quantileTDigestWeighted(0.95)(le_num, bucket_count) AS p95_ms\nFROM\n(\n    SELECT\n        toStartOfInterval(\n            toDateTime(intDiv(s.unix_milli, 1000)),\n            toIntervalSecond(60)\n        ) AS ts,\n\n        toFloat64OrNull(JSONExtractString(ts.labels,'le')) AS le_num,\n\n        /* counter → delta (no rate), non-negative, UInt64 */\n        toUInt64(\n            greatest(\n                0,\n                s.value\n                - lagInFrame(s.value, 1, s.value)\n                    OVER (PARTITION BY s.fingerprint, JSONExtractString(ts.labels,'le')\n                          ORDER BY s.unix_milli)\n            )\n        ) AS bucket_count\n\n    FROM signoz_metrics.distributed_samples_v4 AS s\n    INNER JOIN signoz_metrics.distributed_time_series_v4 AS ts USING(fingerprint)\n    WHERE s.metric_name = 'http.server.request.duration.bucket'\n      AND s.unix_milli BETWEEN {{.start_timestamp_ms}} AND {{.end_timestamp_ms}}\n      AND JSONExtractString(ts.labels,'service.name') = 'ecommerce-go-app'\n      AND JSONExtractString(ts.labels,'le') != '+Inf'\n)\nWHERE le_num IS NOT NULL\nGROUP BY ts\nORDER BY ts\n"
+          }
+        ],
+        "id": "56541305-0a02-491a-98fd-e1561ea1b252",
+        "promql": [
+          {
+            "disabled": false,
+            "legend": "",
+            "name": "p95_latency",
+            "query": ""
+          }
+        ],
+        "queryType": "clickhouse_sql"
+      },
+      "selectedLogFields": [],
+      "selectedTracesFields": [],
+      "softMax": 0,
+      "softMin": 0,
+      "stackedBarChart": false,
+      "thresholds": [],
+      "timePreferance": "GLOBAL_TIME",
+      "title": "P95 Latency (ms)",
+      "yAxisUnit": "ms"
+    },
+    {
+      "bucketCount": 30,
+      "bucketWidth": 0,
+      "columnUnits": {},
+      "contextLinks": {
+        "linksData": []
+      },
+      "customLegendColors": {},
+      "decimalPrecision": 2,
+      "description": "99th percentile latency - 99% of requests complete within this time. Represents the slowest requests that still affect a significant portion of users. Critical for identifying tail latency issues. High p99 values indicate specific endpoints or operations causing delays.",
+      "fillSpans": false,
+      "id": "p99-latency",
+      "isLogScale": false,
+      "legendPosition": "bottom",
+      "mergeAllActiveQueries": false,
+      "nullZeroValues": "zero",
+      "opacity": "1",
+      "panelTypes": "value",
+      "query": {
+        "builder": {
+          "queryData": [
+            {
+              "aggregateAttribute": {
+                "dataType": "",
+                "id": "----",
+                "key": "",
+                "type": ""
+              },
+              "aggregateOperator": "count",
+              "aggregations": [
+                {
+                  "metricName": "",
+                  "reduceTo": "avg",
+                  "spaceAggregation": "sum",
+                  "temporality": "",
+                  "timeAggregation": "count"
+                }
+              ],
+              "dataSource": "metrics",
+              "disabled": false,
+              "expression": "p99_latency",
+              "filter": {
+                "expression": ""
+              },
+              "filters": {
+                "items": [],
+                "op": "AND"
+              },
+              "functions": [],
+              "groupBy": [],
+              "having": {
+                "expression": ""
+              },
+              "legend": "",
+              "limit": null,
+              "orderBy": [],
+              "queryName": "p99_latency",
+              "reduceTo": "avg",
+              "source": "",
+              "spaceAggregation": "sum",
+              "stepInterval": null,
+              "timeAggregation": "rate"
+            }
+          ],
+          "queryFormulas": [],
+          "queryTraceOperator": []
+        },
+        "clickhouse_sql": [
+          {
+            "disabled": false,
+            "legend": "",
+            "name": "p99_latency",
+            "query": "SELECT\n    ts,\n    quantileTDigestWeighted(0.99)(le_num, bucket_count) AS p99_ms\nFROM\n(\n    SELECT\n        toStartOfInterval(\n            toDateTime(intDiv(s.unix_milli, 1000)),\n            toIntervalSecond(60)\n        ) AS ts,\n\n        -- bucket upper bound as Float64 value\n        toFloat64OrNull(JSONExtractString(ts.labels,'le')) AS le_num,\n\n        -- delta of cumulative bucket counter (UInt64 weight)\n        toUInt64(\n            greatest(\n                0,\n                s.value\n                - lagInFrame(s.value, 1, s.value)\n                    OVER (\n                        PARTITION BY s.fingerprint, JSONExtractString(ts.labels,'le')\n                        ORDER BY s.unix_milli\n                    )\n            )\n        ) AS bucket_count\n\n    FROM signoz_metrics.distributed_samples_v4 AS s\n    INNER JOIN signoz_metrics.distributed_time_series_v4 AS ts USING (fingerprint)\n    WHERE s.metric_name = 'http.server.request.duration.bucket'\n      AND s.unix_milli BETWEEN {{.start_timestamp_ms}} AND {{.end_timestamp_ms}}\n      AND JSONExtractString(ts.labels,'service.name') = 'ecommerce-go-app'\n      AND JSONExtractString(ts.labels,'le') != '+Inf'\n)\nWHERE le_num IS NOT NULL\nGROUP BY ts\nORDER BY ts\n"
+          }
+        ],
+        "id": "4214dfcf-d87b-4f89-b49b-a7eafff2215e",
+        "promql": [
+          {
+            "disabled": false,
+            "legend": "",
+            "name": "p99_latency",
+            "query": ""
+          }
+        ],
+        "queryType": "clickhouse_sql"
+      },
+      "selectedLogFields": [],
+      "selectedTracesFields": [],
+      "softMax": 0,
+      "softMin": 0,
+      "stackedBarChart": false,
+      "thresholds": [],
+      "timePreferance": "GLOBAL_TIME",
+      "title": "P99 Latency (ms)",
+      "yAxisUnit": "ms"
+    },
+    {
+      "bucketCount": 30,
+      "bucketWidth": 0,
+      "columnUnits": {},
+      "contextLinks": {
+        "linksData": []
+      },
+      "customLegendColors": {},
+      "decimalPrecision": 2,
+      "description": "Peak number of concurrent active users during the selected time period. Indicates application load and user engagement. Monitor for capacity planning and to understand traffic patterns. Sudden increases may require scaling resources.",
+      "fillSpans": false,
+      "id": "active-users",
+      "isLogScale": false,
+      "legendPosition": "bottom",
+      "mergeAllActiveQueries": false,
+      "nullZeroValues": "zero",
+      "opacity": "1",
+      "panelTypes": "value",
+      "query": {
+        "builder": {
+          "queryData": [
+            {
+              "aggregateAttribute": {
+                "dataType": "",
+                "id": "----",
+                "key": "",
+                "type": ""
+              },
+              "aggregateOperator": "count",
+              "aggregations": [
+                {
+                  "metricName": "",
+                  "reduceTo": "avg",
+                  "spaceAggregation": "sum",
+                  "temporality": "",
+                  "timeAggregation": "count"
+                }
+              ],
+              "dataSource": "metrics",
+              "disabled": false,
+              "expression": "active_users",
+              "filter": {
+                "expression": ""
+              },
+              "filters": {
+                "items": [],
+                "op": "AND"
+              },
+              "functions": [],
+              "groupBy": [],
+              "having": {
+                "expression": ""
+              },
+              "legend": "",
+              "limit": null,
+              "orderBy": [],
+              "queryName": "active_users",
+              "reduceTo": "avg",
+              "source": "",
+              "spaceAggregation": "sum",
+              "stepInterval": null,
+              "timeAggregation": "rate"
+            }
+          ],
+          "queryFormulas": [],
+          "queryTraceOperator": []
+        },
+        "clickhouse_sql": [
+          {
+            "disabled": false,
+            "legend": "",
+            "name": "active_users",
+            "query": "SELECT\n  sum(v) AS active_users\nFROM\n(\n    SELECT\n        max(s.value) AS v\n    FROM signoz_metrics.distributed_samples_v4 AS s\n    INNER JOIN signoz_metrics.distributed_time_series_v4 AS ts USING (fingerprint)\n    WHERE\n        s.metric_name = 'active_users_count'\n        AND s.unix_milli > {{.start_timestamp_ms}}\n        AND s.unix_milli <= {{.end_timestamp_ms}}\n        AND JSONExtractString(ts.labels, 'service.name') = 'ecommerce-go-app'\n    GROUP BY s.fingerprint\n)\n"
+          }
+        ],
+        "id": "2637cb0e-7240-4e27-852f-3c8b6598b057",
+        "promql": [
+          {
+            "disabled": false,
+            "legend": "",
+            "name": "active_users",
+            "query": ""
+          }
+        ],
+        "queryType": "clickhouse_sql"
+      },
+      "selectedLogFields": [],
+      "selectedTracesFields": [],
+      "softMax": 0,
+      "softMin": 0,
+      "stackedBarChart": false,
+      "thresholds": [],
+      "timePreferance": "GLOBAL_TIME",
+      "title": "Active Users",
+      "yAxisUnit": "short"
+    },
+    {
+      "id": "app-metrics-row",
+      "panelTypes": "row",
+      "title": "Application Metrics"
+    },
+    {
+      "bucketCount": 30,
+      "bucketWidth": 0,
+      "columnUnits": {},
+      "columnWidths": {
+        "rps": 145,
+        "ts": 145
+      },
+      "contextLinks": {
+        "linksData": []
+      },
+      "customLegendColors": {},
+      "decimalPrecision": 2,
+      "description": "Time-series visualization of request volume. Shows traffic patterns, peak hours, and trends over time. Use to identify daily/weekly patterns, traffic spikes, and correlate with business events or deployments. Helps in capacity planning and anomaly detection.",
+      "fillSpans": false,
+      "id": "requests-over-time",
+      "isLogScale": false,
+      "legendPosition": "bottom",
+      "mergeAllActiveQueries": false,
+      "nullZeroValues": "zero",
+      "opacity": "1",
+      "panelTypes": "graph",
+      "query": {
+        "builder": {
+          "queryData": [
+            {
+              "aggregateAttribute": {
+                "dataType": "float64",
+                "id": "http.server.request.count--float64--Sum",
+                "isColumn": true,
+                "isJSON": false,
+                "key": "http.server.request.count",
+                "type": "Sum"
+              },
+              "aggregateOperator": "rate",
+              "aggregations": [
+                {
+                  "metricName": "http.server.request.count",
+                  "spaceAggregation": "avg",
+                  "temporality": "",
+                  "timeAggregation": "rate"
+                }
+              ],
+              "dataSource": "metrics",
+              "disabled": false,
+              "expression": "requests_per_minute",
+              "filter": {
+                "expression": "service.name = 'ecommerce-go-app' "
+              },
+              "filters": {
+                "items": [
+                  {
+                    "id": "774837ff-27f3-47ca-8b97-051c99665ace",
+                    "key": {
+                      "id": "service.name",
+                      "key": "service.name",
+                      "type": ""
+                    },
+                    "op": "=",
+                    "value": "'ecommerce-go-app'"
+                  }
+                ],
+                "op": "AND"
+              },
+              "functions": [],
+              "groupBy": [],
+              "having": {
+                "expression": "htt"
+              },
+              "legend": "",
+              "limit": null,
+              "orderBy": [],
+              "queryName": "requests_per_minute",
+              "reduceTo": "avg",
+              "source": "",
+              "spaceAggregation": "",
+              "stepInterval": null,
+              "timeAggregation": "rate"
+            }
+          ],
+          "queryFormulas": [],
+          "queryTraceOperator": []
+        },
+        "clickhouse_sql": [
+          {
+            "disabled": false,
+            "legend": "",
+            "name": "requests_per_minute",
+            "query": "SELECT\n    ts,\n    sum(delta) AS requests\nFROM\n(\n    SELECT\n        toStartOfInterval(\n            toDateTime(intDiv(unix_milli, 1000)),\n            toIntervalMinute(1)\n        ) AS ts,\n        greatest(\n            0,\n            max(value) - min(value)\n        ) AS delta\n    FROM signoz_metrics.distributed_samples_v4\n    WHERE metric_name = 'http.server.request.count'\n      AND unix_milli BETWEEN {{.start_timestamp_ms}} AND {{.end_timestamp_ms}}\n      AND fingerprint IN (\n            SELECT fingerprint\n            FROM signoz_metrics.distributed_time_series_v4\n            WHERE metric_name = 'http.server.request.count'\n              AND JSONExtractString(labels,'service.name') = 'ecommerce-go-app'\n      )\n    GROUP BY fingerprint, ts\n)\nGROUP BY ts\nORDER BY ts\n"
+          }
+        ],
+        "id": "b48c0276-d048-49e1-a749-c7d70eff5ad0",
+        "promql": [
+          {
+            "disabled": false,
+            "legend": "",
+            "name": "requests_per_minute",
+            "query": ""
+          }
+        ],
+        "queryType": "clickhouse_sql"
+      },
+      "selectedLogFields": [],
+      "selectedTracesFields": [],
+      "softMax": 0,
+      "softMin": 0,
+      "stackedBarChart": false,
+      "thresholds": [],
+      "timePreferance": "GLOBAL_TIME",
+      "title": "Requests Over Time",
+      "yAxisUnit": "short"
+    },
+    {
+      "bucketCount": 30,
+      "bucketWidth": 0,
+      "columnUnits": {},
+      "contextLinks": {
+        "linksData": []
+      },
+      "customLegendColors": {},
+      "decimalPrecision": 2,
+      "description": "Trend of error rate percentage over time. Critical for identifying when errors started occurring and their duration. Spikes may correlate with deployments, traffic increases, or infrastructure changes. Monitor for sustained high error rates.",
+      "fillSpans": false,
+      "id": "error-rate-trend",
+      "isLogScale": false,
+      "legendPosition": "bottom",
+      "mergeAllActiveQueries": false,
+      "nullZeroValues": "zero",
+      "opacity": "1",
+      "panelTypes": "graph",
+      "query": {
+        "builder": {
+          "queryData": [
+            {
+              "aggregateAttribute": {
+                "dataType": "",
+                "id": "----",
+                "key": "",
+                "type": ""
+              },
+              "aggregateOperator": "count",
+              "aggregations": [
+                {
+                  "metricName": "",
+                  "reduceTo": "avg",
+                  "spaceAggregation": "sum",
+                  "temporality": "",
+                  "timeAggregation": "count"
+                }
+              ],
+              "dataSource": "metrics",
+              "disabled": false,
+              "expression": "error_rate",
+              "filter": {
+                "expression": ""
+              },
+              "filters": {
+                "items": [],
+                "op": "AND"
+              },
+              "functions": [],
+              "groupBy": [],
+              "having": {
+                "expression": ""
+              },
+              "legend": "",
+              "limit": null,
+              "orderBy": [],
+              "queryName": "error_rate",
+              "reduceTo": "avg",
+              "source": "",
+              "spaceAggregation": "sum",
+              "stepInterval": null,
+              "timeAggregation": "rate"
+            }
+          ],
+          "queryFormulas": [],
+          "queryTraceOperator": []
+        },
+        "clickhouse_sql": [
+          {
+            "disabled": false,
+            "legend": "",
+            "name": "error_rate",
+            "query": "SELECT\n    totals.ts AS ts,\n    if(\n        totals.requests = 0,\n        0,\n        (errors.errors * 100.0) / totals.requests\n    ) AS error_rate_pct\nFROM\n(\n    /* -------- total requests per minute -------- */\n    SELECT\n        ts,\n        sum(delta) AS requests\n    FROM\n    (\n        SELECT\n            toStartOfInterval(\n                toDateTime(intDiv(unix_milli, 1000)),\n                toIntervalMinute(1)\n            ) AS ts,\n            greatest(0, max(value) - min(value)) AS delta\n        FROM signoz_metrics.distributed_samples_v4\n        WHERE metric_name = 'http.server.request.count'\n          AND unix_milli BETWEEN {{.start_timestamp_ms}} AND {{.end_timestamp_ms}}\n          AND fingerprint IN (\n              SELECT fingerprint\n              FROM signoz_metrics.distributed_time_series_v4\n              WHERE metric_name = 'http.server.request.count'\n                AND JSONExtractString(labels,'service.name') = 'ecommerce-go-app'\n          )\n        GROUP BY fingerprint, ts\n    )\n    GROUP BY ts\n) AS totals\nLEFT JOIN\n(\n    /* -------- error requests per minute -------- */\n    SELECT\n        ts,\n        sum(delta) AS errors\n    FROM\n    (\n        SELECT\n            toStartOfInterval(\n                toDateTime(intDiv(unix_milli, 1000)),\n                toIntervalMinute(1)\n            ) AS ts,\n            greatest(0, max(value) - min(value)) AS delta\n        FROM signoz_metrics.distributed_samples_v4\n        WHERE metric_name = 'http.server.request.error.count'\n          AND unix_milli BETWEEN {{.start_timestamp_ms}} AND {{.end_timestamp_ms}}\n          AND fingerprint IN (\n              SELECT fingerprint\n              FROM signoz_metrics.distributed_time_series_v4\n              WHERE metric_name = 'http.server.request.error.count'\n                AND JSONExtractString(labels,'service.name') = 'ecommerce-go-app'\n          )\n        GROUP BY fingerprint, ts\n    )\n    GROUP BY ts\n) AS errors\nON totals.ts = errors.ts\nORDER BY ts\n"
+          }
+        ],
+        "id": "f69e4302-4afc-4ced-b404-be80b507cd8d",
+        "promql": [
+          {
+            "disabled": false,
+            "legend": "",
+            "name": "error_rate",
+            "query": ""
+          }
+        ],
+        "queryType": "clickhouse_sql"
+      },
+      "selectedLogFields": [],
+      "selectedTracesFields": [],
+      "softMax": 0,
+      "softMin": 0,
+      "stackedBarChart": false,
+      "thresholds": [],
+      "timePreferance": "GLOBAL_TIME",
+      "title": "Error Rate Over Time",
+      "yAxisUnit": "percent"
+    },
+    {
+      "bucketCount": 30,
+      "bucketWidth": 0,
+      "columnUnits": {
+        "A": ""
+      },
+      "columnWidths": {
+        "requests": 145,
+        "status_code": 145
+      },
+      "contextLinks": {
+        "linksData": []
+      },
+      "customLegendColors": {},
+      "decimalPrecision": 2,
+      "description": "Distribution of HTTP requests by status code. Shows the breakdown of successful (2xx), client errors (4xx), and server errors (5xx). High 4xx rates indicate client-side issues (invalid requests, authentication problems). High 5xx rates indicate server-side problems requiring immediate attention.",
+      "fillSpans": false,
+      "id": "errors-by-status",
+      "isLogScale": false,
+      "legendPosition": "bottom",
+      "mergeAllActiveQueries": false,
+      "nullZeroValues": "zero",
+      "opacity": "1",
+      "panelTypes": "table",
+      "query": {
+        "builder": {
+          "queryData": [
+            {
+              "aggregateAttribute": {
+                "dataType": "",
+                "id": "----",
+                "key": "",
+                "type": ""
+              },
+              "aggregateOperator": "count",
+              "aggregations": [
+                {
+                  "metricName": "",
+                  "reduceTo": "avg",
+                  "spaceAggregation": "sum",
+                  "temporality": "",
+                  "timeAggregation": "count"
+                }
+              ],
+              "dataSource": "metrics",
+              "disabled": false,
+              "expression": "status_code",
+              "filter": {
+                "expression": ""
+              },
+              "filters": {
+                "items": [],
+                "op": "AND"
+              },
+              "functions": [],
+              "groupBy": [],
+              "having": {
+                "expression": ""
+              },
+              "legend": "",
+              "limit": null,
+              "orderBy": [],
+              "queryName": "status_code",
+              "reduceTo": "avg",
+              "source": "",
+              "spaceAggregation": "sum",
+              "stepInterval": null,
+              "timeAggregation": "rate"
+            }
+          ],
+          "queryFormulas": [],
+          "queryTraceOperator": []
+        },
+        "clickhouse_sql": [
+          {
+            "disabled": false,
+            "legend": "",
+            "name": "status_code",
+            "query": "SELECT\n    status_code,\n    sum(delta) AS requests\nFROM\n(\n    SELECT\n        fingerprint,\n\n        /* extract status code ONCE inside the subquery */\n        JSONExtractString(ts.labels, 'http.status_code') AS status_code,\n\n        greatest(\n            0,\n            max(s.value) - min(s.value)\n        ) AS delta\n    FROM signoz_metrics.distributed_samples_v4 AS s\n    INNER JOIN signoz_metrics.distributed_time_series_v4 AS ts USING (fingerprint)\n    WHERE s.metric_name = 'http.server.request.count'\n      AND s.unix_milli BETWEEN {{.start_timestamp_ms}} AND {{.end_timestamp_ms}}\n      AND JSONExtractString(ts.labels, 'service.name') = 'ecommerce-go-app'\n    GROUP BY\n        fingerprint,\n        status_code\n)\nGROUP BY status_code\nORDER BY requests DESC\n"
+          }
+        ],
+        "id": "a5952c6d-5fc3-461c-a360-53643dae0f48",
+        "promql": [
+          {
+            "disabled": false,
+            "legend": "",
+            "name": "status_code",
+            "query": ""
+          }
+        ],
+        "queryType": "clickhouse_sql"
+      },
+      "selectedLogFields": [],
+      "selectedTracesFields": [],
+      "softMax": 0,
+      "softMin": 0,
+      "thresholds": [],
+      "timePreferance": "GLOBAL_TIME",
+      "title": "Requests by Status Code",
+      "yAxisUnit": "short"
+    },
+    {
+      "bucketCount": 30,
+      "bucketWidth": 0,
+      "columnUnits": {
+        "A": ""
+      },
+      "columnWidths": {
+        "errors": 145,
+        "route": 145
+      },
+      "contextLinks": {
+        "linksData": []
+      },
+      "customLegendColors": {},
+      "decimalPrecision": 2,
+      "description": "Top endpoints experiencing the most errors. Helps identify problematic API routes or pages. Focus optimization efforts on endpoints with highest error counts. May indicate bugs, missing error handling, or resource constraints in specific features.",
+      "fillSpans": false,
+      "id": "errors-by-endpoint",
+      "isLogScale": false,
+      "legendPosition": "bottom",
+      "mergeAllActiveQueries": false,
+      "nullZeroValues": "zero",
+      "opacity": "1",
+      "panelTypes": "table",
+      "query": {
+        "builder": {
+          "queryData": [
+            {
+              "aggregateAttribute": {
+                "dataType": "",
+                "id": "----",
+                "key": "",
+                "type": ""
+              },
+              "aggregateOperator": "count",
+              "aggregations": [
+                {
+                  "metricName": "",
+                  "reduceTo": "avg",
+                  "spaceAggregation": "sum",
+                  "temporality": "",
+                  "timeAggregation": "count"
+                }
+              ],
+              "dataSource": "metrics",
+              "disabled": false,
+              "expression": "endpoint",
+              "filter": {
+                "expression": ""
+              },
+              "filters": {
+                "items": [],
+                "op": "AND"
+              },
+              "functions": [],
+              "groupBy": [],
+              "having": {
+                "expression": ""
+              },
+              "legend": "",
+              "limit": null,
+              "orderBy": [],
+              "queryName": "endpoint",
+              "reduceTo": "avg",
+              "source": "",
+              "spaceAggregation": "sum",
+              "stepInterval": null,
+              "timeAggregation": "rate"
+            }
+          ],
+          "queryFormulas": [],
+          "queryTraceOperator": []
+        },
+        "clickhouse_sql": [
+          {
+            "disabled": false,
+            "legend": "",
+            "name": "endpoint",
+            "query": "SELECT\n    route,\n    sum(delta) AS errors\nFROM\n(\n    SELECT\n        fingerprint,\n\n        /* extract endpoint route once here */\n        JSONExtractString(ts.labels, 'http.route') AS route,\n\n        /* increase in counter within time range */\n        greatest(\n            0,\n            max(s.value) - min(s.value)\n        ) AS delta\n    FROM signoz_metrics.distributed_samples_v4 AS s\n    INNER JOIN signoz_metrics.distributed_time_series_v4 AS ts USING (fingerprint)\n    WHERE s.metric_name = 'http.server.request.error.count'\n      AND s.unix_milli BETWEEN {{.start_timestamp_ms}} AND {{.end_timestamp_ms}}\n      AND JSONExtractString(ts.labels, 'service.name') = 'ecommerce-go-app'\n    GROUP BY\n        fingerprint,\n        route\n)\nGROUP BY route\nORDER BY errors DESC\nLIMIT 10\n"
+          }
+        ],
+        "id": "1e2e2163-c357-4a92-8f99-1322345e5aa7",
+        "promql": [
+          {
+            "disabled": false,
+            "legend": "",
+            "name": "endpoint",
+            "query": ""
+          }
+        ],
+        "queryType": "clickhouse_sql"
+      },
+      "selectedLogFields": [],
+      "selectedTracesFields": [],
+      "softMax": 0,
+      "softMin": 0,
+      "thresholds": [],
+      "timePreferance": "GLOBAL_TIME",
+      "title": "Top Error Endpoints",
+      "yAxisUnit": "none"
+    },
+    {
+      "id": "performance-row",
+      "panelTypes": "row",
+      "title": "Performance Metrics"
+    },
+    {
+      "bucketCount": 30,
+      "bucketWidth": 0,
+      "columnUnits": {
+        "A": ""
+      },
+      "columnWidths": {
+        "avg_ms": 145,
+        "p50_ms": 145,
+        "p90_ms": 145,
+        "p99_ms": 145,
+        "request_count": 145,
+        "route": 145
+      },
+      "contextLinks": {
+        "linksData": []
+      },
+      "customLegendColors": {},
+      "decimalPrecision": 2,
+      "description": "Detailed latency metrics (P50, P90, P99, average) broken down by endpoint. Identifies slow-performing routes that need optimization. Compare endpoints to find outliers. High latency endpoints may need caching, query optimization, or architectural improvements.",
+      "fillSpans": false,
+      "id": "latency-by-endpoint",
+      "isLogScale": false,
+      "legendPosition": "bottom",
+      "mergeAllActiveQueries": false,
+      "nullZeroValues": "zero",
+      "opacity": "1",
+      "panelTypes": "table",
+      "query": {
+        "builder": {
+          "queryData": [
+            {
+              "aggregateAttribute": {
+                "dataType": "",
+                "id": "----",
+                "key": "",
+                "type": ""
+              },
+              "aggregateOperator": "count",
+              "aggregations": [
+                {
+                  "metricName": "",
+                  "reduceTo": "avg",
+                  "spaceAggregation": "sum",
+                  "temporality": "",
+                  "timeAggregation": "count"
+                }
+              ],
+              "dataSource": "metrics",
+              "disabled": false,
+              "expression": "latency",
+              "filter": {
+                "expression": ""
+              },
+              "filters": {
+                "items": [],
+                "op": "AND"
+              },
+              "functions": [],
+              "groupBy": [],
+              "having": {
+                "expression": ""
+              },
+              "legend": "",
+              "limit": null,
+              "orderBy": [],
+              "queryName": "latency",
+              "reduceTo": "avg",
+              "source": "",
+              "spaceAggregation": "sum",
+              "stepInterval": null,
+              "timeAggregation": "rate"
+            }
+          ],
+          "queryFormulas": [],
+          "queryTraceOperator": []
+        },
+        "clickhouse_sql": [
+          {
+            "disabled": false,
+            "legend": "",
+            "name": "latency",
+            "query": "SELECT\n    route,\n    sum(count) AS request_count,\n    quantileTDigestWeighted(0.50)(bucket_upper, toUInt64(count)) AS p50_ms,\n    quantileTDigestWeighted(0.90)(bucket_upper, toUInt64(count)) AS p90_ms,\n    quantileTDigestWeighted(0.99)(bucket_upper, toUInt64(count)) AS p99_ms,\n    round(\n        sum(count * bucket_upper) / nullIf(sum(count), 0),\n        2\n    ) AS avg_ms\nFROM\n(\n    SELECT\n        route,\n        bucket_upper,\n        max_cumulative - lagInFrame(max_cumulative, 1, 0) OVER (PARTITION BY route ORDER BY bucket_upper) AS count\n    FROM\n    (\n        SELECT\n            JSONExtractString(ts.labels, 'http.route') AS route,\n            toFloat64OrNull(JSONExtractString(ts.labels, 'le')) AS bucket_upper,\n            max(s.value) AS max_cumulative\n        FROM signoz_metrics.distributed_samples_v4 AS s\n        INNER JOIN signoz_metrics.distributed_time_series_v4 AS ts USING (fingerprint)\n        WHERE\n            s.metric_name = 'http.server.request.duration.bucket'\n            AND JSONExtractString(ts.labels, 'service.name') = 'ecommerce-go-app'\n            AND s.unix_milli >= {{.start_timestamp_ms}}\n            AND s.unix_milli <  {{.end_timestamp_ms}}\n            AND JSONExtractString(ts.labels, 'http.route') != ''\n            AND JSONExtractString(ts.labels, 'le') NOT IN ('+Inf', 'inf')\n        GROUP BY route, bucket_upper\n    )\n)\nWHERE count > 0\nGROUP BY route\nHAVING request_count > 0\nORDER BY p99_ms DESC\nLIMIT 20;"
+          }
+        ],
+        "id": "cfc48b68-236c-4960-9b5b-e9bb4e929083",
+        "promql": [
+          {
+            "disabled": false,
+            "legend": "",
+            "name": "latency",
+            "query": ""
+          }
+        ],
+        "queryType": "clickhouse_sql"
+      },
+      "selectedLogFields": [],
+      "selectedTracesFields": [],
+      "softMax": 0,
+      "softMin": 0,
+      "stackedBarChart": false,
+      "thresholds": [],
+      "timePreferance": "GLOBAL_TIME",
+      "title": "Endpoint Latencies",
+      "yAxisUnit": "none"
+    },
+    {
+      "bucketCount": 30,
+      "bucketWidth": 0,
+      "columnUnits": {
+        "A": "rps"
+      },
+      "columnWidths": {
+        "route": 145,
+        "rps": 145
+      },
+      "contextLinks": {
+        "linksData": []
+      },
+      "customLegendColors": {},
+      "decimalPrecision": 2,
+      "description": "Requests per second (RPS) by endpoint. Measures the load each endpoint handles. High RPS endpoints may need optimization or scaling. Use for capacity planning and identifying bottlenecks. Compare with latency metrics to find high-traffic, slow endpoints.",
+      "fillSpans": false,
+      "id": "throughput",
+      "isLogScale": false,
+      "legendPosition": "bottom",
+      "mergeAllActiveQueries": false,
+      "nullZeroValues": "zero",
+      "opacity": "1",
+      "panelTypes": "table",
+      "query": {
+        "builder": {
+          "queryData": [
+            {
+              "aggregateAttribute": {
+                "dataType": "",
+                "id": "----",
+                "key": "",
+                "type": ""
+              },
+              "aggregateOperator": "count",
+              "aggregations": [
+                {
+                  "metricName": "",
+                  "reduceTo": "avg",
+                  "spaceAggregation": "sum",
+                  "temporality": "",
+                  "timeAggregation": "count"
+                }
+              ],
+              "dataSource": "metrics",
+              "disabled": false,
+              "expression": "requests_per_second",
+              "filter": {
+                "expression": ""
+              },
+              "filters": {
+                "items": [],
+                "op": "AND"
+              },
+              "functions": [],
+              "groupBy": [],
+              "having": {
+                "expression": ""
+              },
+              "legend": "",
+              "limit": null,
+              "orderBy": [],
+              "queryName": "requests_per_second",
+              "reduceTo": "avg",
+              "source": "",
+              "spaceAggregation": "sum",
+              "stepInterval": null,
+              "timeAggregation": "rate"
+            }
+          ],
+          "queryFormulas": [],
+          "queryTraceOperator": []
+        },
+        "clickhouse_sql": [
+          {
+            "disabled": false,
+            "legend": "",
+            "name": "requests_per_second",
+            "query": "WITH per_route AS\n(\n    SELECT\n        JSONExtractString(ts.labels,'http.route') AS route,\n\n        greatest(\n            0,\n            max(s.value) - min(s.value)\n        ) AS delta,\n\n        (max(s.unix_milli) - min(s.unix_milli)) / 1000.0 AS seconds\n    FROM signoz_metrics.distributed_samples_v4 AS s\n    INNER JOIN signoz_metrics.distributed_time_series_v4 AS ts USING (fingerprint)\n    WHERE\n        s.metric_name = 'http.server.request.count'\n        AND JSONExtractString(ts.labels,'service.name') = 'ecommerce-go-app'\n        AND s.unix_milli BETWEEN {{.start_timestamp_ms}} AND {{.end_timestamp_ms}}\n    GROUP BY route\n)\n\nSELECT\n    route,\n    delta / NULLIF(seconds, 0) AS rps\nFROM per_route\nORDER BY rps DESC\nLIMIT 20;\n"
+          }
+        ],
+        "id": "7e92fc03-0ad8-492a-ab7d-30a1423aa7a7",
+        "promql": [
+          {
+            "disabled": false,
+            "legend": "",
+            "name": "requests_per_second",
+            "query": ""
+          }
+        ],
+        "queryType": "clickhouse_sql"
+      },
+      "selectedLogFields": [],
+      "selectedTracesFields": [],
+      "softMax": 0,
+      "softMin": 0,
+      "thresholds": [],
+      "timePreferance": "GLOBAL_TIME",
+      "title": "Request Throughput by Endpoint",
+      "yAxisUnit": ""
+    },
+    {
+      "id": "database-row",
+      "panelTypes": "row",
+      "title": "Database Performance"
+    },
+    {
+      "bucketCount": 30,
+      "bucketWidth": 0,
+      "columnUnits": {},
+      "contextLinks": {
+        "linksData": []
+      },
+      "customLegendColors": {},
+      "decimalPrecision": 2,
+      "description": "Total number of database queries executed during the time period. High query counts may indicate N+1 query problems or inefficient data access patterns. Monitor trends to identify query optimization opportunities. Compare with application performance metrics.",
+      "fillSpans": false,
+      "id": "db-query-count",
+      "isLogScale": false,
+      "legendPosition": "bottom",
+      "mergeAllActiveQueries": false,
+      "nullZeroValues": "zero",
+      "opacity": "1",
+      "panelTypes": "value",
+      "query": {
+        "builder": {
+          "queryData": [
+            {
+              "aggregateAttribute": {
+                "dataType": "",
+                "id": "----",
+                "key": "",
+                "type": ""
+              },
+              "aggregateOperator": "count",
+              "aggregations": [
+                {
+                  "metricName": "",
+                  "reduceTo": "avg",
+                  "spaceAggregation": "sum",
+                  "temporality": "",
+                  "timeAggregation": "count"
+                }
+              ],
+              "dataSource": "metrics",
+              "disabled": false,
+              "expression": "db_queries",
+              "filter": {
+                "expression": ""
+              },
+              "filters": {
+                "items": [],
+                "op": "AND"
+              },
+              "functions": [],
+              "groupBy": [],
+              "having": {
+                "expression": ""
+              },
+              "legend": "",
+              "limit": null,
+              "orderBy": [],
+              "queryName": "db_queries",
+              "reduceTo": "avg",
+              "source": "",
+              "spaceAggregation": "sum",
+              "stepInterval": null,
+              "timeAggregation": "rate"
+            }
+          ],
+          "queryFormulas": [],
+          "queryTraceOperator": []
+        },
+        "clickhouse_sql": [
+          {
+            "disabled": false,
+            "legend": "",
+            "name": "db_queries",
+            "query": "WITH\n    {{.start_timestamp_ms}} AS start_ms,\n    {{.end_timestamp_ms}} AS end_ms\n\nSELECT\n    sum(delta) AS total_queries\nFROM\n(\n    SELECT\n        s.fingerprint,\n        greatest(0, max(s.value) - min(s.value)) AS delta\n    FROM signoz_metrics.distributed_samples_v4 AS s\n    INNER JOIN signoz_metrics.distributed_time_series_v4 AS ts USING (fingerprint)\n    WHERE\n        s.metric_name = 'db.client.queries.count'\n        AND s.unix_milli BETWEEN start_ms AND end_ms\n        AND JSONExtractString(ts.labels, 'service.name') = 'ecommerce-go-app'\n    GROUP BY s.fingerprint\n);\n"
+          }
+        ],
+        "id": "67648a8b-8c46-468f-a42e-e118ab88ba5d",
+        "promql": [
+          {
+            "disabled": false,
+            "legend": "",
+            "name": "db_queries",
+            "query": ""
+          }
+        ],
+        "queryType": "clickhouse_sql"
+      },
+      "selectedLogFields": [],
+      "selectedTracesFields": [],
+      "softMax": 0,
+      "softMin": 0,
+      "stackedBarChart": false,
+      "thresholds": [],
+      "timePreferance": "GLOBAL_TIME",
+      "title": "DB Query Count",
+      "yAxisUnit": "short"
+    },
+    {
+      "bucketCount": 30,
+      "bucketWidth": 0,
+      "columnUnits": {},
+      "contextLinks": {
+        "linksData": []
+      },
+      "customLegendColors": {},
+      "decimalPrecision": 2,
+      "description": "Average time taken for database queries to execute in milliseconds. Critical for application performance as slow queries directly impact user experience. Values above 100ms may indicate missing indexes, inefficient queries, or database load issues. Monitor for query optimization opportunities.",
+      "fillSpans": false,
+      "id": "db-query-latency",
+      "isLogScale": false,
+      "legendPosition": "bottom",
+      "mergeAllActiveQueries": false,
+      "nullZeroValues": "zero",
+      "opacity": "1",
+      "panelTypes": "value",
+      "query": {
+        "builder": {
+          "queryData": [
+            {
+              "aggregateAttribute": {
+                "dataType": "",
+                "id": "----",
+                "key": "",
+                "type": ""
+              },
+              "aggregateOperator": "count",
+              "aggregations": [
+                {
+                  "metricName": "",
+                  "reduceTo": "avg",
+                  "spaceAggregation": "sum",
+                  "temporality": "",
+                  "timeAggregation": "count"
+                }
+              ],
+              "dataSource": "metrics",
+              "disabled": false,
+              "expression": "db_latency",
+              "filter": {
+                "expression": ""
+              },
+              "filters": {
+                "items": [],
+                "op": "AND"
+              },
+              "functions": [],
+              "groupBy": [],
+              "having": {
+                "expression": ""
+              },
+              "legend": "",
+              "limit": null,
+              "orderBy": [],
+              "queryName": "db_latency",
+              "reduceTo": "avg",
+              "source": "",
+              "spaceAggregation": "sum",
+              "stepInterval": null,
+              "timeAggregation": "rate"
+            }
+          ],
+          "queryFormulas": [],
+          "queryTraceOperator": []
+        },
+        "clickhouse_sql": [
+          {
+            "disabled": false,
+            "legend": "",
+            "name": "db_latency",
+            "query": "SELECT\n    greatest(0,\n        sumIf(s.value, s.metric_name = 'db.client.queries.duration.sum')\n        /\n        nullIf(sumIf(s.value, s.metric_name = 'db.client.queries.duration.count'), 0)\n    ) AS avg_db_latency_ms\nFROM signoz_metrics.distributed_samples_v4 AS s\nINNER JOIN signoz_metrics.distributed_time_series_v4 AS ts USING (fingerprint)\nWHERE\n    s.metric_name IN (\n        'db.client.queries.duration.sum',\n        'db.client.queries.duration.count'\n    )\n    AND s.unix_milli >= {{.start_timestamp_ms}}\n    AND s.unix_milli <  {{.end_timestamp_ms}}\n    AND JSONExtractString(ts.labels, 'service.name') = 'ecommerce-go-app'\n"
+          }
+        ],
+        "id": "cd8c34a5-c803-4835-9cf4-363b79c50904",
+        "promql": [
+          {
+            "disabled": false,
+            "legend": "",
+            "name": "db_latency",
+            "query": ""
+          }
+        ],
+        "queryType": "clickhouse_sql"
+      },
+      "selectedLogFields": [],
+      "selectedTracesFields": [],
+      "softMax": 0,
+      "softMin": 0,
+      "stackedBarChart": false,
+      "thresholds": [],
+      "timePreferance": "GLOBAL_TIME",
+      "title": "DB Query Latency",
+      "yAxisUnit": "ms"
+    },
+    {
+      "bucketCount": 30,
+      "bucketWidth": 0,
+      "columnUnits": {},
+      "contextLinks": {
+        "linksData": []
+      },
+      "customLegendColors": {},
+      "decimalPrecision": 2,
+      "description": "Number of active database connections currently in use. Monitor to ensure connection pool is properly sized. High values may indicate connection leaks or insufficient pool size. Low values may indicate over-provisioning. Compare with idle connections for pool efficiency.",
+      "fillSpans": false,
+      "id": "active-connections",
+      "isLogScale": false,
+      "legendPosition": "bottom",
+      "mergeAllActiveQueries": false,
+      "nullZeroValues": "zero",
+      "opacity": "1",
+      "panelTypes": "graph",
+      "query": {
+        "builder": {
+          "queryData": [
+            {
+              "aggregateAttribute": {
+                "dataType": "",
+                "id": "----",
+                "key": "",
+                "type": ""
+              },
+              "aggregateOperator": "count",
+              "aggregations": [
+                {
+                  "metricName": "",
+                  "reduceTo": "avg",
+                  "spaceAggregation": "sum",
+                  "temporality": "",
+                  "timeAggregation": "count"
+                }
+              ],
+              "dataSource": "metrics",
+              "disabled": false,
+              "expression": "active_connections",
+              "filter": {
+                "expression": ""
+              },
+              "filters": {
+                "items": [],
+                "op": "AND"
+              },
+              "functions": [],
+              "groupBy": [],
+              "having": {
+                "expression": ""
+              },
+              "legend": "",
+              "limit": null,
+              "orderBy": [],
+              "queryName": "active_connections",
+              "reduceTo": "avg",
+              "source": "",
+              "spaceAggregation": "sum",
+              "stepInterval": null,
+              "timeAggregation": "rate"
+            }
+          ],
+          "queryFormulas": [],
+          "queryTraceOperator": []
+        },
+        "clickhouse_sql": [
+          {
+            "disabled": false,
+            "legend": "",
+            "name": "active_connections",
+            "query": "SELECT\n    toStartOfInterval(\n        toDateTime(intDiv(s.unix_milli, 1000)),\n        toIntervalSecond(60)\n    ) AS ts,\n    avg(s.value) AS active_connections\nFROM signoz_metrics.distributed_samples_v4 AS s\nINNER JOIN signoz_metrics.distributed_time_series_v4 AS ts ON s.fingerprint = ts.fingerprint\nWHERE\n    s.metric_name = 'db.sql.connection.open'\n    AND s.unix_milli >= {{.start_timestamp_ms}}\n    AND s.unix_milli <  {{.end_timestamp_ms}}\n    AND JSONExtractString(ts.labels, 'service.name') = 'ecommerce-go-app'\n    AND JSONExtractString(ts.labels, 'status') = 'inuse'\nGROUP BY ts\nORDER BY ts\n"
+          }
+        ],
+        "id": "c65e948b-0a9b-4380-912b-13dd726f75dd",
+        "promql": [
+          {
+            "disabled": false,
+            "legend": "",
+            "name": "active_connections",
+            "query": ""
+          }
+        ],
+        "queryType": "clickhouse_sql"
+      },
+      "selectedLogFields": [],
+      "selectedTracesFields": [],
+      "softMax": 0,
+      "softMin": 0,
+      "stackedBarChart": false,
+      "thresholds": [],
+      "timePreferance": "GLOBAL_TIME",
+      "title": "Active Connections",
+      "yAxisUnit": "short"
+    },
+    {
+      "bucketCount": 30,
+      "bucketWidth": 0,
+      "columnUnits": {},
+      "contextLinks": {
+        "linksData": []
+      },
+      "customLegendColors": {
+        "idle_connections": "#008041"
+      },
+      "decimalPrecision": 2,
+      "description": "Number of idle database connections in the connection pool. Indicates pool utilization. Too many idle connections waste resources, too few may cause connection wait times. Balance with active connections to optimize pool configuration.",
+      "fillSpans": false,
+      "id": "idle-connections",
+      "isLogScale": false,
+      "legendPosition": "bottom",
+      "mergeAllActiveQueries": false,
+      "nullZeroValues": "zero",
+      "opacity": "1",
+      "panelTypes": "graph",
+      "query": {
+        "builder": {
+          "queryData": [
+            {
+              "aggregateAttribute": {
+                "dataType": "",
+                "id": "----",
+                "key": "",
+                "type": ""
+              },
+              "aggregateOperator": "count",
+              "aggregations": [
+                {
+                  "metricName": "",
+                  "reduceTo": "avg",
+                  "spaceAggregation": "sum",
+                  "temporality": "",
+                  "timeAggregation": "count"
+                }
+              ],
+              "dataSource": "metrics",
+              "disabled": false,
+              "expression": "idle_connections",
+              "filter": {
+                "expression": ""
+              },
+              "filters": {
+                "items": [],
+                "op": "AND"
+              },
+              "functions": [],
+              "groupBy": [],
+              "having": {
+                "expression": ""
+              },
+              "legend": "",
+              "limit": null,
+              "orderBy": [],
+              "queryName": "idle_connections",
+              "reduceTo": "avg",
+              "source": "",
+              "spaceAggregation": "sum",
+              "stepInterval": null,
+              "timeAggregation": "rate"
+            }
+          ],
+          "queryFormulas": [],
+          "queryTraceOperator": []
+        },
+        "clickhouse_sql": [
+          {
+            "disabled": false,
+            "legend": "",
+            "name": "idle_connections",
+            "query": "SELECT\n    toStartOfInterval(\n        toDateTime(intDiv(s.unix_milli, 1000)),\n        toIntervalSecond(60)\n    ) AS ts,\n    avg(s.value) AS idle_connections\nFROM signoz_metrics.distributed_samples_v4 AS s\nINNER JOIN signoz_metrics.distributed_time_series_v4 AS ts ON s.fingerprint = ts.fingerprint\nWHERE\n    s.metric_name = 'db.sql.connection.open'\n    AND s.unix_milli >= {{.start_timestamp_ms}}\n    AND s.unix_milli <  {{.end_timestamp_ms}}\n    AND JSONExtractString(ts.labels, 'service.name') = 'ecommerce-go-app'\n    AND JSONExtractString(ts.labels, 'status') = 'idle'\nGROUP BY ts\nORDER BY ts\n"
+          }
+        ],
+        "id": "a3f4762f-c223-471f-8a63-f6032aad4553",
+        "promql": [
+          {
+            "disabled": false,
+            "legend": "",
+            "name": "idle_connections",
+            "query": ""
+          }
+        ],
+        "queryType": "clickhouse_sql"
+      },
+      "selectedLogFields": [],
+      "selectedTracesFields": [],
+      "softMax": 0,
+      "softMin": 0,
+      "stackedBarChart": false,
+      "thresholds": [],
+      "timePreferance": "GLOBAL_TIME",
+      "title": "Idle Connections",
+      "yAxisUnit": "short"
+    },
+    {
+      "bucketCount": 30,
+      "bucketWidth": 0,
+      "columnUnits": {
+        "A": ""
+      },
+      "columnWidths": {
+        "ts": 145,
+        "utilization_percent": 145
+      },
+      "contextLinks": {
+        "linksData": []
+      },
+      "customLegendColors": {},
+      "decimalPrecision": 2,
+      "description": "Trend of database connection pool utilization percentage over time. Shows how efficiently the connection pool is being used. High utilization (above 80%) may require pool size increases. Low utilization may allow pool size reduction. Monitor for connection pool optimization.",
+      "fillSpans": false,
+      "id": "db-connections-trend",
+      "isLogScale": false,
+      "legendPosition": "bottom",
+      "mergeAllActiveQueries": false,
+      "nullZeroValues": "zero",
+      "opacity": "1",
+      "panelTypes": "graph",
+      "query": {
+        "builder": {
+          "queryData": [
+            {
+              "aggregateAttribute": {
+                "dataType": "float64",
+                "id": "db.client.queries.count--float64--Sum",
+                "isColumn": true,
+                "isJSON": false,
+                "key": "db.client.queries.count",
+                "type": "Sum"
+              },
+              "aggregateOperator": "",
+              "aggregations": [
+                {
+                  "metricName": "db.client.queries.count",
+                  "spaceAggregation": "sum",
+                  "temporality": "",
+                  "timeAggregation": "rate"
+                }
+              ],
+              "dataSource": "metrics",
+              "disabled": false,
+              "expression": "connection_utilization",
+              "filter": {
+                "expression": "service.name = 'ecommerce-go-app'"
+              },
+              "filters": {
+                "items": [
+                  {
+                    "id": "106669d0-9321-4fac-9086-6f80730919b7",
+                    "key": {
+                      "id": "service.name",
+                      "key": "service.name",
+                      "type": ""
+                    },
+                    "op": "=",
+                    "value": "'ecommerce-go-app'"
+                  }
+                ],
+                "op": "AND"
+              },
+              "functions": [],
+              "groupBy": [
+                {
+                  "dataType": "string",
+                  "id": "db.operation--string--tag",
+                  "isColumn": false,
+                  "isJSON": false,
+                  "key": "db.operation",
+                  "type": "tag"
+                }
+              ],
+              "having": {
+                "expression": ""
+              },
+              "legend": "",
+              "limit": null,
+              "orderBy": [],
+              "queryName": "connection_utilization",
+              "reduceTo": "avg",
+              "source": "",
+              "spaceAggregation": "sum",
+              "stepInterval": null,
+              "timeAggregation": "rate"
+            }
+          ],
+          "queryFormulas": [],
+          "queryTraceOperator": []
+        },
+        "clickhouse_sql": [
+          {
+            "disabled": false,
+            "legend": "",
+            "name": "connection_utilization",
+            "query": "WITH active AS\n(\n    SELECT\n        toStartOfInterval(toDateTime(intDiv(s.unix_milli, 1000)), toIntervalSecond(60)) AS ts,\n        avg(s.value) AS active\n    FROM signoz_metrics.distributed_samples_v4 s\n    INNER JOIN signoz_metrics.distributed_time_series_v4 t USING (fingerprint)\n    WHERE s.metric_name = 'db.client.connections.active'\n      AND s.unix_milli BETWEEN {{.start_timestamp_ms}} AND {{.end_timestamp_ms}}\n      AND JSONExtractString(t.labels,'service.name') = 'ecommerce-go-app'   -- remove/change if needed\n    GROUP BY ts\n),\nidle AS\n(\n    SELECT\n        toStartOfInterval(toDateTime(intDiv(s.unix_milli, 1000)), toIntervalSecond(60)) AS ts,\n        avg(s.value) AS idle\n    FROM signoz_metrics.distributed_samples_v4 s\n    INNER JOIN signoz_metrics.distributed_time_series_v4 t USING (fingerprint)\n    WHERE s.metric_name = 'db.client.connections.idle'\n      AND s.unix_milli BETWEEN {{.start_timestamp_ms}} AND {{.end_timestamp_ms}}\n      AND JSONExtractString(t.labels,'service.name') = 'ecommerce-go-app'\n    GROUP BY ts\n)\nSELECT\n    a.ts,\n    -- fully safe: handles nulls and divide-by-zero\n    ifNull(\n        (a.active / nullIf(a.active + i.idle, 0)) * 100,\n        0\n    ) AS utilization_percent\nFROM active a\nLEFT JOIN idle i USING (ts)\nORDER BY a.ts\n"
+          }
+        ],
+        "id": "89fc6410-4a4f-4662-902b-9b17316dfc3f",
+        "promql": [
+          {
+            "disabled": false,
+            "legend": "",
+            "name": "connection_utilization",
+            "query": ""
+          }
+        ],
+        "queryType": "clickhouse_sql"
+      },
+      "selectedLogFields": [],
+      "selectedTracesFields": [],
+      "softMax": 0,
+      "softMin": 0,
+      "stackedBarChart": false,
+      "thresholds": [],
+      "timePreferance": "GLOBAL_TIME",
+      "title": "DB Connections Trend",
+      "yAxisUnit": "percent"
+    },
+    {
+      "bucketCount": 30,
+      "bucketWidth": 0,
+      "columnUnits": {
+        "A": ""
+      },
+      "columnWidths": {
+        "queries": 145,
+        "query_type": 145
+      },
+      "contextLinks": {
+        "linksData": []
+      },
+      "customLegendColors": {},
+      "decimalPrecision": 2,
+      "description": "Distribution of database operations by type (SELECT, INSERT, UPDATE, DELETE). Helps understand database workload patterns. High SELECT ratios indicate read-heavy workloads suitable for read replicas. High write ratios may require write optimization strategies.",
+      "fillSpans": false,
+      "id": "query-types-dist",
+      "isLogScale": false,
+      "legendPosition": "bottom",
+      "mergeAllActiveQueries": false,
+      "nullZeroValues": "zero",
+      "opacity": "1",
+      "panelTypes": "pie",
+      "query": {
+        "builder": {
+          "queryData": [
+            {
+              "aggregations": [
+                {
+                  "metricName": "db.client.queries.count",
+                  "reduceTo": "avg",
+                  "spaceAggregation": "sum",
+                  "temporality": "",
+                  "timeAggregation": "rate"
+                }
+              ],
+              "dataSource": "metrics",
+              "disabled": false,
+              "expression": "query_types",
+              "filter": {
+                "expression": "service.name = 'ecommerce-go-app'"
+              },
+              "functions": [],
+              "groupBy": [
+                {
+                  "dataType": "string",
+                  "id": "db.operation--string--tag",
+                  "isColumn": false,
+                  "isJSON": false,
+                  "key": "db.operation",
+                  "type": "tag"
+                }
+              ],
+              "having": {
+                "expression": ""
+              },
+              "legend": "",
+              "limit": null,
+              "orderBy": [],
+              "queryName": "query_types",
+              "source": "",
+              "stepInterval": null
+            }
+          ],
+          "queryFormulas": [],
+          "queryTraceOperator": []
+        },
+        "clickhouse_sql": [
+          {
+            "disabled": false,
+            "legend": "",
+            "name": "query_types",
+            "query": "SELECT\n    JSONExtractString(ts.labels, 'db.operation') AS query_type,\n    sum(d.delta) AS queries\nFROM\n(\n    SELECT\n        s.fingerprint,\n        greatest(0, max(s.value) - min(s.value)) AS delta\n    FROM signoz_metrics.distributed_samples_v4 AS s\n    INNER JOIN signoz_metrics.distributed_time_series_v4 AS ts USING (fingerprint)\n    WHERE\n        s.metric_name = 'db.client.queries.count'\n        AND s.unix_milli >= {{.start_timestamp_ms}}\n        AND s.unix_milli <  {{.end_timestamp_ms}}\n        AND JSONExtractString(ts.labels, 'service.name') = 'ecommerce-go-app'\n    GROUP BY s.fingerprint\n) AS d                                    -- ⭐ alias added here\nINNER JOIN signoz_metrics.distributed_time_series_v4 AS ts\n    ON d.fingerprint = ts.fingerprint\nGROUP BY query_type\nORDER BY queries DESC\n"
+          }
+        ],
+        "id": "784aac03-952d-4edd-95c1-530d073ca273",
+        "promql": [
+          {
+            "disabled": false,
+            "legend": "",
+            "name": "query_types",
+            "query": ""
+          }
+        ],
+        "queryType": "builder"
+      },
+      "selectedLogFields": [],
+      "selectedTracesFields": [],
+      "softMax": 0,
+      "softMin": 0,
+      "stackedBarChart": false,
+      "thresholds": [],
+      "timePreferance": "GLOBAL_TIME",
+      "title": "Query Types Distribution",
+      "yAxisUnit": "short"
+    },
+    {
+      "bucketCount": 30,
+      "bucketWidth": 0,
+      "columnUnits": {
+        "A": "",
+        "B": ""
+      },
+      "columnWidths": {
+        "operation": 145,
+        "slow_pct": 145,
+        "slow_queries": 145,
+        "total_queries": 145
+      },
+      "contextLinks": {
+        "linksData": []
+      },
+      "customLegendColors": {},
+      "decimalPrecision": 2,
+      "description": "Database operations taking longer than 500ms, broken down by operation type. Identifies queries requiring optimization. High percentages indicate performance issues. Focus optimization efforts on operations with highest slow query percentages. May require indexing, query rewriting, or schema changes.",
+      "fillSpans": false,
+      "id": "slow-queries",
+      "isLogScale": false,
+      "legendPosition": "bottom",
+      "mergeAllActiveQueries": false,
+      "nullZeroValues": "zero",
+      "opacity": "1",
+      "panelTypes": "table",
+      "query": {
+        "builder": {
+          "queryData": [
+            {
+              "aggregateAttribute": {
+                "dataType": "",
+                "id": "----",
+                "key": "",
+                "type": ""
+              },
+              "aggregateOperator": "count",
+              "aggregations": [
+                {
+                  "metricName": "",
+                  "reduceTo": "avg",
+                  "spaceAggregation": "sum",
+                  "temporality": "",
+                  "timeAggregation": "count"
+                }
+              ],
+              "dataSource": "metrics",
+              "disabled": false,
+              "expression": "slow_queries",
+              "filter": {
+                "expression": ""
+              },
+              "filters": {
+                "items": [],
+                "op": "AND"
+              },
+              "functions": [],
+              "groupBy": [],
+              "having": {
+                "expression": ""
+              },
+              "legend": "",
+              "limit": null,
+              "orderBy": [],
+              "queryName": "slow_queries",
+              "reduceTo": "avg",
+              "source": "",
+              "spaceAggregation": "sum",
+              "stepInterval": null,
+              "timeAggregation": "rate"
+            }
+          ],
+          "queryFormulas": [],
+          "queryTraceOperator": []
+        },
+        "clickhouse_sql": [
+          {
+            "disabled": false,
+            "legend": "",
+            "name": "slow_queries",
+            "query": "SELECT\n    JSONExtractString(ts2.labels, 'db.statement') AS query,\n    JSONExtractString(ts2.labels, 'db.operation') AS operation,\n\n    sum(sub.count) AS total_queries,\n\n    sumIf(sub.count, sub.bucket_ms >= 500) AS slow_queries,\n\n    (sumIf(sub.count, sub.bucket_ms >= 500) / NULLIF(sum(sub.count), 0)) * 100\n        AS slow_pct\nFROM\n(\n    SELECT\n        fingerprint,\n        bucket_ms,\n        max_cumulative - lagInFrame(max_cumulative, 1, 0) OVER (PARTITION BY fingerprint ORDER BY bucket_ms) AS count\n    FROM\n    (\n        SELECT\n            s.fingerprint,\n            toFloat64OrNull(JSONExtractString(ts.labels, 'le')) AS bucket_ms,\n            max(s.value) AS max_cumulative\n        FROM signoz_metrics.distributed_samples_v4 AS s\n        INNER JOIN signoz_metrics.distributed_time_series_v4 AS ts ON s.fingerprint = ts.fingerprint\n        WHERE\n            s.metric_name = 'db.client.queries.duration.bucket'\n            AND s.unix_milli >= {{.start_timestamp_ms}}\n            AND s.unix_milli <  {{.end_timestamp_ms}}\n            AND JSONExtractString(ts.labels, 'service.name') = 'ecommerce-go-app'\n            AND JSONExtractString(ts.labels, 'le') NOT IN ('+Inf', 'inf')\n        GROUP BY\n            s.fingerprint,\n            bucket_ms\n    )\n) AS sub\nINNER JOIN signoz_metrics.distributed_time_series_v4 AS ts2\n    ON sub.fingerprint = ts2.fingerprint\nWHERE sub.count > 0\nGROUP BY query, operation\nORDER BY slow_pct DESC\n"
+          },
+          {
+            "disabled": false,
+            "legend": "",
+            "name": "B",
+            "query": ""
+          }
+        ],
+        "id": "cbca78b6-f49a-43cf-9992-64ab915cbcb4",
+        "promql": [
+          {
+            "disabled": false,
+            "legend": "",
+            "name": "slow_queries",
+            "query": ""
+          }
+        ],
+        "queryType": "clickhouse_sql"
+      },
+      "selectedLogFields": [],
+      "selectedTracesFields": [],
+      "softMax": 0,
+      "softMin": 0,
+      "stackedBarChart": false,
+      "thresholds": [],
+      "timePreferance": "GLOBAL_TIME",
+      "title": "Slow Queries",
+      "yAxisUnit": "none"
+    },
+    {
+      "id": "business-row",
+      "panelTypes": "row",
+      "title": "Business Metrics"
+    },
+    {
+      "bucketCount": 30,
+      "bucketWidth": 0,
+      "columnUnits": {
+        "A": "",
+        "B": ""
+      },
+      "columnWidths": {
+        "service": 145
+      },
+      "contextLinks": {
+        "linksData": []
+      },
+      "customLegendColors": {},
+      "decimalPrecision": 2,
+      "description": "Total number of orders created during the selected time period. Key business metric indicating sales volume. Monitor for trends, seasonal patterns, and correlation with marketing campaigns. Sudden drops may indicate checkout issues or payment problems.",
+      "fillSpans": false,
+      "id": "total-orders",
+      "isLogScale": false,
+      "legendPosition": "bottom",
+      "mergeAllActiveQueries": false,
+      "nullZeroValues": "zero",
+      "opacity": "1",
+      "panelTypes": "value",
+      "query": {
+        "builder": {
+          "queryData": [
+            {
+              "aggregateAttribute": {
+                "dataType": "",
+                "id": "----",
+                "key": "",
+                "type": ""
+              },
+              "aggregateOperator": "count",
+              "aggregations": [
+                {
+                  "metricName": "",
+                  "reduceTo": "avg",
+                  "spaceAggregation": "sum",
+                  "temporality": "",
+                  "timeAggregation": "count"
+                }
+              ],
+              "dataSource": "metrics",
+              "disabled": false,
+              "expression": "orders",
+              "filter": {
+                "expression": ""
+              },
+              "filters": {
+                "items": [],
+                "op": "AND"
+              },
+              "functions": [],
+              "groupBy": [],
+              "having": {
+                "expression": ""
+              },
+              "legend": "",
+              "limit": null,
+              "orderBy": [],
+              "queryName": "orders",
+              "reduceTo": "avg",
+              "source": "",
+              "spaceAggregation": "sum",
+              "stepInterval": null,
+              "timeAggregation": "rate"
+            }
+          ],
+          "queryFormulas": [],
+          "queryTraceOperator": []
+        },
+        "clickhouse_sql": [
+          {
+            "disabled": false,
+            "legend": "",
+            "name": "orders",
+            "query": "SELECT\n    sum(delta) AS total_orders\nFROM\n(\n    SELECT\n        fingerprint,\n        greatest(0, max(s.value) - min(s.value)) AS delta\n    FROM signoz_metrics.distributed_samples_v4 AS s\n    INNER JOIN signoz_metrics.distributed_time_series_v4 AS ts ON s.fingerprint = ts.fingerprint\n    WHERE\n        s.metric_name = 'orders_created_total'\n        AND s.unix_milli >= {{.start_timestamp_ms}}\n        AND s.unix_milli <  {{.end_timestamp_ms}}\n        AND JSONExtractString(ts.labels, 'service.name') = 'ecommerce-go-app'\n    GROUP BY fingerprint\n)\n"
+          },
+          {
+            "disabled": false,
+            "legend": "",
+            "name": "B",
+            "query": ""
+          }
+        ],
+        "id": "74535793-3d41-418c-95d0-b7e400e87303",
+        "promql": [
+          {
+            "disabled": false,
+            "legend": "",
+            "name": "orders",
+            "query": ""
+          }
+        ],
+        "queryType": "clickhouse_sql"
+      },
+      "selectedLogFields": [],
+      "selectedTracesFields": [],
+      "softMax": 0,
+      "softMin": 0,
+      "stackedBarChart": false,
+      "thresholds": [],
+      "timePreferance": "GLOBAL_TIME",
+      "title": "Total Orders",
+      "yAxisUnit": "short"
+    },
+    {
+      "bucketCount": 30,
+      "bucketWidth": 0,
+      "columnUnits": {},
+      "contextLinks": {
+        "linksData": []
+      },
+      "customLegendColors": {},
+      "decimalPrecision": 2,
+      "description": "Total revenue generated in USD during the selected time period. Primary business performance indicator. Track trends, compare periods, and correlate with marketing activities. Monitor for revenue growth patterns and identify revenue optimization opportunities.",
+      "fillSpans": false,
+      "id": "total-revenue",
+      "isLogScale": false,
+      "legendPosition": "bottom",
+      "mergeAllActiveQueries": false,
+      "nullZeroValues": "zero",
+      "opacity": "1",
+      "panelTypes": "value",
+      "query": {
+        "builder": {
+          "queryData": [
+            {
+              "aggregateAttribute": {
+                "dataType": "",
+                "id": "----",
+                "key": "",
+                "type": ""
+              },
+              "aggregateOperator": "count",
+              "aggregations": [
+                {
+                  "metricName": "",
+                  "reduceTo": "avg",
+                  "spaceAggregation": "sum",
+                  "temporality": "",
+                  "timeAggregation": "count"
+                }
+              ],
+              "dataSource": "metrics",
+              "disabled": false,
+              "expression": "revenue",
+              "filter": {
+                "expression": ""
+              },
+              "filters": {
+                "items": [],
+                "op": "AND"
+              },
+              "functions": [],
+              "groupBy": [],
+              "having": {
+                "expression": ""
+              },
+              "legend": "",
+              "limit": null,
+              "orderBy": [],
+              "queryName": "revenue",
+              "reduceTo": "avg",
+              "source": "",
+              "spaceAggregation": "sum",
+              "stepInterval": null,
+              "timeAggregation": "rate"
+            }
+          ],
+          "queryFormulas": [],
+          "queryTraceOperator": []
+        },
+        "clickhouse_sql": [
+          {
+            "disabled": false,
+            "legend": "",
+            "name": "revenue",
+            "query": "SELECT\n    sum(delta) AS total_revenue_usd\nFROM\n(\n    SELECT\n        fingerprint,\n        greatest(0, max(s.value) - min(s.value)) AS delta\n    FROM signoz_metrics.distributed_samples_v4 AS s\n    INNER JOIN signoz_metrics.distributed_time_series_v4 AS ts ON s.fingerprint = ts.fingerprint\n    WHERE\n        s.metric_name = 'revenue_total'\n        AND s.unix_milli >= {{.start_timestamp_ms}}\n        AND s.unix_milli <  {{.end_timestamp_ms}}\n        AND JSONExtractString(ts.labels, 'service.name') = 'ecommerce-go-app'\n    GROUP BY fingerprint\n)\n"
+          }
+        ],
+        "id": "3c797f8c-28c3-45cd-a5de-37b5c8343fda",
+        "promql": [
+          {
+            "disabled": false,
+            "legend": "",
+            "name": "revenue",
+            "query": ""
+          }
+        ],
+        "queryType": "clickhouse_sql"
+      },
+      "selectedLogFields": [],
+      "selectedTracesFields": [],
+      "softMax": 0,
+      "softMin": 0,
+      "stackedBarChart": false,
+      "thresholds": [],
+      "timePreferance": "GLOBAL_TIME",
+      "title": "Total Revenue (USD)",
+      "yAxisUnit": "USD"
+    },
+    {
+      "bucketCount": 30,
+      "bucketWidth": 0,
+      "columnUnits": {},
+      "contextLinks": {
+        "linksData": []
+      },
+      "customLegendColors": {},
+      "decimalPrecision": 2,
+      "description": "Number of shopping carts with items over time. Indicates potential sales opportunities. High cart counts with low order completion may indicate checkout friction. Monitor to optimize checkout flow and reduce cart abandonment.",
+      "fillSpans": false,
+      "id": "active-carts",
+      "isLogScale": false,
+      "legendPosition": "bottom",
+      "mergeAllActiveQueries": false,
+      "nullZeroValues": "zero",
+      "opacity": "1",
+      "panelTypes": "graph",
+      "query": {
+        "builder": {
+          "queryData": [
+            {
+              "aggregateAttribute": {
+                "dataType": "",
+                "id": "----",
+                "key": "",
+                "type": ""
+              },
+              "aggregateOperator": "count",
+              "aggregations": [
+                {
+                  "metricName": "",
+                  "reduceTo": "avg",
+                  "spaceAggregation": "sum",
+                  "temporality": "",
+                  "timeAggregation": "count"
+                }
+              ],
+              "dataSource": "metrics",
+              "disabled": false,
+              "expression": "active_carts",
+              "filter": {
+                "expression": ""
+              },
+              "filters": {
+                "items": [],
+                "op": "AND"
+              },
+              "functions": [],
+              "groupBy": [],
+              "having": {
+                "expression": ""
+              },
+              "legend": "",
+              "limit": null,
+              "orderBy": [],
+              "queryName": "active_carts",
+              "reduceTo": "avg",
+              "source": "",
+              "spaceAggregation": "sum",
+              "stepInterval": null,
+              "timeAggregation": "rate"
+            }
+          ],
+          "queryFormulas": [],
+          "queryTraceOperator": []
+        },
+        "clickhouse_sql": [
+          {
+            "disabled": false,
+            "legend": "",
+            "name": "active_carts",
+            "query": "SELECT\n    toStartOfInterval(toDateTime(intDiv(s.unix_milli,1000)), toIntervalMinute(1)) AS ts,\n    anyLast(s.value) AS active_carts\nFROM signoz_metrics.distributed_samples_v4 AS s\nINNER JOIN signoz_metrics.distributed_time_series_v4 AS ts USING (fingerprint)\nWHERE\n    s.metric_name = 'active_carts_count'\n    AND s.unix_milli BETWEEN {{.start_timestamp_ms}} AND {{.end_timestamp_ms}}\n    AND JSONExtractString(ts.labels,'service.name') = 'ecommerce-go-app'\nGROUP BY ts\nORDER BY ts\n"
+          }
+        ],
+        "id": "e30c5245-5fb7-41ba-862f-2e8dd1c8a4b8",
+        "promql": [
+          {
+            "disabled": false,
+            "legend": "",
+            "name": "active_carts",
+            "query": ""
+          }
+        ],
+        "queryType": "clickhouse_sql"
+      },
+      "selectedLogFields": [],
+      "selectedTracesFields": [],
+      "softMax": 0,
+      "softMin": 0,
+      "stackedBarChart": false,
+      "thresholds": [],
+      "timePreferance": "GLOBAL_TIME",
+      "title": "Active Carts",
+      "yAxisUnit": "short"
+    },
+    {
+      "bucketCount": 10,
+      "bucketWidth": 10,
+      "columnUnits": {},
+      "contextLinks": {
+        "linksData": []
+      },
+      "customLegendColors": {},
+      "decimalPrecision": 2,
+      "description": "Total number of product page views over time. Indicates customer engagement and interest in products. High views with low conversions may indicate pricing or product information issues. Use to identify popular products and optimize product pages.",
+      "fillSpans": false,
+      "id": "product-views",
+      "isLogScale": false,
+      "legendPosition": "bottom",
+      "mergeAllActiveQueries": false,
+      "nullZeroValues": "zero",
+      "opacity": "1",
+      "panelTypes": "graph",
+      "query": {
+        "builder": {
+          "queryData": [
+            {
+              "aggregateAttribute": {
+                "dataType": "",
+                "id": "----",
+                "key": "",
+                "type": ""
+              },
+              "aggregateOperator": "count",
+              "aggregations": [
+                {
+                  "metricName": "",
+                  "reduceTo": "avg",
+                  "spaceAggregation": "sum",
+                  "temporality": "",
+                  "timeAggregation": "count"
+                }
+              ],
+              "dataSource": "metrics",
+              "disabled": false,
+              "expression": "product_views",
+              "filter": {
+                "expression": ""
+              },
+              "filters": {
+                "items": [],
+                "op": "AND"
+              },
+              "functions": [],
+              "groupBy": [],
+              "having": {
+                "expression": ""
+              },
+              "legend": "",
+              "limit": null,
+              "orderBy": [],
+              "queryName": "product_views",
+              "reduceTo": "avg",
+              "source": "",
+              "spaceAggregation": "sum",
+              "stepInterval": null,
+              "timeAggregation": "rate"
+            }
+          ],
+          "queryFormulas": [],
+          "queryTraceOperator": []
+        },
+        "clickhouse_sql": [
+          {
+            "disabled": false,
+            "legend": "",
+            "name": "product_views",
+            "query": "WITH buckets AS\n(\n    SELECT\n        toStartOfInterval(\n            toDateTime(intDiv(s.unix_milli, 1000)),\n            toIntervalMinute(1)\n        ) AS ts,\n        max(s.value) AS v\n    FROM signoz_metrics.distributed_samples_v4 AS s\n    INNER JOIN signoz_metrics.distributed_time_series_v4 AS t USING (fingerprint)\n    WHERE\n        s.metric_name = 'products_viewed_total'\n        AND s.unix_milli BETWEEN {{.start_timestamp_ms}} AND {{.end_timestamp_ms}}\n        AND JSONExtractString(t.labels,'service.name') = 'ecommerce-go-app'\n    GROUP BY ts\n)\nSELECT\n    ts,\n    v - first_value(v) OVER (ORDER BY ts ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW) AS product_views_since_range_start\nFROM buckets\nORDER BY ts\n"
+          }
+        ],
+        "id": "8e870dd2-a19e-4eaf-a08e-7d12e3c7c326",
+        "promql": [
+          {
+            "disabled": false,
+            "legend": "",
+            "name": "product_views",
+            "query": ""
+          }
+        ],
+        "queryType": "clickhouse_sql"
+      },
+      "selectedLogFields": [],
+      "selectedTracesFields": [],
+      "softMax": 0,
+      "softMin": 0,
+      "stackedBarChart": false,
+      "thresholds": [],
+      "timePreferance": "GLOBAL_TIME",
+      "title": "Product Views",
+      "yAxisUnit": ""
+    },
+    {
+      "bucketCount": 30,
+      "bucketWidth": 0,
+      "columnUnits": {},
+      "contextLinks": {
+        "linksData": []
+      },
+      "customLegendColors": {},
+      "decimalPrecision": 2,
+      "description": "Current inventory level across all products. Critical for stock management and preventing stockouts. Low values may trigger restocking alerts. Monitor to ensure adequate stock levels and identify fast-moving products requiring frequent restocking.",
+      "fillSpans": false,
+      "id": "inventory-level",
+      "isLogScale": false,
+      "legendPosition": "bottom",
+      "mergeAllActiveQueries": false,
+      "nullZeroValues": "zero",
+      "opacity": "1",
+      "panelTypes": "value",
+      "query": {
+        "builder": {
+          "queryData": [
+            {
+              "aggregateAttribute": {
+                "dataType": "",
+                "id": "----",
+                "key": "",
+                "type": ""
+              },
+              "aggregateOperator": "count",
+              "aggregations": [
+                {
+                  "metricName": "",
+                  "reduceTo": "avg",
+                  "spaceAggregation": "sum",
+                  "temporality": "",
+                  "timeAggregation": "count"
+                }
+              ],
+              "dataSource": "metrics",
+              "disabled": false,
+              "expression": "inventory",
+              "filter": {
+                "expression": ""
+              },
+              "filters": {
+                "items": [],
+                "op": "AND"
+              },
+              "functions": [],
+              "groupBy": [],
+              "having": {
+                "expression": ""
+              },
+              "legend": "",
+              "limit": null,
+              "orderBy": [],
+              "queryName": "inventory",
+              "reduceTo": "avg",
+              "source": "",
+              "spaceAggregation": "sum",
+              "stepInterval": null,
+              "timeAggregation": "rate"
+            }
+          ],
+          "queryFormulas": [],
+          "queryTraceOperator": []
+        },
+        "clickhouse_sql": [
+          {
+            "disabled": false,
+            "legend": "",
+            "name": "inventory",
+            "query": "SELECT\n    anyLast(s.value) AS inventory_level\nFROM signoz_metrics.distributed_samples_v4 AS s\nINNER JOIN signoz_metrics.distributed_time_series_v4 AS ts USING (fingerprint)\nWHERE\n    s.metric_name = 'inventory_level'\n    AND s.unix_milli >= {{.start_timestamp_ms}}\n    AND s.unix_milli <  {{.end_timestamp_ms}}\n    AND JSONExtractString(ts.labels,'service.name') = 'ecommerce-go-app'\n"
+          }
+        ],
+        "id": "793b2fba-9d32-42cb-808d-27d18431ba18",
+        "promql": [
+          {
+            "disabled": false,
+            "legend": "",
+            "name": "inventory",
+            "query": ""
+          }
+        ],
+        "queryType": "clickhouse_sql"
+      },
+      "selectedLogFields": [],
+      "selectedTracesFields": [],
+      "softMax": 0,
+      "softMin": 0,
+      "stackedBarChart": false,
+      "thresholds": [],
+      "timePreferance": "GLOBAL_TIME",
+      "title": "Inventory Level",
+      "yAxisUnit": "short"
+    },
+    {
+      "bucketCount": 30,
+      "bucketWidth": 0,
+      "columnUnits": {},
+      "contextLinks": {
+        "linksData": []
+      },
+      "customLegendColors": {},
+      "decimalPrecision": 2,
+      "description": "Percentage of cache requests that were served from cache vs. requiring database queries. Higher values (above 80%) indicate effective caching. Low values may indicate cache invalidation issues, insufficient cache size, or cache key problems. Monitor to optimize cache performance.",
+      "fillSpans": false,
+      "id": "cache-hit-rate",
+      "isLogScale": false,
+      "legendPosition": "bottom",
+      "mergeAllActiveQueries": false,
+      "nullZeroValues": "zero",
+      "opacity": "1",
+      "panelTypes": "value",
+      "query": {
+        "builder": {
+          "queryData": [
+            {
+              "aggregateAttribute": {
+                "dataType": "",
+                "id": "----",
+                "key": "",
+                "type": ""
+              },
+              "aggregateOperator": "count",
+              "aggregations": [
+                {
+                  "metricName": "",
+                  "reduceTo": "avg",
+                  "spaceAggregation": "sum",
+                  "temporality": "",
+                  "timeAggregation": "count"
+                }
+              ],
+              "dataSource": "metrics",
+              "disabled": false,
+              "expression": "cache_hit_rate",
+              "filter": {
+                "expression": ""
+              },
+              "filters": {
+                "items": [],
+                "op": "AND"
+              },
+              "functions": [],
+              "groupBy": [],
+              "having": {
+                "expression": ""
+              },
+              "legend": "",
+              "limit": null,
+              "orderBy": [],
+              "queryName": "cache_hit_rate",
+              "reduceTo": "avg",
+              "source": "",
+              "spaceAggregation": "sum",
+              "stepInterval": null,
+              "timeAggregation": "rate"
+            }
+          ],
+          "queryFormulas": [],
+          "queryTraceOperator": []
+        },
+        "clickhouse_sql": [
+          {
+            "disabled": false,
+            "legend": "",
+            "name": "cache_hit_rate",
+            "query": "SELECT\n    ifNull(\n        (hits.h / nullIf(hits.h + misses.m, 0)) * 100,\n        0\n    ) AS cache_hit_rate_pct\nFROM\n(\n    SELECT greatest(0, max(s.value) - min(s.value)) AS h\n    FROM signoz_metrics.distributed_samples_v4 AS s\n    INNER JOIN signoz_metrics.distributed_time_series_v4 AS ts USING (fingerprint)\n    WHERE\n        s.metric_name = 'cache_hits_total'\n        AND s.unix_milli >= {{.start_timestamp_ms}}\n        AND s.unix_milli <  {{.end_timestamp_ms}}\n        AND JSONExtractString(ts.labels,'service.name') = 'ecommerce-go-app'\n) AS hits\nCROSS JOIN\n(\n    SELECT greatest(0, max(s.value) - min(s.value)) AS m\n    FROM signoz_metrics.distributed_samples_v4 AS s\n    INNER JOIN signoz_metrics.distributed_time_series_v4 AS ts USING (fingerprint)\n    WHERE\n        s.metric_name = 'cache_misses_total'\n        AND s.unix_milli >= {{.start_timestamp_ms}}\n        AND s.unix_milli <  {{.end_timestamp_ms}}\n        AND JSONExtractString(ts.labels,'service.name') = 'ecommerce-go-app'\n) AS misses\n"
+          }
+        ],
+        "id": "a18549d5-eab1-490b-ab9d-7a1d06af708e",
+        "promql": [
+          {
+            "disabled": false,
+            "legend": "",
+            "name": "cache_hit_rate",
+            "query": ""
+          }
+        ],
+        "queryType": "clickhouse_sql"
+      },
+      "selectedLogFields": [],
+      "selectedTracesFields": [],
+      "softMax": 0,
+      "softMin": 0,
+      "stackedBarChart": false,
+      "thresholds": [],
+      "timePreferance": "GLOBAL_TIME",
+      "title": "Cache Hit Rate (%)",
+      "yAxisUnit": "percent"
+    },
+    {
+      "columnWidths": {
+        "metric_name": 145
+      },
+      "description": "Time-series visualization of order creation over time. Shows sales trends, peak shopping hours, and seasonal patterns. Use to identify sales patterns, correlate with marketing campaigns, and plan inventory. Helps in business forecasting and capacity planning.",
+      "id": "orders-trend",
+      "panelTypes": "graph",
+      "query": {
+        "builder": {
+          "queryData": [],
+          "queryFormulas": [],
+          "queryTraceOperator": []
+        },
+        "clickhouse_sql": [
+          {
+            "disabled": false,
+            "legend": "",
+            "name": "orders_per_minute",
+            "query": "SELECT\n    s.ts AS time,\n    sum(delta) AS value\nFROM\n(\n    SELECT\n        fingerprint,\n        toStartOfInterval(toDateTime(intDiv(unix_milli, 1000)), toIntervalMinute(1)) AS ts,\n        greatest(0, max(value) - min(value)) AS delta\n    FROM signoz_metrics.distributed_samples_v4\n    WHERE\n        metric_name = 'orders_created_total'\n        AND unix_milli >= {{.start_timestamp_ms}}\n        AND unix_milli < {{.end_timestamp_ms}}\n    GROUP BY fingerprint, ts\n) AS s\nINNER JOIN signoz_metrics.distributed_time_series_v4 AS ts ON s.fingerprint = ts.fingerprint\nWHERE JSONExtractString(ts.labels, 'service.name') = 'ecommerce-go-app'\nGROUP BY time\nORDER BY time"
+          }
+        ],
+        "promql": [
+          {
+            "disabled": false,
+            "legend": "",
+            "name": "orders_per_minute",
+            "query": ""
+          }
+        ],
+        "queryType": "clickhouse_sql"
+      },
+      "title": "Orders Over Time",
+      "yAxisUnit": "short"
+    },
+    {
+      "description": "Time-series visualization of revenue generation over time. Critical business metric showing revenue growth trends. Identify peak revenue periods, seasonal patterns, and growth trends. Correlate with marketing activities and product launches to measure impact.",
+      "id": "revenue-trend",
+      "panelTypes": "graph",
+      "query": {
+        "builder": {
+          "queryData": [],
+          "queryFormulas": [],
+          "queryTraceOperator": []
+        },
+        "clickhouse_sql": [
+          {
+            "disabled": false,
+            "legend": "",
+            "name": "revenue_per_minute",
+            "query": "SELECT\n    s.ts AS time,\n    sum(delta) AS value\nFROM\n(\n    SELECT\n        fingerprint,\n        toStartOfInterval(toDateTime(intDiv(unix_milli, 1000)), toIntervalMinute(1)) AS ts,\n        greatest(0, max(value) - min(value)) AS delta\n    FROM signoz_metrics.distributed_samples_v4\n    WHERE\n        metric_name = 'revenue_total'\n        AND unix_milli >= {{.start_timestamp_ms}}\n        AND unix_milli < {{.end_timestamp_ms}}\n    GROUP BY fingerprint, ts\n) AS s\nINNER JOIN signoz_metrics.distributed_time_series_v4 AS ts ON s.fingerprint = ts.fingerprint\nWHERE JSONExtractString(ts.labels, 'service.name') = 'ecommerce-go-app'\nGROUP BY time\nORDER BY time"
+          }
+        ],
+        "promql": [
+          {
+            "disabled": false,
+            "legend": "",
+            "name": "revenue_per_minute",
+            "query": ""
+          }
+        ],
+        "queryType": "clickhouse_sql"
+      },
+      "title": "Revenue Over Time",
+      "yAxisUnit": "USD"
+    },
+    {
+      "bucketCount": 30,
+      "bucketWidth": 0,
+      "columnUnits": {},
+      "contextLinks": {
+        "linksData": []
+      },
+      "customLegendColors": {},
+      "decimalPrecision": 2,
+      "description": "Distribution of product views by category. Shows which product categories are most popular. Use for inventory planning, marketing focus, and product strategy. High-performing categories may need more inventory or marketing support.",
+      "fillSpans": false,
+      "id": "products-by-category",
+      "isLogScale": false,
+      "legendPosition": "bottom",
+      "mergeAllActiveQueries": false,
+      "nullZeroValues": "zero",
+      "opacity": "1",
+      "panelTypes": "pie",
+      "query": {
+        "builder": {
+          "queryData": [
+            {
+              "aggregateAttribute": {
+                "dataType": "",
+                "id": "----",
+                "key": "",
+                "type": ""
+              },
+              "aggregateOperator": "count",
+              "aggregations": [
+                {
+                  "metricName": "",
+                  "reduceTo": "avg",
+                  "spaceAggregation": "sum",
+                  "temporality": "",
+                  "timeAggregation": "count"
+                }
+              ],
+              "dataSource": "metrics",
+              "disabled": false,
+              "expression": "A",
+              "filter": {
+                "expression": ""
+              },
+              "filters": {
+                "items": [],
+                "op": "AND"
+              },
+              "functions": [],
+              "groupBy": [],
+              "having": {
+                "expression": ""
+              },
+              "legend": "",
+              "limit": null,
+              "orderBy": [],
+              "queryName": "A",
+              "reduceTo": "avg",
+              "source": "",
+              "spaceAggregation": "sum",
+              "stepInterval": null,
+              "timeAggregation": "rate"
+            }
+          ],
+          "queryFormulas": [],
+          "queryTraceOperator": []
+        },
+        "clickhouse_sql": [
+          {
+            "disabled": false,
+            "legend": "",
+            "name": "category",
+            "query": "SELECT\n    JSONExtractString(ts.labels, 'product_category') AS category,\n    sum(d.delta) AS value\nFROM\n(\n    SELECT\n        fingerprint,\n        greatest(0, max(value) - min(value)) AS delta\n    FROM signoz_metrics.distributed_samples_v4\n    WHERE\n        metric_name = 'products_viewed_total'\n        AND unix_milli BETWEEN {{.start_timestamp_ms}} AND {{.end_timestamp_ms}}\n    GROUP BY fingerprint\n) AS d\nINNER JOIN signoz_metrics.distributed_time_series_v4 AS ts ON d.fingerprint = ts.fingerprint\nWHERE JSONExtractString(ts.labels, 'service.name') = 'ecommerce-go-app'\nGROUP BY category\nORDER BY value DESC\n"
+          }
+        ],
+        "id": "34479c11-7b95-4dd5-be94-629d2993207a",
+        "promql": [
+          {
+            "disabled": false,
+            "legend": "",
+            "name": "category",
+            "query": ""
+          }
+        ],
+        "queryType": "clickhouse_sql"
+      },
+      "selectedLogFields": [],
+      "selectedTracesFields": [],
+      "softMax": 0,
+      "softMin": 0,
+      "stackedBarChart": false,
+      "thresholds": [],
+      "timePreferance": "GLOBAL_TIME",
+      "title": "Product Views by Category",
+      "yAxisUnit": "short"
+    },
+    {
+      "bucketCount": 30,
+      "bucketWidth": 0,
+      "columnUnits": {},
+      "contextLinks": {
+        "linksData": []
+      },
+      "customLegendColors": {},
+      "decimalPrecision": 2,
+      "description": "Distribution of revenue by payment method (credit card, PayPal, etc.). Helps understand customer payment preferences. Use for payment processing optimization and to identify preferred payment methods. May indicate payment method availability issues if certain methods are underutilized.",
+      "fillSpans": false,
+      "id": "revenue-by-payment",
+      "isLogScale": false,
+      "legendPosition": "bottom",
+      "mergeAllActiveQueries": false,
+      "nullZeroValues": "zero",
+      "opacity": "1",
+      "panelTypes": "pie",
+      "query": {
+        "builder": {
+          "queryData": [
+            {
+              "aggregateAttribute": {
+                "dataType": "",
+                "id": "----",
+                "key": "",
+                "type": ""
+              },
+              "aggregateOperator": "count",
+              "aggregations": [
+                {
+                  "metricName": "",
+                  "reduceTo": "avg",
+                  "spaceAggregation": "sum",
+                  "temporality": "",
+                  "timeAggregation": "count"
+                }
+              ],
+              "dataSource": "metrics",
+              "disabled": false,
+              "expression": "A",
+              "filter": {
+                "expression": ""
+              },
+              "filters": {
+                "items": [],
+                "op": "AND"
+              },
+              "functions": [],
+              "groupBy": [],
+              "having": {
+                "expression": ""
+              },
+              "legend": "",
+              "limit": null,
+              "orderBy": [],
+              "queryName": "A",
+              "reduceTo": "avg",
+              "source": "",
+              "spaceAggregation": "sum",
+              "stepInterval": null,
+              "timeAggregation": "rate"
+            }
+          ],
+          "queryFormulas": [],
+          "queryTraceOperator": []
+        },
+        "clickhouse_sql": [
+          {
+            "disabled": false,
+            "legend": "",
+            "name": "payment_method",
+            "query": "SELECT\n    JSONExtractString(ts.labels, 'payment_method') AS method,\n    sum(d.delta) AS value\nFROM\n(\n    SELECT\n        fingerprint,\n        greatest(0, max(value) - min(value)) AS delta\n    FROM signoz_metrics.distributed_samples_v4\n    WHERE\n        metric_name = 'revenue_total'\n        AND unix_milli BETWEEN {{.start_timestamp_ms}} AND {{.end_timestamp_ms}}\n    GROUP BY fingerprint\n) AS d\nINNER JOIN signoz_metrics.distributed_time_series_v4 AS ts ON d.fingerprint = ts.fingerprint\nWHERE JSONExtractString(ts.labels, 'service.name') = 'ecommerce-go-app'\nGROUP BY method\nORDER BY value DESC\n"
+          }
+        ],
+        "id": "2a2f831f-831c-41e3-b8fc-0e86fcb8402b",
+        "promql": [
+          {
+            "disabled": false,
+            "legend": "",
+            "name": "category",
+            "query": ""
+          }
+        ],
+        "queryType": "clickhouse_sql"
+      },
+      "selectedLogFields": [],
+      "selectedTracesFields": [],
+      "softMax": 0,
+      "softMin": 0,
+      "stackedBarChart": false,
+      "thresholds": [],
+      "timePreferance": "GLOBAL_TIME",
+      "title": "Revenue by Payment Method",
+      "yAxisUnit": "USD"
+    },
+    {
+      "description": "Distribution of orders by status (pending, processing, shipped, delivered, cancelled). Shows order fulfillment pipeline health. High cancellation rates may indicate issues. Monitor processing times and identify bottlenecks in fulfillment workflow.",
+      "id": "orders-by-status",
+      "panelTypes": "graph",
+      "query": {
+        "builder": {
+          "queryData": [],
+          "queryFormulas": [],
+          "queryTraceOperator": []
+        },
+        "clickhouse_sql": [
+          {
+            "disabled": false,
+            "legend": "",
+            "name": "orders_per_minute_by_status",
+            "query": "SELECT\n    s.ts AS time,\n    JSONExtractString(ts.labels, 'order_status') AS status,\n    sum(delta) AS value\nFROM\n(\n    SELECT\n        fingerprint,\n        toStartOfInterval(toDateTime(intDiv(unix_milli, 1000)), toIntervalMinute(1)) AS ts,\n        greatest(0, max(value) - min(value)) AS delta\n    FROM signoz_metrics.distributed_samples_v4\n    WHERE\n        metric_name = 'orders_created_total'\n        AND unix_milli >= {{.start_timestamp_ms}}\n        AND unix_milli < {{.end_timestamp_ms}}\n    GROUP BY fingerprint, ts\n) AS s\nINNER JOIN signoz_metrics.distributed_time_series_v4 AS ts ON s.fingerprint = ts.fingerprint\nWHERE JSONExtractString(ts.labels, 'service.name') = 'ecommerce-go-app'\nGROUP BY time, status\nORDER BY time, status"
+          }
+        ],
+        "promql": [
+          {
+            "disabled": false,
+            "legend": "",
+            "name": "orders_per_minute_by_status",
+            "query": ""
+          }
+        ],
+        "queryType": "clickhouse_sql"
+      },
+      "title": "Orders by Status",
+      "yAxisUnit": "short"
+    }
+  ]
+}
