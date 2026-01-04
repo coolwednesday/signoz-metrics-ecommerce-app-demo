@@ -65,6 +65,13 @@ Throughout this guide, we reference an **e-commerce application** with the follo
 - Background workers
 - Any Go application that needs observability
 
+### Source Code & Resources
+
+- **GitHub Repository**: [coolwednesday/signoz-metrics-ecommerce-app-demo](https://github.com/coolwednesday/signoz-metrics-ecommerce-app-demo)
+- **Main Application Code**: [main.go](https://github.com/coolwednesday/signoz-metrics-ecommerce-app-demo/blob/main/main.go)
+- **Dashboard JSON**: [dashboard.json](https://github.com/coolwednesday/signoz-metrics-ecommerce-app-demo/blob/main/docs/dashboard.json)
+
+
 ---
 
 <a id="prerequisites"></a>
@@ -385,7 +392,7 @@ You can import the provided `dashboard.json` directly into SigNoz to get a pre-c
 
 1.  Go to **Dashboards** in the SigNoz sidebar.
 2.  Click **New Dashboard** -> **Import JSON**.
-3.  Upload or paste the content of `dashboard.json`.
+3.  Upload or paste the content of [`dashboard.json`](https://github.com/coolwednesday/signoz-metrics-ecommerce-app-demo/blob/main/docs/dashboard.json).
 
 **Panel Types Included:**
 - **Value Panels:** Single number displays (e.g., Total Requests, Error Rate).
