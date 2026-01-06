@@ -313,7 +313,7 @@ func (a *App) CreateUserHandler(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	user, err := a.userService.CreateUser(r.Context(), req.Email, req.Name)
+	user, err := a.userService.CreateUser(r.Context(), req.ID, req.Email, req.Name)
 	if err != nil {
 		if err.Error() == "user already exists" {
 			// Find the existing user to return their ID

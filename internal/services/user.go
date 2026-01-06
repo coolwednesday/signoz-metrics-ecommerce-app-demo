@@ -29,11 +29,11 @@ func NewUserService(db *db.DB, metrics *metrics.AppMetrics) *UserService {
 }
 
 // CreateUser creates a new user
-func (s *UserService) CreateUser(ctx context.Context, email, name string) (*models.User, error) {
+func (s *UserService) CreateUser(ctx context.Context, id int64, email, name string) (*models.User, error) {
 	start := time.Now()
 
-	query := "INSERT INTO users (email, name) VALUES (?, ?)"
-	result, err := s.db.ExecContext(ctx, query, email, name)
+	query := "INSERT INTO users (id, email, name) VALUES (?, ?, ?)"
+	_, err := s.db.ExecContext(ctx, query, id, email, name)
 	s.metrics.RecordDBQuery(ctx, "INSERT", "users", query, start, err == nil)
 	if err != nil {
 		s.metrics.RecordDBQuery(ctx, "INSERT", "users", query, start, false)
@@ -44,14 +44,9 @@ func (s *UserService) CreateUser(ctx context.Context, email, name string) (*mode
 		return nil, fmt.Errorf("failed to create user: %w", err)
 	}
 
-	id, err := result.LastInsertId()
-	if err != nil {
-		return nil, fmt.Errorf("failed to get user ID: %w", err)
-	}
-
 	// Update active users count - include user_id to track unique users
 	s.metrics.ActiveUsersCount.Record(ctx, 1, metric.WithAttributes(s.metrics.WithServiceName([]attribute.KeyValue{
-		attribute.String("session_type", "authenticated"),
+		attribute.String("session_type", "active"),
 		attribute.Int64("user_id", id),
 	})...))
 

@@ -69,10 +69,12 @@ make_request() {
         uid=$DB_USER_ID
     fi
 
-    if [[ "$endpoint" == *"?"* ]]; then
-        url="${url}&user_id=${uid}"
-    else
-        url="${url}?user_id=${uid}"
+    if [[ "$endpoint" != "/api/v1/users" ]]; then
+        if [[ "$endpoint" == *"?"* ]]; then
+            url="${url}&user_id=${uid}"
+        else
+            url="${url}?user_id=${uid}"
+        fi
     fi
     
     local response
@@ -121,7 +123,7 @@ fetch_product_ids() {
 # Register/Verify user and get DB ID
 register_user() {
     echo -e "${YELLOW}Registering/Verifying user user${USER_ID}@example.com...${NC}"
-    make_request "POST" "/api/v1/users" "{\"email\": \"user${USER_ID}@example.com\", \"name\": \"User ${USER_ID}\"}"
+    make_request "POST" "/api/v1/users" "{\"id\": ${USER_ID}, \"email\": \"user${USER_ID}@example.com\", \"name\": \"User ${USER_ID}\"}"
     
     if [[ "$REQUEST_STATUS_CODE" == "201" ]] || [[ "$REQUEST_STATUS_CODE" == "409" ]]; then
         # Extract ID from response (if 201) or fetch by email (if 409)

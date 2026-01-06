@@ -210,7 +210,7 @@
       "y": 34
     },
     {
-      "h": 5,
+      "h": 7,
       "i": "slow-queries",
       "moved": false,
       "static": false,
@@ -225,7 +225,7 @@
       "static": false,
       "w": 12,
       "x": 0,
-      "y": 44
+      "y": 46
     },
     {
       "h": 5,
@@ -234,7 +234,7 @@
       "static": false,
       "w": 4,
       "x": 0,
-      "y": 45
+      "y": 47
     },
     {
       "h": 5,
@@ -243,7 +243,7 @@
       "static": false,
       "w": 3,
       "x": 4,
-      "y": 45
+      "y": 47
     },
     {
       "h": 5,
@@ -252,7 +252,7 @@
       "static": false,
       "w": 3,
       "x": 7,
-      "y": 45
+      "y": 47
     },
     {
       "h": 5,
@@ -261,7 +261,7 @@
       "static": false,
       "w": 2,
       "x": 10,
-      "y": 45
+      "y": 47
     },
     {
       "h": 5,
@@ -270,7 +270,7 @@
       "static": false,
       "w": 6,
       "x": 0,
-      "y": 50
+      "y": 52
     },
     {
       "h": 5,
@@ -279,7 +279,7 @@
       "static": false,
       "w": 6,
       "x": 6,
-      "y": 50
+      "y": 52
     },
     {
       "h": 5,
@@ -288,7 +288,7 @@
       "static": false,
       "w": 6,
       "x": 0,
-      "y": 55
+      "y": 57
     },
     {
       "h": 5,
@@ -297,7 +297,7 @@
       "static": false,
       "w": 6,
       "x": 6,
-      "y": 55
+      "y": 57
     },
     {
       "h": 5,
@@ -306,7 +306,7 @@
       "static": false,
       "w": 6,
       "x": 0,
-      "y": 60
+      "y": 62
     },
     {
       "h": 5,
@@ -315,7 +315,7 @@
       "static": false,
       "w": 6,
       "x": 6,
-      "y": 60
+      "y": 62
     }
   ],
   "panelMap": {
@@ -329,7 +329,7 @@
           "static": false,
           "w": 6,
           "x": 0,
-          "y": 129
+          "y": 65
         },
         {
           "h": 5,
@@ -338,7 +338,7 @@
           "static": false,
           "w": 6,
           "x": 6,
-          "y": 129
+          "y": 65
         },
         {
           "h": 5,
@@ -347,7 +347,7 @@
           "static": false,
           "w": 6,
           "x": 0,
-          "y": 134
+          "y": 70
         },
         {
           "h": 5,
@@ -356,7 +356,7 @@
           "static": false,
           "w": 6,
           "x": 6,
-          "y": 134
+          "y": 70
         },
         {
           "h": 1,
@@ -365,7 +365,7 @@
           "static": false,
           "w": 12,
           "x": 0,
-          "y": 139
+          "y": 75
         },
         {
           "h": 5,
@@ -374,7 +374,7 @@
           "static": false,
           "w": 12,
           "x": 0,
-          "y": 140
+          "y": 76
         },
         {
           "h": 5,
@@ -383,7 +383,7 @@
           "static": false,
           "w": 9,
           "x": 0,
-          "y": 145
+          "y": 81
         },
         {
           "h": 5,
@@ -392,7 +392,7 @@
           "static": false,
           "w": 3,
           "x": 9,
-          "y": 145
+          "y": 81
         },
         {
           "h": 1,
@@ -401,7 +401,7 @@
           "static": false,
           "w": 12,
           "x": 0,
-          "y": 150
+          "y": 86
         },
         {
           "h": 5,
@@ -410,7 +410,7 @@
           "static": false,
           "w": 3,
           "x": 0,
-          "y": 151
+          "y": 87
         },
         {
           "h": 5,
@@ -419,7 +419,7 @@
           "static": false,
           "w": 3,
           "x": 3,
-          "y": 151
+          "y": 87
         },
         {
           "h": 5,
@@ -428,7 +428,7 @@
           "static": false,
           "w": 3,
           "x": 6,
-          "y": 151
+          "y": 87
         },
         {
           "h": 5,
@@ -437,7 +437,7 @@
           "static": false,
           "w": 3,
           "x": 9,
-          "y": 151
+          "y": 87
         },
         {
           "h": 5,
@@ -446,7 +446,7 @@
           "static": false,
           "w": 6,
           "x": 0,
-          "y": 156
+          "y": 92
         },
         {
           "h": 5,
@@ -455,7 +455,7 @@
           "static": false,
           "w": 6,
           "x": 6,
-          "y": 156
+          "y": 92
         },
         {
           "h": 5,
@@ -464,7 +464,7 @@
           "static": false,
           "w": 12,
           "x": 0,
-          "y": 161
+          "y": 97
         },
         {
           "h": 1,
@@ -473,7 +473,7 @@
           "static": false,
           "w": 12,
           "x": 0,
-          "y": 166
+          "y": 102
         },
         {
           "h": 5,
@@ -482,7 +482,7 @@
           "static": false,
           "w": 4,
           "x": 0,
-          "y": 167
+          "y": 103
         },
         {
           "h": 5,
@@ -491,7 +491,7 @@
           "static": false,
           "w": 3,
           "x": 4,
-          "y": 167
+          "y": 103
         },
         {
           "h": 5,
@@ -500,7 +500,7 @@
           "static": false,
           "w": 3,
           "x": 7,
-          "y": 167
+          "y": 103
         },
         {
           "h": 5,
@@ -509,7 +509,7 @@
           "static": false,
           "w": 2,
           "x": 10,
-          "y": 167
+          "y": 103
         },
         {
           "h": 5,
@@ -518,7 +518,7 @@
           "static": false,
           "w": 6,
           "x": 0,
-          "y": 172
+          "y": 108
         },
         {
           "h": 5,
@@ -527,7 +527,7 @@
           "static": false,
           "w": 6,
           "x": 6,
-          "y": 172
+          "y": 108
         },
         {
           "h": 5,
@@ -536,7 +536,7 @@
           "static": false,
           "w": 6,
           "x": 0,
-          "y": 177
+          "y": 113
         },
         {
           "h": 5,
@@ -545,7 +545,7 @@
           "static": false,
           "w": 6,
           "x": 6,
-          "y": 177
+          "y": 113
         },
         {
           "h": 5,
@@ -554,7 +554,7 @@
           "static": false,
           "w": 6,
           "x": 0,
-          "y": 182
+          "y": 118
         },
         {
           "h": 5,
@@ -563,7 +563,7 @@
           "static": false,
           "w": 6,
           "x": 6,
-          "y": 182
+          "y": 118
         }
       ]
     },
@@ -887,7 +887,7 @@
   ],
   "title": "E-Commerce Metrics Dashboard",
   "uploadedGrafana": false,
-  "uuid": "019b84a4-a66f-7249-b996-0ab5fe9b8339",
+  "uuid": "019b858f-2c69-7809-8448-e2fdbf25d45c",
   "variables": {},
   "version": "v5",
   "widgets": [
@@ -1074,10 +1074,10 @@
             "disabled": false,
             "legend": "",
             "name": "error_rate",
-            "query": "SELECT\n    if(sum(total_delta) > 0, (coalesce(sum(err_delta), 0) / sum(total_delta)) * 100, 0) AS error_rate_percent\nFROM\n(\n    SELECT\n        fingerprint,\n        greatest(0, max(value) - min(value)) AS total_delta\n    FROM signoz_metrics.distributed_samples_v4\n    INNER JOIN signoz_metrics.distributed_time_series_v4 AS ts ON signoz_metrics.distributed_samples_v4.fingerprint = ts.fingerprint\n    WHERE metric_name = 'http.server.request.count'\n      AND unix_milli >= {{.start_timestamp_ms}}\n      AND unix_milli < {{.end_timestamp_ms}}\n      AND JSONExtractString(ts.labels, 'service.name') = 'ecommerce-go-app'\n    GROUP BY fingerprint\n) AS total\nLEFT JOIN\n(\n    SELECT\n        fingerprint,\n        greatest(0, max(value) - min(value)) AS err_delta\n    FROM signoz_metrics.distributed_samples_v4\n    INNER JOIN signoz_metrics.distributed_time_series_v4 AS ts ON signoz_metrics.distributed_samples_v4.fingerprint = ts.fingerprint\n    WHERE metric_name = 'http.server.request.error.count'\n      AND unix_milli >= {{.start_timestamp_ms}}\n      AND unix_milli < {{.end_timestamp_ms}}\n      AND JSONExtractString(ts.labels, 'service.name') = 'ecommerce-go-app'\n    GROUP BY fingerprint\n) AS err\nON total.fingerprint = err.fingerprint\n"
+            "query": "WITH\n    {{.start_timestamp_ms}} AS start_ms,\n    {{.end_timestamp_ms}}   AS end_ms\n\nSELECT\n    if(\n        sum(total_delta) > 0,\n        (sum(err_delta) / sum(total_delta)) * 100,\n        0\n    ) AS error_rate_percent\nFROM\n(\n    SELECT\n        greatest(0, max(s.value) - min(s.value)) AS delta,\n        JSONExtractString(t.labels, 'http.status_code') AS status_code,\n        -- classify inside this level\n        greatest(\n            0,\n            if(toInt32OrNull(JSONExtractString(t.labels, 'http.status_code')) >= 400, max(s.value) - min(s.value), 0)\n        ) AS err_delta,\n        greatest(0, max(s.value) - min(s.value)) AS total_delta\n    FROM signoz_metrics.distributed_samples_v4 AS s\n    INNER JOIN signoz_metrics.distributed_time_series_v4 AS t USING (fingerprint)\n    WHERE\n        s.metric_name = 'http.server.request.count'\n        AND s.unix_milli BETWEEN start_ms AND end_ms\n        AND JSONExtractString(t.labels, 'service.name') = 'ecommerce-go-app'\n    GROUP BY\n        s.fingerprint,\n        status_code\n);\n"
           }
         ],
-        "id": "3728c178-bc2b-4817-afb3-62dfef0c32ed",
+        "id": "1c74b9fe-c9db-465f-a0fa-571916624355",
         "promql": [
           {
             "disabled": false,
@@ -1101,7 +1101,15 @@
     {
       "bucketCount": 30,
       "bucketWidth": 0,
-      "columnUnits": {},
+      "columnUnits": {
+        "A": "ms",
+        "F1": "ms",
+        "avg_latency": "ms"
+      },
+      "columnWidths": {
+        "A": 145,
+        "avg_latency": 145
+      },
       "contextLinks": {
         "linksData": []
       },
@@ -1120,31 +1128,20 @@
         "builder": {
           "queryData": [
             {
-              "aggregateAttribute": {
-                "dataType": "",
-                "id": "----",
-                "key": "",
-                "type": ""
-              },
-              "aggregateOperator": "count",
               "aggregations": [
                 {
-                  "metricName": "",
+                  "metricName": "http.server.request.duration.sum",
                   "reduceTo": "avg",
-                  "spaceAggregation": "sum",
+                  "spaceAggregation": "avg",
                   "temporality": "",
-                  "timeAggregation": "count"
+                  "timeAggregation": "increase"
                 }
               ],
               "dataSource": "metrics",
               "disabled": false,
               "expression": "avg_latency",
               "filter": {
-                "expression": ""
-              },
-              "filters": {
-                "items": [],
-                "op": "AND"
+                "expression": "service.name = 'ecommerce-go-app'"
               },
               "functions": [],
               "groupBy": [],
@@ -1155,14 +1152,46 @@
               "limit": null,
               "orderBy": [],
               "queryName": "avg_latency",
-              "reduceTo": "avg",
               "source": "",
-              "spaceAggregation": "sum",
-              "stepInterval": null,
-              "timeAggregation": "rate"
+              "stepInterval": 60
+            },
+            {
+              "aggregations": [
+                {
+                  "metricName": "http.server.request.duration.count",
+                  "reduceTo": "avg",
+                  "spaceAggregation": "avg",
+                  "temporality": "",
+                  "timeAggregation": "increase"
+                }
+              ],
+              "dataSource": "metrics",
+              "disabled": false,
+              "expression": "A",
+              "filter": {
+                "expression": "service.name = 'ecommerce-go-app'"
+              },
+              "functions": [],
+              "groupBy": [],
+              "having": {
+                "expression": ""
+              },
+              "legend": "",
+              "limit": null,
+              "orderBy": [],
+              "queryName": "A",
+              "source": "",
+              "stepInterval": 60
             }
           ],
-          "queryFormulas": [],
+          "queryFormulas": [
+            {
+              "disabled": false,
+              "expression": "($AVG_LATENCY / $A)*1000",
+              "legend": "",
+              "queryName": "F1"
+            }
+          ],
           "queryTraceOperator": []
         },
         "clickhouse_sql": [
@@ -1170,10 +1199,10 @@
             "disabled": false,
             "legend": "",
             "name": "avg_latency",
-            "query": "SELECT\n    sum(delta_sum) / sum(delta_count) AS avg_latency_ms\nFROM\n(\n    SELECT\n        fingerprint,\n        maxIf(value, metric_name = 'http.server.request.duration.sum')\n        -\n        minIf(value, metric_name = 'http.server.request.duration.sum')\n            AS delta_sum,\n        maxIf(value, metric_name = 'http.server.request.duration.count')\n        -\n        minIf(value, metric_name = 'http.server.request.duration.count')\n            AS delta_count\n    FROM signoz_metrics.distributed_samples_v4\n    WHERE metric_name IN (\n        'http.server.request.duration.sum',\n        'http.server.request.duration.count'\n    )\n      AND unix_milli BETWEEN {{.start_timestamp_ms}} AND {{.end_timestamp_ms}}\n      AND fingerprint IN (\n          SELECT fingerprint\n          FROM signoz_metrics.distributed_time_series_v4\n          WHERE JSONExtractString(labels,'service.name') = 'ecommerce-go-app'\n      )\n    GROUP BY fingerprint\n)\n"
+            "query": "SELECT\n    if(\n        sum(delta_count) = 0,\n        0,\n        (sum(delta_sum) / sum(delta_count)) * 1000\n    ) AS avg_latency_ms\nFROM\n(\n    SELECT\n        greatest(0, sum_delta)  AS delta_sum,\n        greatest(0, count_delta) AS delta_count\n    FROM\n    (\n        SELECT\n            ts.fingerprint,\n\n            -- sum delta per time series\n            s_sum.value\n              - lagInFrame(s_sum.value, 1, s_sum.value)\n                    OVER (PARTITION BY ts.fingerprint ORDER BY s_sum.unix_milli)\n                AS sum_delta,\n\n            -- count delta per time series\n            s_cnt.value\n              - lagInFrame(s_cnt.value, 1, s_cnt.value)\n                    OVER (PARTITION BY ts.fingerprint ORDER BY s_cnt.unix_milli)\n                AS count_delta\n\n        FROM signoz_metrics.distributed_samples_v4 s_sum\n        INNER JOIN signoz_metrics.distributed_time_series_v4 ts USING (fingerprint)\n        INNER JOIN signoz_metrics.distributed_samples_v4 s_cnt\n            ON s_cnt.fingerprint = s_sum.fingerprint\n           AND s_cnt.unix_milli   = s_sum.unix_milli\n\n        WHERE\n            s_sum.metric_name = 'http.server.request.duration.sum'\n            AND s_cnt.metric_name = 'http.server.request.duration.count'\n            AND s_sum.unix_milli BETWEEN {{.start_timestamp_ms}} AND {{.end_timestamp_ms}}\n            AND JSONExtractString(ts.labels,'service.name') = 'ecommerce-go-app'\n    )\n)\n"
           }
         ],
-        "id": "5edab3d0-fd6d-4fef-aec3-7957f3e8bd93",
+        "id": "7ed61f8a-e854-4ecf-836e-5f70ffe6e5cf",
         "promql": [
           {
             "disabled": false,
@@ -1182,7 +1211,7 @@
             "query": ""
           }
         ],
-        "queryType": "clickhouse_sql"
+        "queryType": "builder"
       },
       "selectedLogFields": [],
       "selectedTracesFields": [],
@@ -1198,6 +1227,9 @@
       "bucketCount": 30,
       "bucketWidth": 0,
       "columnUnits": {},
+      "columnWidths": {
+        "p95_seconds": 145
+      },
       "contextLinks": {
         "linksData": []
       },
@@ -1216,31 +1248,20 @@
         "builder": {
           "queryData": [
             {
-              "aggregateAttribute": {
-                "dataType": "",
-                "id": "----",
-                "key": "",
-                "type": ""
-              },
-              "aggregateOperator": "count",
               "aggregations": [
                 {
-                  "metricName": "",
+                  "metricName": "http.server.request.duration.bucket",
                   "reduceTo": "avg",
-                  "spaceAggregation": "sum",
+                  "spaceAggregation": "p95",
                   "temporality": "",
-                  "timeAggregation": "count"
+                  "timeAggregation": "rate"
                 }
               ],
               "dataSource": "metrics",
               "disabled": false,
               "expression": "p95_latency",
               "filter": {
-                "expression": ""
-              },
-              "filters": {
-                "items": [],
-                "op": "AND"
+                "expression": "service.name = 'ecommerce-go-app' "
               },
               "functions": [],
               "groupBy": [],
@@ -1251,11 +1272,8 @@
               "limit": null,
               "orderBy": [],
               "queryName": "p95_latency",
-              "reduceTo": "avg",
               "source": "",
-              "spaceAggregation": "sum",
-              "stepInterval": null,
-              "timeAggregation": "rate"
+              "stepInterval": null
             }
           ],
           "queryFormulas": [],
@@ -1269,7 +1287,7 @@
             "query": "SELECT\n    ts,\n    quantileTDigestWeighted(0.95)(le_num, bucket_count) AS p95_ms\nFROM\n(\n    SELECT\n        toStartOfInterval(\n            toDateTime(intDiv(s.unix_milli, 1000)),\n            toIntervalSecond(60)\n        ) AS ts,\n\n        toFloat64OrNull(JSONExtractString(ts.labels,'le')) AS le_num,\n\n        /* counter → delta (no rate), non-negative, UInt64 */\n        toUInt64(\n            greatest(\n                0,\n                s.value\n                - lagInFrame(s.value, 1, s.value)\n                    OVER (PARTITION BY s.fingerprint, JSONExtractString(ts.labels,'le')\n                          ORDER BY s.unix_milli)\n            )\n        ) AS bucket_count\n\n    FROM signoz_metrics.distributed_samples_v4 AS s\n    INNER JOIN signoz_metrics.distributed_time_series_v4 AS ts USING(fingerprint)\n    WHERE s.metric_name = 'http.server.request.duration.bucket'\n      AND s.unix_milli BETWEEN {{.start_timestamp_ms}} AND {{.end_timestamp_ms}}\n      AND JSONExtractString(ts.labels,'service.name') = 'ecommerce-go-app'\n      AND JSONExtractString(ts.labels,'le') != '+Inf'\n)\nWHERE le_num IS NOT NULL\nGROUP BY ts\nORDER BY ts\n"
           }
         ],
-        "id": "56541305-0a02-491a-98fd-e1561ea1b252",
+        "id": "74a04ff2-2c5a-4d96-a1e3-2f78f3a986ff",
         "promql": [
           {
             "disabled": false,
@@ -1278,7 +1296,7 @@
             "query": ""
           }
         ],
-        "queryType": "clickhouse_sql"
+        "queryType": "builder"
       },
       "selectedLogFields": [],
       "selectedTracesFields": [],
@@ -1294,6 +1312,9 @@
       "bucketCount": 30,
       "bucketWidth": 0,
       "columnUnits": {},
+      "columnWidths": {
+        "p99_seconds": 145
+      },
       "contextLinks": {
         "linksData": []
       },
@@ -1312,31 +1333,20 @@
         "builder": {
           "queryData": [
             {
-              "aggregateAttribute": {
-                "dataType": "",
-                "id": "----",
-                "key": "",
-                "type": ""
-              },
-              "aggregateOperator": "count",
               "aggregations": [
                 {
-                  "metricName": "",
+                  "metricName": "http.server.request.duration.bucket",
                   "reduceTo": "avg",
-                  "spaceAggregation": "sum",
+                  "spaceAggregation": "p99",
                   "temporality": "",
-                  "timeAggregation": "count"
+                  "timeAggregation": "rate"
                 }
               ],
               "dataSource": "metrics",
               "disabled": false,
               "expression": "p99_latency",
               "filter": {
-                "expression": ""
-              },
-              "filters": {
-                "items": [],
-                "op": "AND"
+                "expression": "service.name = 'ecommerce-go-app'"
               },
               "functions": [],
               "groupBy": [],
@@ -1347,11 +1357,8 @@
               "limit": null,
               "orderBy": [],
               "queryName": "p99_latency",
-              "reduceTo": "avg",
               "source": "",
-              "spaceAggregation": "sum",
-              "stepInterval": null,
-              "timeAggregation": "rate"
+              "stepInterval": null
             }
           ],
           "queryFormulas": [],
@@ -1365,7 +1372,7 @@
             "query": "SELECT\n    ts,\n    quantileTDigestWeighted(0.99)(le_num, bucket_count) AS p99_ms\nFROM\n(\n    SELECT\n        toStartOfInterval(\n            toDateTime(intDiv(s.unix_milli, 1000)),\n            toIntervalSecond(60)\n        ) AS ts,\n\n        -- bucket upper bound as Float64 value\n        toFloat64OrNull(JSONExtractString(ts.labels,'le')) AS le_num,\n\n        -- delta of cumulative bucket counter (UInt64 weight)\n        toUInt64(\n            greatest(\n                0,\n                s.value\n                - lagInFrame(s.value, 1, s.value)\n                    OVER (\n                        PARTITION BY s.fingerprint, JSONExtractString(ts.labels,'le')\n                        ORDER BY s.unix_milli\n                    )\n            )\n        ) AS bucket_count\n\n    FROM signoz_metrics.distributed_samples_v4 AS s\n    INNER JOIN signoz_metrics.distributed_time_series_v4 AS ts USING (fingerprint)\n    WHERE s.metric_name = 'http.server.request.duration.bucket'\n      AND s.unix_milli BETWEEN {{.start_timestamp_ms}} AND {{.end_timestamp_ms}}\n      AND JSONExtractString(ts.labels,'service.name') = 'ecommerce-go-app'\n      AND JSONExtractString(ts.labels,'le') != '+Inf'\n)\nWHERE le_num IS NOT NULL\nGROUP BY ts\nORDER BY ts\n"
           }
         ],
-        "id": "4214dfcf-d87b-4f89-b49b-a7eafff2215e",
+        "id": "ff0b0941-9466-4ffc-9795-dc38c206d746",
         "promql": [
           {
             "disabled": false,
@@ -1374,7 +1381,7 @@
             "query": ""
           }
         ],
-        "queryType": "clickhouse_sql"
+        "queryType": "builder"
       },
       "selectedLogFields": [],
       "selectedTracesFields": [],
@@ -1414,11 +1421,10 @@
                 "key": "",
                 "type": ""
               },
-              "aggregateOperator": "count",
+              "aggregateOperator": "",
               "aggregations": [
                 {
                   "metricName": "",
-                  "reduceTo": "avg",
                   "spaceAggregation": "sum",
                   "temporality": "",
                   "timeAggregation": "count"
@@ -1428,14 +1434,34 @@
               "disabled": false,
               "expression": "active_users",
               "filter": {
-                "expression": ""
+                "expression": "service.name = 'ecommerce-go-app'"
               },
               "filters": {
-                "items": [],
+                "items": [
+                  {
+                    "id": "d95acde4-e37f-4445-84df-18185dea86dd",
+                    "key": {
+                      "id": "service.name",
+                      "key": "service.name",
+                      "type": ""
+                    },
+                    "op": "=",
+                    "value": "'ecommerce-go-app'"
+                  }
+                ],
                 "op": "AND"
               },
               "functions": [],
-              "groupBy": [],
+              "groupBy": [
+                {
+                  "dataType": "string",
+                  "id": "user_id--string--tag",
+                  "isColumn": false,
+                  "isJSON": false,
+                  "key": "user_id",
+                  "type": "tag"
+                }
+              ],
               "having": {
                 "expression": ""
               },
@@ -1445,9 +1471,9 @@
               "queryName": "active_users",
               "reduceTo": "avg",
               "source": "",
-              "spaceAggregation": "sum",
+              "spaceAggregation": "",
               "stepInterval": null,
-              "timeAggregation": "rate"
+              "timeAggregation": "count"
             }
           ],
           "queryFormulas": [],
@@ -1458,10 +1484,10 @@
             "disabled": false,
             "legend": "",
             "name": "active_users",
-            "query": "SELECT\n  sum(v) AS active_users\nFROM\n(\n    SELECT\n        max(s.value) AS v\n    FROM signoz_metrics.distributed_samples_v4 AS s\n    INNER JOIN signoz_metrics.distributed_time_series_v4 AS ts USING (fingerprint)\n    WHERE\n        s.metric_name = 'active_users_count'\n        AND s.unix_milli > {{.start_timestamp_ms}}\n        AND s.unix_milli <= {{.end_timestamp_ms}}\n        AND JSONExtractString(ts.labels, 'service.name') = 'ecommerce-go-app'\n    GROUP BY s.fingerprint\n)\n"
+            "query": "SELECT\n  sum(v) AS active_users\nFROM\n(\n    SELECT\n        max(s.value) AS v\n    FROM signoz_metrics.distributed_samples_v4 AS s\n    INNER JOIN signoz_metrics.distributed_time_series_v4 AS ts USING (fingerprint)\n    WHERE\n        s.metric_name = 'active_users_count'\n        AND s.unix_milli > {{.start_timestamp_ms}}\n        AND s.unix_milli <= {{.end_timestamp_ms}}\n        AND JSONExtractString(ts.labels, 'service.name') = 'ecommerce-go-app'\n        AND JSONExtractString(ts.labels, 'session_type') = 'active'\n    GROUP BY s.fingerprint\n)\n"
           }
         ],
-        "id": "2637cb0e-7240-4e27-852f-3c8b6598b057",
+        "id": "b5739be2-53f0-47f0-ad05-a609e953e015",
         "promql": [
           {
             "disabled": false,
@@ -2378,10 +2404,10 @@
             "disabled": false,
             "legend": "",
             "name": "active_connections",
-            "query": "SELECT\n    toStartOfInterval(\n        toDateTime(intDiv(s.unix_milli, 1000)),\n        toIntervalSecond(60)\n    ) AS ts,\n    avg(s.value) AS active_connections\nFROM signoz_metrics.distributed_samples_v4 AS s\nINNER JOIN signoz_metrics.distributed_time_series_v4 AS ts ON s.fingerprint = ts.fingerprint\nWHERE\n    s.metric_name = 'db.sql.connection.open'\n    AND s.unix_milli >= {{.start_timestamp_ms}}\n    AND s.unix_milli <  {{.end_timestamp_ms}}\n    AND JSONExtractString(ts.labels, 'service.name') = 'ecommerce-go-app'\n    AND JSONExtractString(ts.labels, 'status') = 'inuse'\nGROUP BY ts\nORDER BY ts\n"
+            "query": "SELECT\n    toStartOfInterval(\n        toDateTime(intDiv(s.unix_milli, 1000)),\n        toIntervalSecond(60)\n    ) AS ts,\n    argMax(s.value, s.unix_milli) AS active_connections\nFROM signoz_metrics.distributed_samples_v4 AS s\nINNER JOIN signoz_metrics.distributed_time_series_v4 AS ts_series\n    USING (fingerprint)\nWHERE\n    s.metric_name = 'mysql.threads'\n    AND JSONExtractString(ts_series.labels, 'kind') = 'running'\n    AND JSONExtractString(ts_series.labels, 'service.name') = 'ecommerce-go-app'\n    AND s.unix_milli BETWEEN {{.start_timestamp_ms}} AND {{.end_timestamp_ms}}\nGROUP BY ts\nORDER BY ts;\n"
           }
         ],
-        "id": "c65e948b-0a9b-4380-912b-13dd726f75dd",
+        "id": "8f583ebc-f6ef-424f-b8c3-658375f5ad7a",
         "promql": [
           {
             "disabled": false,
@@ -2400,7 +2426,7 @@
       "thresholds": [],
       "timePreferance": "GLOBAL_TIME",
       "title": "Active Connections",
-      "yAxisUnit": "short"
+      "yAxisUnit": "none"
     },
     {
       "bucketCount": 30,
@@ -2476,10 +2502,10 @@
             "disabled": false,
             "legend": "",
             "name": "idle_connections",
-            "query": "SELECT\n    toStartOfInterval(\n        toDateTime(intDiv(s.unix_milli, 1000)),\n        toIntervalSecond(60)\n    ) AS ts,\n    avg(s.value) AS idle_connections\nFROM signoz_metrics.distributed_samples_v4 AS s\nINNER JOIN signoz_metrics.distributed_time_series_v4 AS ts ON s.fingerprint = ts.fingerprint\nWHERE\n    s.metric_name = 'db.sql.connection.open'\n    AND s.unix_milli >= {{.start_timestamp_ms}}\n    AND s.unix_milli <  {{.end_timestamp_ms}}\n    AND JSONExtractString(ts.labels, 'service.name') = 'ecommerce-go-app'\n    AND JSONExtractString(ts.labels, 'status') = 'idle'\nGROUP BY ts\nORDER BY ts\n"
+            "query": "WITH\n    running AS\n    (\n        SELECT\n            toStartOfInterval(\n                toDateTime(intDiv(s.unix_milli, 1000)),\n                toIntervalSecond(60)\n            ) AS ts,\n            argMax(s.value, s.unix_milli) AS threads_running\n        FROM signoz_metrics.distributed_samples_v4 AS s\n        INNER JOIN signoz_metrics.distributed_time_series_v4 AS ts_series USING (fingerprint)\n        WHERE\n            s.metric_name = 'mysql.threads'\n            AND JSONExtractString(ts_series.labels, 'kind') = 'running'\n            AND JSONExtractString(ts_series.labels, 'service.name') = 'ecommerce-go-app'\n            AND s.unix_milli BETWEEN {{.start_timestamp_ms}} AND {{.end_timestamp_ms}}\n        GROUP BY ts\n    ),\n\n    connected AS\n    (\n        SELECT\n            toStartOfInterval(\n                toDateTime(intDiv(s.unix_milli, 1000)),\n                toIntervalSecond(60)\n            ) AS ts,\n            argMax(s.value, s.unix_milli) AS threads_connected\n        FROM signoz_metrics.distributed_samples_v4 AS s\n        INNER JOIN signoz_metrics.distributed_time_series_v4 AS ts_series USING (fingerprint)\n        WHERE\n            s.metric_name = 'mysql.threads'\n            AND JSONExtractString(ts_series.labels, 'kind') = 'connected'\n            AND JSONExtractString(ts_series.labels, 'service.name') = 'ecommerce-go-app'\n            AND s.unix_milli BETWEEN {{.start_timestamp_ms}} AND {{.end_timestamp_ms}}\n        GROUP BY ts\n    )\n\nSELECT\n    connected.ts AS ts,\n    (threads_connected - threads_running) AS idle_connections\nFROM connected\nLEFT JOIN running USING (ts)\nORDER BY ts;\n"
           }
         ],
-        "id": "a3f4762f-c223-471f-8a63-f6032aad4553",
+        "id": "ad78791d-c83c-4600-8c69-cbb905fe2de8",
         "promql": [
           {
             "disabled": false,
@@ -2505,10 +2531,6 @@
       "bucketWidth": 0,
       "columnUnits": {
         "A": ""
-      },
-      "columnWidths": {
-        "ts": 145,
-        "utilization_percent": 145
       },
       "contextLinks": {
         "linksData": []
@@ -2554,7 +2576,7 @@
               "filters": {
                 "items": [
                   {
-                    "id": "106669d0-9321-4fac-9086-6f80730919b7",
+                    "id": "219a0647-3d22-4ded-9eb8-7c4ed9be8499",
                     "key": {
                       "id": "service.name",
                       "key": "service.name",
@@ -2599,10 +2621,10 @@
             "disabled": false,
             "legend": "",
             "name": "connection_utilization",
-            "query": "WITH active AS\n(\n    SELECT\n        toStartOfInterval(toDateTime(intDiv(s.unix_milli, 1000)), toIntervalSecond(60)) AS ts,\n        avg(s.value) AS active\n    FROM signoz_metrics.distributed_samples_v4 s\n    INNER JOIN signoz_metrics.distributed_time_series_v4 t USING (fingerprint)\n    WHERE s.metric_name = 'db.client.connections.active'\n      AND s.unix_milli BETWEEN {{.start_timestamp_ms}} AND {{.end_timestamp_ms}}\n      AND JSONExtractString(t.labels,'service.name') = 'ecommerce-go-app'   -- remove/change if needed\n    GROUP BY ts\n),\nidle AS\n(\n    SELECT\n        toStartOfInterval(toDateTime(intDiv(s.unix_milli, 1000)), toIntervalSecond(60)) AS ts,\n        avg(s.value) AS idle\n    FROM signoz_metrics.distributed_samples_v4 s\n    INNER JOIN signoz_metrics.distributed_time_series_v4 t USING (fingerprint)\n    WHERE s.metric_name = 'db.client.connections.idle'\n      AND s.unix_milli BETWEEN {{.start_timestamp_ms}} AND {{.end_timestamp_ms}}\n      AND JSONExtractString(t.labels,'service.name') = 'ecommerce-go-app'\n    GROUP BY ts\n)\nSELECT\n    a.ts,\n    -- fully safe: handles nulls and divide-by-zero\n    ifNull(\n        (a.active / nullIf(a.active + i.idle, 0)) * 100,\n        0\n    ) AS utilization_percent\nFROM active a\nLEFT JOIN idle i USING (ts)\nORDER BY a.ts\n"
+            "query": "WITH\n    running AS\n    (\n        SELECT\n            toStartOfInterval(\n                toDateTime(intDiv(s.unix_milli, 1000)),\n                toIntervalSecond(60)\n            ) AS ts,\n            argMax(s.value, s.unix_milli) AS threads_running\n        FROM signoz_metrics.distributed_samples_v4 AS s\n        INNER JOIN signoz_metrics.distributed_time_series_v4 AS ts_series USING (fingerprint)\n        WHERE\n            s.metric_name = 'mysql.threads'\n            AND JSONExtractString(ts_series.labels, 'kind') = 'running'\n            AND JSONExtractString(ts_series.labels, 'service.name') = 'ecommerce-go-app'\n            AND s.unix_milli BETWEEN {{.start_timestamp_ms}} AND {{.end_timestamp_ms}}\n        GROUP BY ts\n    ),\n\n    connected AS\n    (\n        SELECT\n            toStartOfInterval(\n                toDateTime(intDiv(s.unix_milli, 1000)),\n                toIntervalSecond(60)\n            ) AS ts,\n            argMax(s.value, s.unix_milli) AS threads_connected\n        FROM signoz_metrics.distributed_samples_v4 AS s\n        INNER JOIN signoz_metrics.distributed_time_series_v4 AS ts_series USING (fingerprint)\n        WHERE\n            s.metric_name = 'mysql.threads'\n            AND JSONExtractString(ts_series.labels, 'kind') = 'connected'\n            AND JSONExtractString(ts_series.labels, 'service.name') = 'ecommerce-go-app'\n            AND s.unix_milli BETWEEN {{.start_timestamp_ms}} AND {{.end_timestamp_ms}}\n        GROUP BY ts\n    )\n\nSELECT\n    connected.ts AS ts,\n    if(\n        threads_connected = 0,\n        0,\n        (threads_running / toFloat64(threads_connected)) * 100.0\n    ) AS connection_utilization_percent\nFROM connected\nLEFT JOIN running USING (ts)\nORDER BY ts;\n"
           }
         ],
-        "id": "89fc6410-4a4f-4662-902b-9b17316dfc3f",
+        "id": "2a3edb47-0ce9-4b6a-af84-8b6aebe25781",
         "promql": [
           {
             "disabled": false,
@@ -2724,11 +2746,12 @@
       "bucketCount": 30,
       "bucketWidth": 0,
       "columnUnits": {
-        "A": "",
-        "B": ""
+        "B": "",
+        "slow_queries": ""
       },
       "columnWidths": {
         "operation": 145,
+        "query": 145,
         "slow_pct": 145,
         "slow_queries": 145,
         "total_queries": 145
@@ -2801,7 +2824,7 @@
             "disabled": false,
             "legend": "",
             "name": "slow_queries",
-            "query": "SELECT\n    JSONExtractString(ts2.labels, 'db.statement') AS query,\n    JSONExtractString(ts2.labels, 'db.operation') AS operation,\n\n    sum(sub.count) AS total_queries,\n\n    sumIf(sub.count, sub.bucket_ms >= 500) AS slow_queries,\n\n    (sumIf(sub.count, sub.bucket_ms >= 500) / NULLIF(sum(sub.count), 0)) * 100\n        AS slow_pct\nFROM\n(\n    SELECT\n        fingerprint,\n        bucket_ms,\n        max_cumulative - lagInFrame(max_cumulative, 1, 0) OVER (PARTITION BY fingerprint ORDER BY bucket_ms) AS count\n    FROM\n    (\n        SELECT\n            s.fingerprint,\n            toFloat64OrNull(JSONExtractString(ts.labels, 'le')) AS bucket_ms,\n            max(s.value) AS max_cumulative\n        FROM signoz_metrics.distributed_samples_v4 AS s\n        INNER JOIN signoz_metrics.distributed_time_series_v4 AS ts ON s.fingerprint = ts.fingerprint\n        WHERE\n            s.metric_name = 'db.client.queries.duration.bucket'\n            AND s.unix_milli >= {{.start_timestamp_ms}}\n            AND s.unix_milli <  {{.end_timestamp_ms}}\n            AND JSONExtractString(ts.labels, 'service.name') = 'ecommerce-go-app'\n            AND JSONExtractString(ts.labels, 'le') NOT IN ('+Inf', 'inf')\n        GROUP BY\n            s.fingerprint,\n            bucket_ms\n    )\n) AS sub\nINNER JOIN signoz_metrics.distributed_time_series_v4 AS ts2\n    ON sub.fingerprint = ts2.fingerprint\nWHERE sub.count > 0\nGROUP BY query, operation\nORDER BY slow_pct DESC\n"
+            "query": "SELECT\n    JSONExtractString(ts.labels, 'db.statement') AS query,\n    JSONExtractString(ts.labels, 'db.operation') AS operation,\n    sum(sub.count) AS total_queries,\n    sumIf(sub.count, sub.bucket_ms >= 500) AS slow_queries,\n    (sumIf(sub.count, sub.bucket_ms >= 500) / NULLIF(sum(sub.count), 0)) * 100 AS slow_pct\nFROM\n(\n    SELECT\n        fingerprint,\n        bucket_ms,\n        max_cumulative - lagInFrame(max_cumulative, 1, 0) OVER (PARTITION BY fingerprint ORDER BY bucket_ms) AS count\n    FROM\n    (\n        SELECT\n            s.fingerprint,\n            toFloat64OrNull(JSONExtractString(ts.labels, 'le')) AS bucket_ms,\n            max(s.value) AS max_cumulative\n        FROM signoz_metrics.distributed_samples_v4 AS s\n        INNER JOIN (\n            SELECT DISTINCT fingerprint, labels\n            FROM signoz_metrics.distributed_time_series_v4\n            WHERE metric_name = 'db.client.queries.duration.bucket'\n              AND JSONExtractString(labels, 'service.name') = 'ecommerce-go-app'\n        ) AS ts USING (fingerprint)\n        WHERE\n            s.metric_name = 'db.client.queries.duration.bucket'\n            AND s.unix_milli >= {{.start_timestamp_ms}}\n            AND s.unix_milli <  {{.end_timestamp_ms}}\n            AND JSONExtractString(ts.labels, 'le') NOT IN ('+Inf', 'inf')\n        GROUP BY s.fingerprint, bucket_ms\n    )\n) AS sub\nINNER JOIN (\n    SELECT DISTINCT fingerprint, labels\n    FROM signoz_metrics.distributed_time_series_v4\n    WHERE metric_name = 'db.client.queries.duration.bucket'\n) AS ts USING (fingerprint)\nWHERE sub.count > 0\nGROUP BY query, operation\nORDER BY slow_pct DESC"
           },
           {
             "disabled": false,
@@ -2810,7 +2833,7 @@
             "query": ""
           }
         ],
-        "id": "cbca78b6-f49a-43cf-9992-64ab915cbcb4",
+        "id": "d24b8ca4-a46e-44a1-bb6b-877ba84d1e97",
         "promql": [
           {
             "disabled": false,
@@ -2842,9 +2865,6 @@
       "columnUnits": {
         "A": "",
         "B": ""
-      },
-      "columnWidths": {
-        "service": 145
       },
       "contextLinks": {
         "linksData": []
@@ -2914,16 +2934,10 @@
             "disabled": false,
             "legend": "",
             "name": "orders",
-            "query": "SELECT\n    sum(delta) AS total_orders\nFROM\n(\n    SELECT\n        fingerprint,\n        greatest(0, max(s.value) - min(s.value)) AS delta\n    FROM signoz_metrics.distributed_samples_v4 AS s\n    INNER JOIN signoz_metrics.distributed_time_series_v4 AS ts ON s.fingerprint = ts.fingerprint\n    WHERE\n        s.metric_name = 'orders_created_total'\n        AND s.unix_milli >= {{.start_timestamp_ms}}\n        AND s.unix_milli <  {{.end_timestamp_ms}}\n        AND JSONExtractString(ts.labels, 'service.name') = 'ecommerce-go-app'\n    GROUP BY fingerprint\n)\n"
-          },
-          {
-            "disabled": false,
-            "legend": "",
-            "name": "B",
-            "query": ""
+            "query": "WITH\n    {{.start_timestamp_ms}} AS start_ms,\n    {{.end_timestamp_ms}}   AS end_ms\n\nSELECT\n    sum(delta) AS completed_orders\nFROM\n(\n    SELECT\n        s.fingerprint,\n        greatest(\n            0,\n            s.value -\n            lagInFrame(s.value, 1, s.value)\n                OVER (PARTITION BY s.fingerprint ORDER BY s.unix_milli)\n        ) AS delta\n    FROM signoz_metrics.distributed_samples_v4 s\n    JOIN signoz_metrics.distributed_time_series_v4 t USING (fingerprint)\n    WHERE\n        s.metric_name = 'orders_created_total'\n        AND s.unix_milli BETWEEN start_ms AND end_ms\n        AND JSONExtractString(t.labels, 'service.name') = 'ecommerce-go-app'\n        AND JSONExtractString(t.labels, 'order_status') = 'completed'\n);\n"
           }
         ],
-        "id": "74535793-3d41-418c-95d0-b7e400e87303",
+        "id": "d0214a21-dcfd-44a5-a81f-109cfdcbdda3",
         "promql": [
           {
             "disabled": false,
@@ -2967,29 +2981,52 @@
           "queryData": [
             {
               "aggregateAttribute": {
-                "dataType": "",
-                "id": "----",
-                "key": "",
-                "type": ""
+                "dataType": "float64",
+                "id": "revenue_total--float64--Sum",
+                "isColumn": true,
+                "isJSON": false,
+                "key": "revenue_total",
+                "type": "Sum"
               },
               "aggregateOperator": "count",
               "aggregations": [
                 {
-                  "metricName": "",
+                  "metricName": "revenue_total",
                   "reduceTo": "avg",
                   "spaceAggregation": "sum",
                   "temporality": "",
-                  "timeAggregation": "count"
+                  "timeAggregation": "increase"
                 }
               ],
               "dataSource": "metrics",
               "disabled": false,
               "expression": "revenue",
               "filter": {
-                "expression": ""
+                "expression": "service.name = 'ecommerce-go-app' AND order_status = 'completed'"
               },
               "filters": {
-                "items": [],
+                "items": [
+                  {
+                    "id": "e5e07706-91f8-445d-b245-88803d42fee4",
+                    "key": {
+                      "id": "service.name",
+                      "key": "service.name",
+                      "type": ""
+                    },
+                    "op": "=",
+                    "value": "'ecommerce-go-app'"
+                  },
+                  {
+                    "id": "9e62ac04-ce61-497b-8e0f-d75dd46ddf88",
+                    "key": {
+                      "id": "order_status",
+                      "key": "order_status",
+                      "type": ""
+                    },
+                    "op": "=",
+                    "value": "'completed'"
+                  }
+                ],
                 "op": "AND"
               },
               "functions": [],
@@ -3016,10 +3053,10 @@
             "disabled": false,
             "legend": "",
             "name": "revenue",
-            "query": "SELECT\n    sum(delta) AS total_revenue_usd\nFROM\n(\n    SELECT\n        fingerprint,\n        greatest(0, max(s.value) - min(s.value)) AS delta\n    FROM signoz_metrics.distributed_samples_v4 AS s\n    INNER JOIN signoz_metrics.distributed_time_series_v4 AS ts ON s.fingerprint = ts.fingerprint\n    WHERE\n        s.metric_name = 'revenue_total'\n        AND s.unix_milli >= {{.start_timestamp_ms}}\n        AND s.unix_milli <  {{.end_timestamp_ms}}\n        AND JSONExtractString(ts.labels, 'service.name') = 'ecommerce-go-app'\n    GROUP BY fingerprint\n)\n"
+            "query": "SELECT\n    sum(delta_revenue) AS revenue_added\nFROM\n(\n    SELECT\n        greatest(\n            0,\n            s.value\n            - lagInFrame(s.value, 1, s.value)\n                  OVER (\n                      PARTITION BY s.fingerprint\n                      ORDER BY s.unix_milli\n                  )\n        ) AS delta_revenue\n    FROM signoz_metrics.distributed_samples_v4 AS s\n    INNER JOIN signoz_metrics.distributed_time_series_v4 AS t USING (fingerprint)\n    WHERE\n        s.metric_name = 'revenue_total'\n        AND s.unix_milli BETWEEN {{.start_timestamp_ms}} AND {{.end_timestamp_ms}}\n        AND JSONExtractString(t.labels,'service.name') = 'ecommerce-go-app'\n        AND JSONExtractString(t.labels,'order_status') = 'completed'\n)\n"
           }
         ],
-        "id": "3c797f8c-28c3-45cd-a5de-37b5c8343fda",
+        "id": "55c9c9b4-d2a5-40e1-8e63-87a4b46ba0aa",
         "promql": [
           {
             "disabled": false,
@@ -3425,15 +3462,69 @@
       "yAxisUnit": "percent"
     },
     {
-      "columnWidths": {
-        "metric_name": 145
+      "bucketCount": 30,
+      "bucketWidth": 0,
+      "columnUnits": {},
+      "contextLinks": {
+        "linksData": []
       },
+      "customLegendColors": {},
+      "decimalPrecision": 2,
       "description": "Time-series visualization of order creation over time. Shows sales trends, peak shopping hours, and seasonal patterns. Use to identify sales patterns, correlate with marketing campaigns, and plan inventory. Helps in business forecasting and capacity planning.",
+      "fillSpans": false,
       "id": "orders-trend",
+      "isLogScale": false,
+      "legendPosition": "bottom",
+      "mergeAllActiveQueries": false,
+      "nullZeroValues": "zero",
+      "opacity": "1",
       "panelTypes": "graph",
       "query": {
         "builder": {
-          "queryData": [],
+          "queryData": [
+            {
+              "aggregateAttribute": {
+                "dataType": "",
+                "id": "----",
+                "key": "",
+                "type": ""
+              },
+              "aggregateOperator": "count",
+              "aggregations": [
+                {
+                  "metricName": "",
+                  "reduceTo": "avg",
+                  "spaceAggregation": "sum",
+                  "temporality": "",
+                  "timeAggregation": "count"
+                }
+              ],
+              "dataSource": "metrics",
+              "disabled": false,
+              "expression": "A",
+              "filter": {
+                "expression": ""
+              },
+              "filters": {
+                "items": [],
+                "op": "AND"
+              },
+              "functions": [],
+              "groupBy": [],
+              "having": {
+                "expression": ""
+              },
+              "legend": "",
+              "limit": null,
+              "orderBy": [],
+              "queryName": "A",
+              "reduceTo": "avg",
+              "source": "",
+              "spaceAggregation": "sum",
+              "stepInterval": null,
+              "timeAggregation": "rate"
+            }
+          ],
           "queryFormulas": [],
           "queryTraceOperator": []
         },
@@ -3442,9 +3533,10 @@
             "disabled": false,
             "legend": "",
             "name": "orders_per_minute",
-            "query": "SELECT\n    s.ts AS time,\n    sum(delta) AS value\nFROM\n(\n    SELECT\n        fingerprint,\n        toStartOfInterval(toDateTime(intDiv(unix_milli, 1000)), toIntervalMinute(1)) AS ts,\n        greatest(0, max(value) - min(value)) AS delta\n    FROM signoz_metrics.distributed_samples_v4\n    WHERE\n        metric_name = 'orders_created_total'\n        AND unix_milli >= {{.start_timestamp_ms}}\n        AND unix_milli < {{.end_timestamp_ms}}\n    GROUP BY fingerprint, ts\n) AS s\nINNER JOIN signoz_metrics.distributed_time_series_v4 AS ts ON s.fingerprint = ts.fingerprint\nWHERE JSONExtractString(ts.labels, 'service.name') = 'ecommerce-go-app'\nGROUP BY time\nORDER BY time"
+            "query": "WITH\n    {{.start_timestamp_ms}} AS start_ms,\n    {{.end_timestamp_ms}}   AS end_ms\n\nSELECT\n    toStartOfInterval(\n        toDateTime(intDiv(unix_milli, 1000)),\n        toIntervalMinute(1)\n    ) AS ts,\n    sum(delta) AS completed_orders\nFROM\n(\n    SELECT\n        s.fingerprint,\n        s.unix_milli,\n        greatest(\n            0,\n            s.value -\n            lagInFrame(s.value, 1, s.value)\n                OVER (PARTITION BY s.fingerprint ORDER BY s.unix_milli)\n        ) AS delta\n    FROM signoz_metrics.distributed_samples_v4 s\n    JOIN signoz_metrics.distributed_time_series_v4 t USING (fingerprint)\n    WHERE\n        s.metric_name = 'orders_created_total'\n        AND s.unix_milli BETWEEN start_ms AND end_ms\n        AND JSONExtractString(t.labels, 'service.name') = 'ecommerce-go-app'\n        AND JSONExtractString(t.labels, 'order_status') = 'completed'\n)\nGROUP BY ts\nORDER BY ts;\n"
           }
         ],
+        "id": "a40c8312-af35-43a8-ad0d-1c7cfcfa6a7e",
         "promql": [
           {
             "disabled": false,
@@ -3455,16 +3547,80 @@
         ],
         "queryType": "clickhouse_sql"
       },
+      "selectedLogFields": [],
+      "selectedTracesFields": [],
+      "softMax": 0,
+      "softMin": 0,
+      "stackedBarChart": false,
+      "thresholds": [],
+      "timePreferance": "GLOBAL_TIME",
       "title": "Orders Over Time",
       "yAxisUnit": "short"
     },
     {
+      "bucketCount": 30,
+      "bucketWidth": 0,
+      "columnUnits": {},
+      "contextLinks": {
+        "linksData": []
+      },
+      "customLegendColors": {},
+      "decimalPrecision": 2,
       "description": "Time-series visualization of revenue generation over time. Critical business metric showing revenue growth trends. Identify peak revenue periods, seasonal patterns, and growth trends. Correlate with marketing activities and product launches to measure impact.",
+      "fillSpans": false,
       "id": "revenue-trend",
+      "isLogScale": false,
+      "legendPosition": "bottom",
+      "mergeAllActiveQueries": false,
+      "nullZeroValues": "zero",
+      "opacity": "1",
       "panelTypes": "graph",
       "query": {
         "builder": {
-          "queryData": [],
+          "queryData": [
+            {
+              "aggregateAttribute": {
+                "dataType": "",
+                "id": "----",
+                "key": "",
+                "type": ""
+              },
+              "aggregateOperator": "count",
+              "aggregations": [
+                {
+                  "metricName": "",
+                  "reduceTo": "avg",
+                  "spaceAggregation": "sum",
+                  "temporality": "",
+                  "timeAggregation": "count"
+                }
+              ],
+              "dataSource": "metrics",
+              "disabled": false,
+              "expression": "A",
+              "filter": {
+                "expression": ""
+              },
+              "filters": {
+                "items": [],
+                "op": "AND"
+              },
+              "functions": [],
+              "groupBy": [],
+              "having": {
+                "expression": ""
+              },
+              "legend": "",
+              "limit": null,
+              "orderBy": [],
+              "queryName": "A",
+              "reduceTo": "avg",
+              "source": "",
+              "spaceAggregation": "sum",
+              "stepInterval": null,
+              "timeAggregation": "rate"
+            }
+          ],
           "queryFormulas": [],
           "queryTraceOperator": []
         },
@@ -3473,9 +3629,10 @@
             "disabled": false,
             "legend": "",
             "name": "revenue_per_minute",
-            "query": "SELECT\n    s.ts AS time,\n    sum(delta) AS value\nFROM\n(\n    SELECT\n        fingerprint,\n        toStartOfInterval(toDateTime(intDiv(unix_milli, 1000)), toIntervalMinute(1)) AS ts,\n        greatest(0, max(value) - min(value)) AS delta\n    FROM signoz_metrics.distributed_samples_v4\n    WHERE\n        metric_name = 'revenue_total'\n        AND unix_milli >= {{.start_timestamp_ms}}\n        AND unix_milli < {{.end_timestamp_ms}}\n    GROUP BY fingerprint, ts\n) AS s\nINNER JOIN signoz_metrics.distributed_time_series_v4 AS ts ON s.fingerprint = ts.fingerprint\nWHERE JSONExtractString(ts.labels, 'service.name') = 'ecommerce-go-app'\nGROUP BY time\nORDER BY time"
+            "query": "WITH\n    {{.start_timestamp_ms}} AS start_ms,\n    {{.end_timestamp_ms}}   AS end_ms\n\nSELECT\n    toStartOfInterval(\n        toDateTime(intDiv(unix_milli, 1000)),\n        toIntervalMinute(1)\n    ) AS ts,\n    sum(delta) AS revenue\nFROM\n(\n    SELECT\n        s.fingerprint,\n        s.unix_milli,\n\n        greatest(\n            0,\n            s.value -\n            lagInFrame(s.value, 1, s.value)\n                OVER (PARTITION BY s.fingerprint ORDER BY s.unix_milli)\n        ) AS delta\n\n    FROM signoz_metrics.distributed_samples_v4 s\n    JOIN signoz_metrics.distributed_time_series_v4 t USING (fingerprint)\n    WHERE\n        s.metric_name = 'revenue_total'\n        AND s.unix_milli BETWEEN start_ms AND end_ms\n        AND JSONExtractString(t.labels, 'service.name') = 'ecommerce-go-app'\n)\nGROUP BY ts\nORDER BY ts;\n"
           }
         ],
+        "id": "e28e3287-4457-4211-8e67-a15faaf39088",
         "promql": [
           {
             "disabled": false,
@@ -3486,6 +3643,13 @@
         ],
         "queryType": "clickhouse_sql"
       },
+      "selectedLogFields": [],
+      "selectedTracesFields": [],
+      "softMax": 0,
+      "softMin": 0,
+      "stackedBarChart": false,
+      "thresholds": [],
+      "timePreferance": "GLOBAL_TIME",
       "title": "Revenue Over Time",
       "yAxisUnit": "USD"
     },
@@ -3511,34 +3675,32 @@
         "builder": {
           "queryData": [
             {
-              "aggregateAttribute": {
-                "dataType": "",
-                "id": "----",
-                "key": "",
-                "type": ""
-              },
-              "aggregateOperator": "count",
               "aggregations": [
                 {
-                  "metricName": "",
+                  "metricName": "products_viewed_total",
                   "reduceTo": "avg",
                   "spaceAggregation": "sum",
                   "temporality": "",
-                  "timeAggregation": "count"
+                  "timeAggregation": "increase"
                 }
               ],
               "dataSource": "metrics",
               "disabled": false,
               "expression": "A",
               "filter": {
-                "expression": ""
-              },
-              "filters": {
-                "items": [],
-                "op": "AND"
+                "expression": "service.name = 'ecommerce-go-app' "
               },
               "functions": [],
-              "groupBy": [],
+              "groupBy": [
+                {
+                  "dataType": "string",
+                  "id": "product_category--string--tag",
+                  "isColumn": false,
+                  "isJSON": false,
+                  "key": "product_category",
+                  "type": "tag"
+                }
+              ],
               "having": {
                 "expression": ""
               },
@@ -3546,11 +3708,8 @@
               "limit": null,
               "orderBy": [],
               "queryName": "A",
-              "reduceTo": "avg",
               "source": "",
-              "spaceAggregation": "sum",
-              "stepInterval": null,
-              "timeAggregation": "rate"
+              "stepInterval": 60
             }
           ],
           "queryFormulas": [],
@@ -3564,7 +3723,7 @@
             "query": "SELECT\n    JSONExtractString(ts.labels, 'product_category') AS category,\n    sum(d.delta) AS value\nFROM\n(\n    SELECT\n        fingerprint,\n        greatest(0, max(value) - min(value)) AS delta\n    FROM signoz_metrics.distributed_samples_v4\n    WHERE\n        metric_name = 'products_viewed_total'\n        AND unix_milli BETWEEN {{.start_timestamp_ms}} AND {{.end_timestamp_ms}}\n    GROUP BY fingerprint\n) AS d\nINNER JOIN signoz_metrics.distributed_time_series_v4 AS ts ON d.fingerprint = ts.fingerprint\nWHERE JSONExtractString(ts.labels, 'service.name') = 'ecommerce-go-app'\nGROUP BY category\nORDER BY value DESC\n"
           }
         ],
-        "id": "34479c11-7b95-4dd5-be94-629d2993207a",
+        "id": "32b16623-ebfa-40e6-bad4-cf697ff4dffb",
         "promql": [
           {
             "disabled": false,
@@ -3573,7 +3732,7 @@
             "query": ""
           }
         ],
-        "queryType": "clickhouse_sql"
+        "queryType": "builder"
       },
       "selectedLogFields": [],
       "selectedTracesFields": [],
@@ -3588,7 +3747,13 @@
     {
       "bucketCount": 30,
       "bucketWidth": 0,
-      "columnUnits": {},
+      "columnUnits": {
+        "A": ""
+      },
+      "columnWidths": {
+        "A": 145,
+        "payment_method": 145
+      },
       "contextLinks": {
         "linksData": []
       },
@@ -3603,6 +3768,102 @@
       "nullZeroValues": "zero",
       "opacity": "1",
       "panelTypes": "pie",
+      "query": {
+        "builder": {
+          "queryData": [
+            {
+              "aggregations": [
+                {
+                  "metricName": "revenue_total",
+                  "reduceTo": "avg",
+                  "spaceAggregation": "sum",
+                  "temporality": "",
+                  "timeAggregation": "latest"
+                }
+              ],
+              "dataSource": "metrics",
+              "disabled": false,
+              "expression": "A",
+              "filter": {
+                "expression": "service.name = 'ecommerce-go-app' AND order_status = 'completed' "
+              },
+              "functions": [],
+              "groupBy": [
+                {
+                  "dataType": "string",
+                  "id": "payment_method--string--tag",
+                  "isColumn": false,
+                  "isJSON": false,
+                  "key": "payment_method",
+                  "type": "tag"
+                }
+              ],
+              "having": {
+                "expression": ""
+              },
+              "legend": "",
+              "limit": null,
+              "orderBy": [],
+              "queryName": "A",
+              "source": "",
+              "stepInterval": 10
+            }
+          ],
+          "queryFormulas": [],
+          "queryTraceOperator": []
+        },
+        "clickhouse_sql": [
+          {
+            "disabled": false,
+            "legend": "",
+            "name": "payment_method",
+            "query": "SELECT\n    payment_method,\n    sum(delta_value) AS value_increase\nFROM\n(\n    SELECT\n        JSONExtractString(t.labels, 'payment_method') AS payment_method,\n\n        greatest(\n            0,\n            s.value\n            - lagInFrame(s.value, 1, s.value)\n                  OVER (PARTITION BY s.fingerprint ORDER BY s.unix_milli)\n        ) AS delta_value\n    FROM signoz_metrics.distributed_samples_v4 AS s\n    INNER JOIN signoz_metrics.distributed_time_series_v4 AS t USING (fingerprint)\n    WHERE\n        s.metric_name = 'revenue_total'\n        AND s.unix_milli BETWEEN {{.start_timestamp_ms}} AND {{.end_timestamp_ms}}\n        AND JSONExtractString(t.labels,'service.name') = 'ecommerce-go-app'\n        AND JSONExtractString(t.labels,'order_status') = 'completed'\n)\nGROUP BY payment_method\nORDER BY payment_method;\n"
+          }
+        ],
+        "id": "85756a75-bd38-4334-a660-3919eeb9c9d1",
+        "promql": [
+          {
+            "disabled": false,
+            "legend": "",
+            "name": "category",
+            "query": ""
+          }
+        ],
+        "queryType": "builder"
+      },
+      "selectedLogFields": [],
+      "selectedTracesFields": [],
+      "softMax": 0,
+      "softMin": 0,
+      "stackedBarChart": false,
+      "thresholds": [],
+      "timePreferance": "GLOBAL_TIME",
+      "title": "Revenue by Payment Method",
+      "yAxisUnit": "USD"
+    },
+    {
+      "bucketCount": 30,
+      "bucketWidth": 0,
+      "columnUnits": {},
+      "columnWidths": {
+        "status": 145,
+        "time": 145,
+        "value": 145
+      },
+      "contextLinks": {
+        "linksData": []
+      },
+      "customLegendColors": {},
+      "decimalPrecision": 2,
+      "description": "Distribution of orders by status (pending, processing, shipped, delivered, cancelled). Shows order fulfillment pipeline health. High cancellation rates may indicate issues. Monitor processing times and identify bottlenecks in fulfillment workflow.",
+      "fillSpans": false,
+      "id": "orders-by-status",
+      "isLogScale": false,
+      "legendPosition": "bottom",
+      "mergeAllActiveQueries": false,
+      "nullZeroValues": "zero",
+      "opacity": "1",
+      "panelTypes": "graph",
       "query": {
         "builder": {
           "queryData": [
@@ -3656,16 +3917,16 @@
           {
             "disabled": false,
             "legend": "",
-            "name": "payment_method",
-            "query": "SELECT\n    JSONExtractString(ts.labels, 'payment_method') AS method,\n    sum(d.delta) AS value\nFROM\n(\n    SELECT\n        fingerprint,\n        greatest(0, max(value) - min(value)) AS delta\n    FROM signoz_metrics.distributed_samples_v4\n    WHERE\n        metric_name = 'revenue_total'\n        AND unix_milli BETWEEN {{.start_timestamp_ms}} AND {{.end_timestamp_ms}}\n    GROUP BY fingerprint\n) AS d\nINNER JOIN signoz_metrics.distributed_time_series_v4 AS ts ON d.fingerprint = ts.fingerprint\nWHERE JSONExtractString(ts.labels, 'service.name') = 'ecommerce-go-app'\nGROUP BY method\nORDER BY value DESC\n"
+            "name": "orders_per_minute_by_status",
+            "query": "WITH\n    {{.start_timestamp_ms}} AS start_ms,\n    {{.end_timestamp_ms}}   AS end_ms\nSELECT\n    toStartOfInterval(\n        toDateTime(intDiv(unix_milli, 1000)),\n        toIntervalMinute(1)\n    ) AS ts,\n    CASE\n        WHEN status = '' OR status IS NULL THEN 'created'\n        ELSE status\n    END AS order_status,\n    sum(delta) AS value\nFROM\n(\n    SELECT\n        s.fingerprint,\n        s.unix_milli,\n        JSONExtractString(t.labels, 'order_status') AS status,\n        greatest(\n            0,\n            s.value\n            - lagInFrame(s.value, 1, s.value)\n                OVER (PARTITION BY s.fingerprint ORDER BY s.unix_milli)\n        ) AS delta\n    FROM signoz_metrics.distributed_samples_v4 s\n    JOIN signoz_metrics.distributed_time_series_v4 t USING (fingerprint)\n    WHERE\n        s.metric_name = 'orders_created_total'\n        AND s.unix_milli BETWEEN start_ms AND end_ms\n        AND JSONExtractString(t.labels, 'service.name') = 'ecommerce-go-app'\n)\nGROUP BY ts, order_status\nORDER BY ts, order_status;\n"
           }
         ],
-        "id": "2a2f831f-831c-41e3-b8fc-0e86fcb8402b",
+        "id": "c9a23b2b-33f8-4c1f-8bc5-bd9721ca4238",
         "promql": [
           {
             "disabled": false,
             "legend": "",
-            "name": "category",
+            "name": "orders_per_minute_by_status",
             "query": ""
           }
         ],
@@ -3678,37 +3939,6 @@
       "stackedBarChart": false,
       "thresholds": [],
       "timePreferance": "GLOBAL_TIME",
-      "title": "Revenue by Payment Method",
-      "yAxisUnit": "USD"
-    },
-    {
-      "description": "Distribution of orders by status (pending, processing, shipped, delivered, cancelled). Shows order fulfillment pipeline health. High cancellation rates may indicate issues. Monitor processing times and identify bottlenecks in fulfillment workflow.",
-      "id": "orders-by-status",
-      "panelTypes": "graph",
-      "query": {
-        "builder": {
-          "queryData": [],
-          "queryFormulas": [],
-          "queryTraceOperator": []
-        },
-        "clickhouse_sql": [
-          {
-            "disabled": false,
-            "legend": "",
-            "name": "orders_per_minute_by_status",
-            "query": "SELECT\n    s.ts AS time,\n    JSONExtractString(ts.labels, 'order_status') AS status,\n    sum(delta) AS value\nFROM\n(\n    SELECT\n        fingerprint,\n        toStartOfInterval(toDateTime(intDiv(unix_milli, 1000)), toIntervalMinute(1)) AS ts,\n        greatest(0, max(value) - min(value)) AS delta\n    FROM signoz_metrics.distributed_samples_v4\n    WHERE\n        metric_name = 'orders_created_total'\n        AND unix_milli >= {{.start_timestamp_ms}}\n        AND unix_milli < {{.end_timestamp_ms}}\n    GROUP BY fingerprint, ts\n) AS s\nINNER JOIN signoz_metrics.distributed_time_series_v4 AS ts ON s.fingerprint = ts.fingerprint\nWHERE JSONExtractString(ts.labels, 'service.name') = 'ecommerce-go-app'\nGROUP BY time, status\nORDER BY time, status"
-          }
-        ],
-        "promql": [
-          {
-            "disabled": false,
-            "legend": "",
-            "name": "orders_per_minute_by_status",
-            "query": ""
-          }
-        ],
-        "queryType": "clickhouse_sql"
-      },
       "title": "Orders by Status",
       "yAxisUnit": "short"
     }
